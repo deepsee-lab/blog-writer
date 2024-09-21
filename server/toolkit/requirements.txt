@@ -1,0 +1,2 @@
+fastapi==0.111.1
+volcengine==1.0.151

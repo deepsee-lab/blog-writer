@@ -1,0 +1,153 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+{% endblock %}
+{% block content %}
+
+    <div class="pagetitle">
+      <h1>Draft publish</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/weibo_UI/index">Home</a></li>
+          <li class="breadcrumb-item">AI</li>
+          <li class="breadcrumb-item active">Draft publish</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div >
+          <div class="row">
+
+            <!-- Recent task -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">1</a></li>
+                    <li><a class="dropdown-item" href="#">2</a></li>
+                    <li><a class="dropdown-item" href="#">3</a></li>
+                  </ul>
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">AI <span>| fighting</span></h5>
+                  
+                  <div class="col-sm-13">
+                    <label for="MEDIA_ID">Media ID:</label>
+                    <select id="MEDIA_ID" name="MEDIA_ID" class="form-select" aria-label="Default select example">
+                      <option value="-1">--select_media_id--</option>
+                    </select>
+                  </div>
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Title</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" style="height: 100px" id="Title"></textarea>
+                  </div>
+                  <label for="inputPassword" class="col-sm-2 col-form-label">author</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" style="height: 100px" id="author"></textarea>
+                  </div>
+                  <label for="inputPassword" class="col-sm-2 col-form-label">digest</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" style="height: 100px" id="digest"></textarea>
+                  </div>
+                  <label for="inputPassword" class="col-sm-2 col-form-label">content</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" style="height: 100px" id="content"></textarea>
+                  </div>
+                      <div class="col-sm-3">
+                        <button id="submit_draft" type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    
+                </div>
+                
+              </div>
+            </div><!-- End Recent Sales -->
+
+          </div>
+        </div><!-- End Left side columns -->
+
+        
+
+      </div>
+    </section>
+
+{% endblock %}
+
+{% block js %}
+<script src="/weibo_UI/static/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+
+  $(function () {
+      //页面框架加载完成后代码自动执行
+      bindBtn1Event_Task();
+  })
+  function bindBtn1Event_Task(){
+    $("#submit_draft").click(function () {
+        var MEDIA_ID = document.getElementById("MEDIA_ID").value; // 获取输入框中的值
+          if (MEDIA_ID=="-1") {
+            alert('MEDIA_ID 请选择!')
+          } else {
+            $.ajax({
+                url:"/weibo_UI/self_media",
+                type:"post",
+                data:JSON.stringify({'MEDIA_ID':MEDIA_ID,'Type':'publish'}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                    if (choose_dict['result']) {
+                        alert('成功发布');
+                    } else {
+                        alert('处理失败');
+                    }
+                },
+
+            })
+          }
+
+      })
+      $("#MEDIA_ID").click(function () {
+        count = $('#MEDIA_ID').find('option').length
+          if (count<=1) {
+            $.ajax({
+                url:"/weibo_UI/self_media",
+                type:"post",
+                data:JSON.stringify({'Type':'selec_media_id'}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                  file_list=choose_dict['content']
+                      $("#MEDIA_ID").find("option").remove();
+                      count = $('#MEDIA_ID').find('option').length
+                      $.each(file_list, function(index,item) {
+                        title                =item['title']             
+                        author               =item['author']            
+                        thumb_media_id       =item['thumb_media_id']    
+                        media_id             =item['media_id']          
+                        digest               =item['digest']            
+                        content              =item['content']           
+                        content_source_url   =item['content_source_url']
+                        $("#MEDIA_ID").append(  //此处向select中循环绑定数据
+                        "<option value="+media_id+">" + media_id+ "</option>");
+                        document.getElementById("Title").innerHTML = title;
+                        document.getElementById("author").innerHTML = author;
+                        document.getElementById("digest").innerHTML = digest;
+                        document.getElementById("content").innerHTML = content;
+                      });
+                },
+              
+            })
+           }
+        })
+  }
+
+</script>
+
+{% endblock %}

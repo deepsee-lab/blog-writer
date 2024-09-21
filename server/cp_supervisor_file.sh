@@ -1,0 +1,1 @@
+cp supervisor.conf.example supervisor.conf

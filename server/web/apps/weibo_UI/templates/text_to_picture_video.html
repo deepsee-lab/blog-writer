@@ -1,0 +1,390 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+{% endblock %}
+{% block content %}
+
+    <div class="pagetitle">
+      <h1>Wei Xin</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/weibo_UI/index">Home</a></li>
+          <li class="breadcrumb-item">AI</li>
+          <li class="breadcrumb-item active">text_to_picture_video</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div >
+          <div class="row">
+
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">cool</a></li>
+                    <li><a class="dropdown-item" href="#">good</a></li>
+                    <li><a class="dropdown-item" href="#">nice</a></li>
+                  </ul>
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">Get_token <span>| click</span></h5>
+                  <div class="col-sm-3">
+                    <button id="update_token" type="submit" class="btn btn-primary">update_token</button>
+                  </div>
+                  <div class="col-sm-3">
+                    <button id="token" type="submit" class="btn btn-primary">get_wpp_token</button>
+                  </div>
+                  <label id="token_status">token:</label>
+                </div>
+                
+              </div>
+            </div><!-- End Recent Sales -->
+            <!-- Recent task -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Week</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">Pic_AI <span>| fighting</span></h5>
+                  
+                  <div class="col-sm-16">
+                    <label for="Pic_Media_id">Text:</label>
+                    <input type="text" id="Pic_Title" name="Pic_Media_id"  size="30" />
+                  </div>
+                  <div>
+                      <div class="col-sm-3">
+                        <button id="Generate_picture" type="submit" class="btn btn-primary">Generate_picture</button>
+                      </div>
+                  </div>
+                  <label id="Status_Generate_picture">status: </label>
+                  <div class="col-sm-13">
+                    <label for="pic_file">请选择图片文件，如没有，请选择生成:</label>
+                    <select id="pic_file" name="pic_file" class="form-select" aria-label="Default select example">
+                      <option value="-1">--select_pic_file--</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-3">
+                    <button id="submit_pic" type="submit" class="btn btn-primary">Upload_qpic</button>
+                    
+                  </div>
+                  <div class="col-sm-3">
+                    <button id="submit_wpp" type="submit" class="btn btn-primary">submit_wpp</button>
+                  </div>
+                  <label id="upload_status">status:</label>
+                </div>
+                
+              </div>
+            </div><!-- End Recent Sales -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Week</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">Video_AI <span>| method 1</span></h5>
+                  
+                  <div class="col-sm-16">
+                    <label for="Video_Media_id">Text:</label>
+                    <input type="text" id="Video_Title" name="Video_Media_id"  size="30" />
+                  </div>
+                  
+                  <div>
+                    <div class="col-sm-3">
+                      <button id="Generate_video" type="submit" class="btn btn-primary">Generate_video</button>
+                    </div>
+                  </div>
+                  <label id="Status_Generate_video">status: </label>
+                  <div class="col-sm-13">
+                    <label for="video_file">请选择视频文件，如没有，请选择生成:</label>
+                    <select id="video_file" name="video_file" class="form-select" aria-label="Default select example">
+                      <option value="-1">--select_video_file--</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-16">
+                    <label for="Video_Media_title">Title:</label>
+                    <input type="text" id="Video_Media_title" name="Video_Media_title"  size="30" />
+                  </div>
+                  <label for="inputPassword" class="col-sm-2 col-form-label">introduction</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" style="height: 100px" id="introduction"></textarea>
+                  </div>
+                  <div class="col-sm-3">
+                    <button id="submit_video" type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                  
+                
+                </div>
+                
+              </div>
+            </div><!-- End Recent Sales -->
+          </div>
+        </div><!-- End Left side columns -->
+
+        
+
+      </div>
+    </section>
+
+{% endblock %}
+
+{% block js %}
+<script src="/weibo_UI/static/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+
+  $(function () {
+      //页面框架加载完成后代码自动执行
+      bindBtn1Event_Task();
+  })
+  function bindBtn1Event_Task(){
+    $("#Generate_picture").click(function () {
+        var Title = document.getElementById("Pic_Title").value; // 获取输入框中的值
+          if (Title=="") {
+            alert('Text 请填写!')
+          } else {
+            // 通过id选择label
+            var label = document.getElementById('Status_Generate_picture');
+             // 更新label的文本内容
+             label.innerText = 'status:请等待';
+            $.ajax({
+                url:"/weibo_UI/text_to_picture_video",
+                type:"post",
+                data:JSON.stringify({'type':"picture",'text':Title}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                    if (choose_dict['result']) {
+                      var textarea = document.getElementById("Status_Generate_picture");
+                        textarea.innerHTML = choose_dict['content'];
+                    } else {
+                        alert('处理失败');
+                    }
+                },
+
+            })
+          }
+
+      })
+      $("#Generate_video").click(function () {
+        var Title = document.getElementById("Video_Title").value; // 获取输入框中的值
+          if (Title=="") {
+            alert('Text 请填写!')
+          } else {
+            $.ajax({
+                url:"/weibo_UI/text_to_picture_video",
+                type:"post",
+                data:JSON.stringify({'type':"video",'text':Title}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                    if (choose_dict['result']) {
+                      var textarea = document.getElementById("Status_Generate_video");
+                        textarea.innerHTML = choose_dict['content'];
+                    } else {
+                        alert('处理失败');
+                    }
+                },
+
+            })
+          }
+
+      })
+      $("#pic_file").click(function () {
+        count = $('#pic_file').find('option').length
+          if (count<=1) {
+              $.ajax({
+                  url:"/weibo_UI/submit_pic",
+                  type:"post",
+                  data:JSON.stringify({'Type':'selec_pic'}),
+                  contentType: 'application/json; charset=UTF-8',
+                  success: function(file_dict) {
+                    file_list=file_dict['list']
+                      $("#pic_file").find("option").remove();
+                      count = $('#pic_file').find('option').length
+                      //console.log(count)
+                      $.each(file_list, function(index,item) {
+                        if (!count) {
+                          $("#pic_file").append(  //此处向select中循环绑定数据
+                          "<option value="+item+">" + item+ "</option>");
+                        }
+                      });
+                  },
+  
+              })
+           }
+        })
+        $("#video_file").click(function () {
+          count = $('#video_file').find('option').length
+          if (count<=1) {
+              $.ajax({
+                  url:"/weibo_UI/submit_video",
+                  type:"post",
+                  data:JSON.stringify({'Type':'selec_vedio'}),
+                  contentType: 'application/json; charset=UTF-8',
+                  success: function(file_dict) {
+                    file_list=file_dict['list']
+                      $("#video_file").find("option").remove();
+                      count = $('#video_file').find('file_list').length
+                      //console.log(count)
+                      $.each(file_list, function(index,item) {
+                        if (!count) {
+                          $("#video_file").append(  //此处向select中循环绑定数据
+                          "<option value="+item+">" + item+ "</option>");
+                        }
+                      });
+                  },
+  
+              })
+            }
+            
+        })
+        $("#submit_pic").click(function () {
+            var pic_file = document.getElementById("pic_file").value; // 获取输入框中的值
+            if (pic_file=="") {
+              alert('pic_file 请填写!')
+            } else {
+              $.ajax({
+                  url:"/weibo_UI/submit_pic",
+                  type:"post",
+                  data:JSON.stringify({'pic_file':pic_file,'Type':'add_pic'}),
+                  contentType: 'application/json; charset=UTF-8',
+                  success: function(choose_dict) {
+                      if (choose_dict['result']) {
+                        var textarea = document.getElementById("upload_status");
+                        textarea.innerHTML = choose_dict['content'];
+                      } else {
+                          alert('添加pic失败');
+                      }
+                  },
+  
+              })
+            }
+  
+        })
+        $("#submit_wpp").click(function () {
+            var pic_file = document.getElementById("pic_file").value; // 获取输入框中的值
+            if (pic_file=="") {
+              alert('pic_file 请填写!')
+            } else {
+              $.ajax({
+                  url:"/weibo_UI/submit_pic",
+                  type:"post",
+                  data:JSON.stringify({'pic_file':pic_file,'Type':'submit_pic'}),
+                  contentType: 'application/json; charset=UTF-8',
+                  success: function(choose_dict) {
+                      if (choose_dict['result']) {
+                        var textarea = document.getElementById("upload_status");
+                        textarea.innerHTML = choose_dict['content'];
+                      } else {
+                          alert('获取token失败');
+                      }
+                  },
+  
+              })
+            }
+  
+        })
+        $("#submit_video").click(function () {
+            var video_file = document.getElementById("video_file").value; // 获取输入框中的值 
+            var Video_Media_title = document.getElementById("Video_Media_title").value; // 获取输入框中的值
+            var introduction = document.getElementById("introduction").value; // 获取输入框中的值
+            if (video_file=="") {
+              alert('video_file 请选择!')
+            } else if (Video_Media_title=="") {
+              alert('Video_Media_title 请填写!')
+            } else if (introduction=="") {
+              alert('introduction 请填写!')
+            } else {
+              $.ajax({
+                  url:"/weibo_UI/submit_video",
+                  type:"post",
+                  data:JSON.stringify({'video_file':video_file,'Type':'submit_vedio','introduction':introduction,'Video_Media_title':Video_Media_title}),
+                  contentType: 'application/json; charset=UTF-8',
+                  success: function(choose_dict) {
+                      if (choose_dict['result']) {
+                        alert('添加vedio成功');
+                      } else {
+                          alert('添加vedio失败');
+                      }
+                  },
+  
+              })
+            }
+  
+        })
+        $("#token").click(function () {
+            
+              $.ajax({
+                  url:"/weibo_UI/get_token",
+                  type:"post",
+                  data:JSON.stringify({'Type':'get_token'}),
+                  contentType: 'application/json; charset=UTF-8',
+                  success: function(choose_dict) {
+                      if (choose_dict['result']) {
+                        var textarea = document.getElementById("token_status");
+                        textarea.innerHTML = choose_dict['content'];
+                      } else {
+                          alert('添加vedio失败');
+                      }
+                  },
+  
+              })
+            
+  
+        })
+        $("#update_token").click(function () {
+            
+            $.ajax({
+                url:"/weibo_UI/get_token",
+                type:"post",
+                data:JSON.stringify({'Type':'update_token'}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                    if (choose_dict['result']) {
+                      var textarea = document.getElementById("token_status");
+                      textarea.innerHTML = choose_dict['content'];
+                    } else {
+                        alert('添加vedio失败');
+                    }
+                },
+
+            })
+          
+
+      })
+  }
+
+</script>
+
+{% endblock %}
