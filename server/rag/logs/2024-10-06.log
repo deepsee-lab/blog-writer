@@ -1,0 +1,11 @@
+2024-10-06 19:12:22.826 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-10-06 19:12:22.882 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-10-06 19:12:22.883 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-06 19:12:22.883 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-10-06 19:12:23.371 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-10-06 19:12:23.411 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-10-06 19:12:23.411 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-06 19:12:23.411 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-10-06 19:12:23.445 | INFO     | main:<module>:143 - Server is up and running.
+2024-10-06 19:12:23.446 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-06 19:12:23.446 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.

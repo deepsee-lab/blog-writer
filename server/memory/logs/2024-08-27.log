@@ -1,0 +1,12 @@
+2024-08-27 07:19:04.670 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-27 07:19:04.676 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-27 07:19:04.676 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-27 07:19:04.676 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-27 07:19:05.203 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-27 07:19:05.209 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-27 07:19:05.209 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-27 07:19:05.209 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-27 07:19:05.226 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-27 07:19:05.226 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-27 07:19:05.226 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-27 08:58:25.038 | INFO     | apps.vector_database.views:kb_list_all:78 - run kb_list_all

@@ -1,0 +1,778 @@
+2024-08-08 08:58:51.827 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 08:58:51.832 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-08 08:58:51.832 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 08:58:51.832 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [466] using WatchFiles
+2024-08-08 08:58:52.257 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 08:58:52.261 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-08 08:58:52.261 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 08:58:52.261 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 08:58:52.276 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-08 08:58:52.276 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 08:58:52.276 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [549]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [549]
+INFO:     Stopping reloader process [466]
+2024-08-08 09:06:41.911 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 09:06:41.916 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-08 09:06:41.916 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:06:41.917 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [2664] using WatchFiles
+2024-08-08 09:06:42.429 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 09:06:42.434 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-08 09:06:42.434 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:06:42.434 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 09:06:42.446 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-08 09:06:42.446 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:06:42.446 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [2773]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2773]
+INFO:     Stopping reloader process [2664]
+2024-08-08 09:12:15.934 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 09:12:15.939 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-08 09:12:15.939 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:12:15.939 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [3016] using WatchFiles
+2024-08-08 09:12:16.395 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 09:12:16.404 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-08 09:12:16.404 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:12:16.404 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 09:12:16.440 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-08 09:12:16.440 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:12:16.441 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [3099]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-08 19:03:48.031 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-08 19:03:48.032 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n        # 用户输入\n        教师节决议的建立时间\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-08 19:28:59.299 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-08 19:28:59.299 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：\u3000\u3000（九）稳定性是指一个植物品种经过反复繁殖后或者在特定繁殖周期结束时，其主要性状保持不变\n\n        # 用户输入\n        请解释一下种子的稳定性\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-08 19:31:36.297 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-08 19:31:36.297 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：\u3000\u3000禁止抢采掠青、损坏母树，禁止在劣质林内、劣质母树上采集种子\n\n        # 用户输入\n        抢采掠青、损坏母树或者在劣质林内、劣质母树上采种的行为，会有什么后果\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-09 19:09:47.334 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-09 19:09:47.339 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-09 19:09:47.339 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-09 19:09:47.339 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [173] using WatchFiles
+2024-08-09 19:09:47.770 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-09 19:09:47.774 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-09 19:09:47.775 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-09 19:09:47.775 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-09 19:09:47.790 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-09 19:09:47.790 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-09 19:09:47.790 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [256]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [256]
+INFO:     Stopping reloader process [173]
+2024-08-09 19:15:15.433 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-09 19:15:15.439 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-09 19:15:15.439 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-09 19:15:15.439 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [1856] using WatchFiles
+2024-08-09 19:15:15.902 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-09 19:15:15.911 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-09 19:15:15.911 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-09 19:15:15.911 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-09 19:15:15.933 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-09 19:15:15.933 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-09 19:15:15.934 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [1939]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-09 19:15:30.859 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-09 19:15:30.860 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：\n\n        # 用户输入\n        你好\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-09 20:21:23.106 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-09 20:21:23.106 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n        # 用户输入\n        介绍一下种子的稳定性\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-11 21:00:03.145 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-11 21:00:03.150 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-11 21:00:03.150 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-11 21:00:03.150 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [168] using WatchFiles
+2024-08-11 21:00:03.589 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-11 21:00:03.594 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-11 21:00:03.594 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-11 21:00:03.594 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-11 21:00:03.609 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-11 21:00:03.609 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-11 21:00:03.609 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [251]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-11 21:29:38.608 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-11 21:29:38.608 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：\n\n        # 用户输入\n        种子的稳定性\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-17 16:22:57.111 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-17 16:22:57.117 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-17 16:22:57.117 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-17 16:22:57.117 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [208] using WatchFiles
+2024-08-17 16:22:57.687 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-17 16:22:57.691 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-17 16:22:57.691 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-17 16:22:57.691 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-17 16:22:57.714 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-17 16:22:57.715 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-17 16:22:57.715 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [292]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [292]
+INFO:     Stopping reloader process [208]
+2024-08-17 16:24:44.186 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-17 16:24:44.191 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-17 16:24:44.192 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-17 16:24:44.192 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [1090] using WatchFiles
+2024-08-17 16:24:44.679 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-17 16:24:44.683 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-17 16:24:44.684 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-17 16:24:44.684 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-17 16:24:44.723 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-17 16:24:44.724 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-17 16:24:44.724 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [1173]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-17 18:43:28.811 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-17 18:43:28.812 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n        # 用户输入\n        介绍一下种子的稳定性\n\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-17 19:10:38.151 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-17 19:10:38.152 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='种子')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-17 19:19:27.510 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-17 19:19:27.511 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='种子')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-17 19:31:36.122 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-17 19:31:36.123 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='什么是种子')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-17 19:32:20.814 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-17 19:32:20.815 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='你好')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-17 20:08:21.599 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-17 20:08:21.600 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='什么是种子')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-18 08:16:02.555 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-18 08:16:02.561 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-18 08:16:02.561 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-18 08:16:02.561 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [488] using WatchFiles
+2024-08-18 08:16:02.996 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-18 08:16:03.000 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-18 08:16:03.001 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-18 08:16:03.001 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-18 08:16:03.016 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-18 08:16:03.016 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-18 08:16:03.017 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [572]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-23 21:19:23.187 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-23 21:19:23.192 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-23 21:19:23.192 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-23 21:19:23.192 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [180] using WatchFiles
+2024-08-23 21:19:23.629 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-23 21:19:23.634 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-23 21:19:23.634 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-23 21:19:23.634 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-23 21:19:23.648 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-23 21:19:23.649 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-23 21:19:23.649 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [264]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [264]
+INFO:     Stopping reloader process [180]
+2024-08-23 21:20:49.714 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-23 21:20:49.719 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-23 21:20:49.719 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-23 21:20:49.719 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [838] using WatchFiles
+2024-08-23 21:20:50.184 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-23 21:20:50.192 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-23 21:20:50.192 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-23 21:20:50.192 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-23 21:20:50.211 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-23 21:20:50.211 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-23 21:20:50.211 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [921]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-24 21:09:43.145 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-24 21:09:43.149 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-24 21:09:43.150 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-24 21:09:43.150 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [165] using WatchFiles
+2024-08-24 21:09:43.605 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-24 21:09:43.610 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-24 21:09:43.610 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-24 21:09:43.610 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-24 21:09:43.625 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-24 21:09:43.625 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-24 21:09:43.625 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [249]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-24 22:35:21.579 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-24 22:35:21.579 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='种子的稳定性介绍一下')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-25 10:45:17.703 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 10:45:17.708 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 10:45:17.709 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:45:17.709 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [252] using WatchFiles
+2024-08-25 10:45:18.207 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 10:45:18.212 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 10:45:18.212 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:45:18.212 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 10:45:18.229 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 10:45:18.229 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:45:18.229 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [306]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [306]
+INFO:     Stopping reloader process [252]
+2024-08-25 10:47:09.933 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 10:47:09.938 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 10:47:09.938 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:47:09.938 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [917] using WatchFiles
+2024-08-25 10:47:10.401 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 10:47:10.406 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 10:47:10.406 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:47:10.406 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 10:47:10.418 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 10:47:10.418 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:47:10.418 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [969]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-25 21:59:15.294 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 21:59:15.300 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 21:59:15.300 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 21:59:15.300 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [641] using WatchFiles
+2024-08-25 21:59:15.761 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 21:59:15.766 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 21:59:15.766 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 21:59:15.766 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 21:59:15.781 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 21:59:15.781 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 21:59:15.781 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [785]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [785]
+INFO:     Stopping reloader process [641]
+2024-08-25 22:37:44.736 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 22:37:44.740 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 22:37:44.741 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:37:44.741 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [12594] using WatchFiles
+2024-08-25 22:37:45.240 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 22:37:45.246 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 22:37:45.246 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:37:45.246 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 22:37:45.265 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 22:37:45.265 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:37:45.265 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [12762]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12762]
+INFO:     Stopping reloader process [12594]
+2024-08-25 22:54:10.086 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 22:54:10.091 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 22:54:10.091 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:54:10.092 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [13059] using WatchFiles
+2024-08-25 22:54:10.542 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 22:54:10.549 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 22:54:10.549 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:54:10.549 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 22:54:10.564 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 22:54:10.564 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:54:10.564 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [13202]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13202]
+INFO:     Stopping reloader process [13059]
+2024-08-25 23:00:37.563 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 23:00:37.571 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 23:00:37.571 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 23:00:37.571 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [13787] using WatchFiles
+2024-08-25 23:00:38.068 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 23:00:38.072 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 23:00:38.072 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 23:00:38.073 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 23:00:38.083 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 23:00:38.083 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 23:00:38.084 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [13958]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-26 22:19:36.699 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-26 22:19:36.706 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-26 22:19:36.706 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-26 22:19:36.706 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [354] using WatchFiles
+2024-08-26 22:19:37.142 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-26 22:19:37.147 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-26 22:19:37.147 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-26 22:19:37.147 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-26 22:19:37.163 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-26 22:19:37.163 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-26 22:19:37.163 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [497]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-26 22:32:47.506 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:32:47.506 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='介绍一下种子')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:33:52.576 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:33:52.576 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='介绍一下种子')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:36:29.739 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:36:29.740 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.28946980834007263\ntext: \n\n[2] distance: 0.28404945135116577\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n```\n请回答`介绍一下种子`')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:39:38.819 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:39:38.819 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:41:02.571 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:41:02.571 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:42:15.416 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:42:15.416 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:49:06.280 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:49:06.280 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='教师节是什么时候')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:52:03.424 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:52:03.424 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='教师节决议是什么时候')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:21.418 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:53:21.419 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:38.246 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:53:38.246 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:49.974 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:53:49.975 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:54:25.684 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:54:25.684 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-27 07:18:34.859 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-27 07:18:34.864 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-27 07:18:34.864 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-27 07:18:34.864 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [167] using WatchFiles
+2024-08-27 07:18:35.285 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-27 07:18:35.289 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-27 07:18:35.289 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-27 07:18:35.289 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-27 07:18:35.304 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-27 07:18:35.304 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-27 07:18:35.304 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [310]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-29 19:23:01.976 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-29 19:23:01.981 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-29 19:23:01.981 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-29 19:23:01.981 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [497] using WatchFiles
+2024-08-29 19:23:02.426 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-29 19:23:02.430 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-29 19:23:02.430 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-29 19:23:02.431 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-29 19:23:02.447 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-29 19:23:02.448 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-29 19:23:02.448 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [640]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-31 07:33:26.562 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-31 07:33:26.567 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-31 07:33:26.567 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-31 07:33:26.568 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [544] using WatchFiles
+2024-08-31 07:33:27.004 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-31 07:33:27.008 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-31 07:33:27.009 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-31 07:33:27.009 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-31 07:33:27.024 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-31 07:33:27.024 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-31 07:33:27.024 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [687]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-31 07:41:40.560 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 07:41:40.560 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.4804973006248474\ntext:  第 十 六 条 国 务 院 和 省 、 自 治 区 、 直 辖 市 人 民 政 府 的 农 业 、 林 业 主 管 部 门 分 别 设 立 由 专 业 人 员 组 成 的 农 作', '代 表 意 见 \n\n[2] distance: 0.4427182078361511\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[3] distance: 0.4427182078361511\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[4] distance: 0.43391889333724976\ntext:  第 二 十 四 条 在 中 国 境 内 没 有 经 常 居 所 或 者 营 业 场 所 的 境 外 机 构 、 个 人 在 境 内 申 请 品 种 审 定 或 者 登 记 的 ， 应 当 委 托 具 有 法 人 资 格 的 境 内 种 子 企 业 代 理 \n\n[5] distance: 0.43126001954078674\ntext:  第 十 八 条 审 定 未 通 过 的 农 作 物 品 种 和 林 木 品 种 ， 申 请 人 有 异 议', '级 以 上 人 民 政 府 农 业 、 林 业 主 管 部 门 和 社 会 的 监 督 \n```\n请回答`请问关于人大代表大会，北京市有多少名额`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 07:43:55.646 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 07:43:55.646 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.4909273386001587\ntext:  第 十 六 条 国 务 院 和 省 、 自 治 区 、 直 辖 市 人 民 政 府 的 农 业 、 林 业 主 管 部 门 分 别 设 立 由 专 业 人 员 组 成 的 农 作', '代 表 意 见 \n\n[2] distance: 0.45006853342056274\ntext:  第 十 八 条 审 定 未 通 过 的 农 作 物 品 种 和 林 木 品 种 ， 申 请 人 有 异 议', '级 以 上 人 民 政 府 农 业 、 林 业 主 管 部 门 和 社 会 的 监 督 \n\n[3] distance: 0.44918012619018555\ntext:  第 二 十 四 条 在 中 国 境 内 没 有 经 常 居 所 或 者 营 业 场 所 的 境 外 机 构 、 个 人 在 境 内 申 请 品 种 审 定 或 者 登 记 的 ， 应 当 委 托 具 有 法 人 资 格 的 境 内 种 子 企 业 代 理 \n\n[4] distance: 0.44358915090560913\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[5] distance: 0.44358915090560913\ntext:  具 体 办 法 由 国 务 院 规 定 \n```\n请回答`关于人大代表大会名额，北京有多少个`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:21:19.090 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:21:19.090 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7092544436454773\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.6975221633911133\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6931033730506897\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6739534735679626\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6414591670036316\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门行政长官是谁`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:22:46.918 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:22:46.919 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7204664349555969\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.7114557027816772\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.7027555704116821\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6790581345558167\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6604852676391602\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门特别行政区行政长官是谁`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:24:06.930 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:24:06.930 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7204664349555969\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.7114557027816772\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.7027555704116821\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6790581345558167\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6604852676391602\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门特别行政区行政长官是谁`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:29:50.883 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:29:50.883 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7204664349555969\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.7114557027816772\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.7027555704116821\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6790581345558167\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6604852676391602\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门特别行政区行政长官是谁`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:33:45.969 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:33:45.970 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.6372257471084595\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[2] distance: 0.6227936148643494\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6109097599983215\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.6029897928237915\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n\n[5] distance: 0.5962340235710144\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n```\n请回答`2014年行政长官产生办法`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:34:08.194 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:34:08.194 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.6299819946289062\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[2] distance: 0.6178810000419617\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6017554402351379\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.5977878570556641\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[5] distance: 0.5749344229698181\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改', '条 已 明 确 规 定 ， 立 法 会 多 数 议 员 由 选 举 产 生 \n```\n请回答`2014年行政长官产生办法是什么`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:39:49.881 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:39:49.881 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.5294449925422668\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.508415162563324\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n\n[3] distance: 0.5013051629066467\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.4888480007648468\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.46155327558517456\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十', '院 港 澳 事 务 办 公 室 的 意 见 \n```\n请回答`房地产税改革试点工作的决定期限是多久`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:44:55.135 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:44:55.135 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.48788952827453613\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.4658340513706207\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.4641956090927124\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.4360290765762329\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n\n[5] distance: 0.43505367636680603\ntext:  同 时 ， 为 适 应 澳 门 社 会 的 发 展 进 步 ， 有 需 要 对 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 作 出 适 当 的 修 改 \n```\n请回答`房地产税改革试点工作的时间是多久`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:48:53.479 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:48:53.480 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.49599912762641907\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.4742741882801056\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.473518043756485\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.4478006660938263\ntext:  同 时 ， 为 适 应 澳 门 社 会 的 发 展 进 步 ， 有 需 要 对 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 作 出 适 当 的 修 改 \n\n[5] distance: 0.442568302154541\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`房地产税改革试点工作的期限是多久`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:52:15.740 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:52:15.740 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.49599912762641907\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.4742741882801056\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.473518043756485\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.4478006660938263\ntext:  同 时 ， 为 适 应 澳 门 社 会 的 发 展 进 步 ， 有 需 要 对 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 作 出 适 当 的 修 改 \n\n[5] distance: 0.442568302154541\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`房地产税改革试点工作的期限是多久`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:53:15.819 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:53:15.819 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.49599912762641907\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.4742741882801056\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.473518043756485\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.4478006660938263\ntext:  同 时 ， 为 适 应 澳 门 社 会 的 发 展 进 步 ， 有 需 要 对 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 作 出 适 当 的 修 改 \n\n[5] distance: 0.442568302154541\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`房地产税改革试点工作的期限是多久`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:56:55.584 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:56:55.584 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.49599912762641907\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.4742741882801056\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.473518043756485\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.4478006660938263\ntext:  同 时 ， 为 适 应 澳 门 社 会 的 发 展 进 步 ， 有 需 要 对 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 作 出 适 当 的 修 改 \n\n[5] distance: 0.442568302154541\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`房地产税改革试点工作的期限是多久`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 13:59:23.427 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 13:59:23.428 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.49599912762641907\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.4742741882801056\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.473518043756485\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.4478006660938263\ntext:  同 时 ， 为 适 应 澳 门 社 会 的 发 展 进 步 ， 有 需 要 对 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 作 出 适 当 的 修 改 \n\n[5] distance: 0.442568302154541\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`房地产税改革试点工作的期限是多久`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 14:11:00.580 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 14:11:00.580 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.4858736991882324\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.46709537506103516\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.46570587158203125\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.43493250012397766\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n\n[5] distance: 0.43150976300239563\ntext:  同 时 ， 为 适 应 澳 门 社 会 的 发 展 进 步 ， 有 需 要 对 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 作 出 适 当 的 修 改 \n\n[6] distance: 0.42134231328964233\ntext:  鉴 此 ， 全', '社 会 的 发 展 进 步 ， 有 需 要 对 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 作 出 适 当 的 修 改 \n\n[7] distance: 0.41206979751586914\ntext:  会 议 认 为 ， 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定', '的 规 定 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 ， 是 符 合 上 述 原 则 的 基 本 制 度 安 排 ， 并 得 到 澳 门 社 会 各 界 的 普 遍 肯 定 和 认 同 ， 应 当 长 期 保 持 不 变 \n\n[8] distance: 0.40589088201522827\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十', '院 港 澳 事 务 办 公 室 的 意 见 \n\n[9] distance: 0.39652547240257263\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[10] distance: 0.3719044625759125\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改', '条 已 明 确 规 定 ， 立 法 会 多 数 议 员 由 选 举 产 生 \n```\n请回答`房地产税改革试点工作是多久`")] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 16:05:17.068 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-31 16:05:17.073 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-31 16:05:17.073 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-31 16:05:17.073 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [61] using WatchFiles
+2024-08-31 16:05:17.548 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-31 16:05:17.553 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-31 16:05:17.553 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-31 16:05:17.553 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-31 16:05:17.569 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-31 16:05:17.569 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-31 16:05:17.569 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [204]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-08-31 16:07:45.551 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 16:07:45.552 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.5446942448616028\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.5414067506790161\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n\n[3] distance: 0.5203514099121094\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.5071924328804016\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.5039139986038208\ntext:  会 议 认 为 ， 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定', '的 规 定 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 ， 是 符 合 上 述 原 则 的 基 本 制 度 安 排 ， 并 得 到 澳 门 社 会 各 界 的 普 遍 肯 定 和 认 同 ， 应 当 长 期 保 持 不 变 \n```\n请回答`房地产税改决议的期限多久`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 16:09:10.292 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 16:09:10.292 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.6986274123191833\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.6876285672187805\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6849183440208435\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6673358082771301\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6325406432151794\ntext:  会 议 认 为 ， 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定', '的 规 定 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 ， 是 符 合 上 述 原 则 的 基 本 制 度 安 排 ， 并 得 到 澳 门 社 会 各 界 的 普 遍 肯 定 和 认 同 ， 应 当 长 期 保 持 不 变 \n```\n请回答`澳门的行政长官是谁`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 16:23:08.225 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 16:23:08.226 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.48024383187294006\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十', '院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.47882774472236633\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.46584105491638184\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.44755205512046814\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.4443703889846802\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`北京金融法院第一审判决、裁定的上诉案 是由谁来审理`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-31 16:24:10.596 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-31 16:24:10.597 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.39216452836990356\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.3844095766544342\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.3728362023830414\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[4] distance: 0.3473781645298004\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十', '院 港 澳 事 务 办 公 室 的 意 见 \n\n[5] distance: 0.3442224860191345\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n```\n请回答`北京金融是由谁代理`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 08:37:37.650 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 08:37:37.655 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-09-01 08:37:37.655 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 08:37:37.655 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [222] using WatchFiles
+2024-09-01 08:37:38.085 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 08:37:38.090 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-09-01 08:37:38.090 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 08:37:38.090 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-09-01 08:37:38.107 | INFO     | main:<module>:39 - Server is up and running.
+2024-09-01 08:37:38.107 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 08:37:38.107 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [365]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-09-01 09:36:09.968 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 09:36:09.968 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.6217848062515259\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[2] distance: 0.6140393018722534\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[3] distance: 0.6010124087333679\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n\n[4] distance: 0.5990554094314575\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.5696967244148254\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n```\n请回答`请根据案例```\n        澳\n\n门\n\n的\n\n行\n\n政\n\n长\n\n官\n\n轮\n\n换\n        ```\n        编写一个80字左右的法律科普微博`")] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 13:10:13.945 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 13:10:13.946 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我生成一篇关于`西\n藏\n之\n旅`\n                的小红书种草文案。文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达，内容包括`去西藏拉萨旅游，体验当地风俗`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 13:11:45.093 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 13:11:45.094 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇公众号文章，要求如下：\n                公众号主题：`与\n宠\n物\n猫\n相\n处\n的\n点\n点\n滴\n滴`\n                公众号文章名称：`我的宠物猫`。\n                公众号内容要求：以生动的语言描述主题魅力，突出`幽默`，吸引读者关注。\n                整体风格要求：`言辞生动活泼、富有感染力`。\n                目标读者群体为：`年轻人`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 14:06:04.035 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 14:06:04.036 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我生成一篇关于`西\n藏\n之\n旅`\n                的小红书种草文案。文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达，内容包括`西藏拉萨，体验当地风俗民情`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 14:19:25.506 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 14:19:25.507 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.797422468662262\ntext: 全国人民代表大会常务委员会关于《中华人民共和国刑法》有关出口退税、抵扣税款的其他发票规定的解释（2005年12月29日第十届全国人民代表大会常务委员会第十九次会议通过）\u3000\u3000全国人民代表大会常务委员会根据司法实践中遇到的情况，讨论了刑法规定的“出口退税、抵扣税款的其他发票”的含义问题，解释如下：\u3000\u3000刑法规定的“出口退税、抵扣税款的其他发票”，是指除增值税专用发票以外的，具有出口退税、抵扣税款功能的收付款凭证或者完税凭证。\n\n[2] distance: 0.24674904346466064\ntext: \u3000\u3000现予公告。\n\n[3] distance: 0.20277056097984314\ntext: 。\n```\n请回答`出口退税、抵扣税款的其他发票的含义是什么`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 14:34:03.837 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 14:34:03.837 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.824600875377655\ntext: 二、深圳湾口岸港方口岸区的范围，由国务院规定。\n\n[2] distance: 0.748577892780304\ntext: 会议认为，为了缓解内地与香港特别行政区交往日益增多带来的陆路通关压力，适应深圳市与香港特别行政区之间交通运输和便利通关的客观要求，促进内地和香港特别行政区之间的人员交流和经贸往来，推动两地经济共同发展，在深圳湾口岸内设立港方口岸区，专用于人员、交通工具、货物的通关查验，是必要的。\n\n[3] distance: 0.746883749961853\ntext: 全国人民代表大会常务委员会决定：一、授权香港特别行政区自深圳湾口岸启用之日起，对该口岸所设港方口岸区依照香港特别行政区法律实施管辖。\n\n[4] distance: 0.7254011034965515\ntext: 三、深圳湾口岸港方口岸区土地使用期限，由国务院依照有关法律的规定确定。\n\n[5] distance: 0.719535231590271\ntext: 全国人民代表大会常务委员会关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（2006年10月31日第十届全国人民代表大会常务委员会第二十四次会议通过）第十届全国人民代表大会常务委员会第二十三次会议审议了国务院关于提请审议授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的议案，第二十四次会议审议了关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（草案）。\n```\n请回答`深圳湾口岸港方口岸区的范围由谁来规定`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 14:34:29.153 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 14:34:29.153 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='深圳湾口岸港方口岸区的范围由谁来规定')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 14:35:14.428 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 14:35:14.428 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.7655689716339111\ntext: 全国人民代表大会常务委员会决定：一、授权香港特别行政区自深圳湾口岸启用之日起，对该口岸所设港方口岸区依照香港特别行政区法律实施管辖。\n\n[2] distance: 0.7378236055374146\ntext: 全国人民代表大会常务委员会关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（2006年10月31日第十届全国人民代表大会常务委员会第二十四次会议通过）第十届全国人民代表大会常务委员会第二十三次会议审议了国务院关于提请审议授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的议案，第二十四次会议审议了关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（草案）。\n\n[3] distance: 0.6093500852584839\ntext: 会议认为，为了缓解内地与香港特别行政区交往日益增多带来的陆路通关压力，适应深圳市与香港特别行政区之间交通运输和便利通关的客观要求，促进内地和香港特别行政区之间的人员交流和经贸往来，推动两地经济共同发展，在深圳湾口岸内设立港方口岸区，专用于人员、交通工具、货物的通关查验，是必要的。\n\n[4] distance: 0.5996866226196289\ntext: 三、深圳湾口岸港方口岸区土地使用期限，由国务院依照有关法律的规定确定。\n\n[5] distance: 0.5978126525878906\ntext: 二、深圳湾口岸港方口岸区的范围，由国务院规定。\n```\n请回答`请根据案例```\n        全\n\n国\n\n人\n\n民\n\n代\n\n表\n\n大\n\n会\n\n常\n\n务\n\n委\n\n员\n\n会\n\n关\n\n于\n\n授\n\n权\n\n香\n\n港\n\n特\n\n别\n\n行\n\n政\n\n区\n\n对\n\n深\n\n圳\n\n湾\n\n口\n\n岸\n\n港\n\n方\n\n口\n\n岸\n\n区\n\n实\n\n施\n\n管\n\n辖\n\n的\n\n决\n\n定\n        ```\n        编写一个80字左右的法律科普微博，文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 15:01:42.547 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 15:01:42.547 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.6778765916824341\ntext: 全国人民代表大会常务委员会决定：一、授权香港特别行政区自深圳湾口岸启用之日起，对该口岸所设港方口岸区依照香港特别行政区法律实施管辖。\n\n[2] distance: 0.6408838033676147\ntext: 全国人民代表大会常务委员会关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（2006年10月31日第十届全国人民代表大会常务委员会第二十四次会议通过）第十届全国人民代表大会常务委员会第二十三次会议审议了国务院关于提请审议授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的议案，第二十四次会议审议了关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（草案）。\n\n[3] distance: 0.5718252658843994\ntext: 香港特别行政区对深圳湾口岸港方口岸区实行禁区式管理。\n\n[4] distance: 0.570655345916748\ntext: 二、深圳湾口岸港方口岸区的范围，由国务院规定。\n\n[5] distance: 0.5678632259368896\ntext: 三、深圳湾口岸港方口岸区土地使用期限，由国务院依照有关法律的规定确定。\n```\n请回答`请根据案例```\n            香\n\n港\n\n特\n\n别\n\n行\n\n政\n\n区\n\n对\n\n深\n\n圳\n\n湾\n\n口\n\n岸\n\n港\n\n方\n\n口\n\n岸\n\n区\n\n实\n\n施\n\n管\n\n辖\n            ```\n            编写一个80字左右的法律科普微博，文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 15:05:41.609 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 15:05:41.610 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.6698285937309265\ntext: 全国人民代表大会常务委员会决定：一、授权香港特别行政区自深圳湾口岸启用之日起，对该口岸所设港方口岸区依照香港特别行政区法律实施管辖。\n\n[2] distance: 0.6342018842697144\ntext: 全国人民代表大会常务委员会关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（2006年10月31日第十届全国人民代表大会常务委员会第二十四次会议通过）第十届全国人民代表大会常务委员会第二十三次会议审议了国务院关于提请审议授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的议案，第二十四次会议审议了关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（草案）。\n\n[3] distance: 0.5637131333351135\ntext: 三、深圳湾口岸港方口岸区土地使用期限，由国务院依照有关法律的规定确定。\n\n[4] distance: 0.555755078792572\ntext: 二、深圳湾口岸港方口岸区的范围，由国务院规定。\n\n[5] distance: 0.5477186441421509\ntext: 会议认为，为了缓解内地与香港特别行政区交往日益增多带来的陆路通关压力，适应深圳市与香港特别行政区之间交通运输和便利通关的客观要求，促进内地和香港特别行政区之间的人员交流和经贸往来，推动两地经济共同发展，在深圳湾口岸内设立港方口岸区，专用于人员、交通工具、货物的通关查验，是必要的。\n```\n请回答`请根据案例```\n            香\n\n港\n\n特\n\n别\n\n行\n\n政\n\n区\n\n对\n\n深\n\n圳\n\n湾\n\n口\n\n岸\n\n港\n\n实\n\n现\n\n管\n\n辖\n            ```\n            编写一个80字左右的法律科普微博，文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 15:42:56.230 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 15:42:56.231 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇公众号文章，要求如下：\n                公众号主题：`小\n猫\n咪\n和\n小\n红\n花`\n                公众号文章名称：`可爱小猫`。\n                公众号内容要求：以生动的语言描述主题魅力，突出`幽默`，吸引读者关注。\n                整体风格要求：`言辞生动活泼、富有感染力`。\n                目标读者群体为：`年轻人`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 15:52:16.934 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 15:52:16.934 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我生成一篇关于`可\n爱\n小\n猫\n咪`\n                的小红书种草文案。文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达，内容包括`可爱小猫睡觉`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 15:52:35.523 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 15:52:35.523 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇公众号文章，要求如下：\n                公众号主题：`可\n爱\n小\n猫\n睡\n觉`\n                公众号文章名称：`可爱小猫咪`。\n                公众号内容要求：以生动的语言描述主题魅力，突出`幽默`，吸引读者关注。\n                整体风格要求：`言辞生动活泼、富有感染力`。\n                目标读者群体为：`年轻人`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 15:54:12.969 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 15:54:12.969 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇公众号文章，要求如下：\n                公众号主题：`可\n爱\n小\n猫\n咪`\n                公众号文章名称：`小猫咪`。\n                公众号内容要求：以生动的语言描述主题魅力，突出`幽默`，吸引读者关注。\n                整体风格要求：`言辞生动活泼、富有感染力`。\n                目标读者群体为：`年轻人`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 15:57:25.773 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 15:57:25.773 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇公众号文章，要求如下：\n                公众号主题：`可\n爱\n小\n猫\n咪\n在\n睡\n觉`\n                公众号文章名称：`小猫咪`。\n                公众号内容要求：以生动的语言描述主题魅力，突出`幽默`，吸引读者关注。\n                整体风格要求：`言辞生动活泼、富有感染力`。\n                目标读者群体为：`年轻人`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 16:14:12.901 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 16:14:12.901 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇公众号文章，要求如下：\n                公众号主题：`可\n爱\n小\n白\n兔\n吃\n草`\n                公众号文章名称：`小白兔`。\n                公众号内容要求：以生动的语言描述主题魅力，突出`幽默`，吸引读者关注。\n                整体风格要求：`言辞生动活泼、富有感染力`。\n                目标读者群体为：`年轻人`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 16:17:10.545 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 16:17:10.545 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇公众号文章，要求如下：\n                公众号主题：`可\n爱\n小\n白\n兔\n在\n吃\n草`\n                公众号文章名称：`小白兔`。\n                公众号内容要求：以生动的语言描述主题魅力，突出`幽默`，吸引读者关注。\n                整体风格要求：`言辞生动活泼、富有感染力`。\n                目标读者群体为：`年轻人`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [365]
+INFO:     Stopping reloader process [222]
+2024-09-01 16:20:48.835 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 16:20:48.841 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-09-01 16:20:48.841 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 16:20:48.841 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [4564] using WatchFiles
+2024-09-01 16:20:49.326 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 16:20:49.332 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-09-01 16:20:49.332 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 16:20:49.332 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-09-01 16:20:49.355 | INFO     | main:<module>:39 - Server is up and running.
+2024-09-01 16:20:49.355 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 16:20:49.355 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [4708]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-09-01 17:16:07.180 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 17:16:07.180 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.8003610968589783\ntext: 二、深圳湾口岸港方口岸区的范围，由国务院规定。\n\n[2] distance: 0.7305294275283813\ntext: 全国人民代表大会常务委员会决定：一、授权香港特别行政区自深圳湾口岸启用之日起，对该口岸所设港方口岸区依照香港特别行政区法律实施管辖。\n\n[3] distance: 0.720537543296814\ntext: 会议认为，为了缓解内地与香港特别行政区交往日益增多带来的陆路通关压力，适应深圳市与香港特别行政区之间交通运输和便利通关的客观要求，促进内地和香港特别行政区之间的人员交流和经贸往来，推动两地经济共同发展，在深圳湾口岸内设立港方口岸区，专用于人员、交通工具、货物的通关查验，是必要的。\n\n[4] distance: 0.7135946154594421\ntext: 三、深圳湾口岸港方口岸区土地使用期限，由国务院依照有关法律的规定确定。\n\n[5] distance: 0.7055875062942505\ntext: 全国人民代表大会常务委员会关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（2006年10月31日第十届全国人民代表大会常务委员会第二十四次会议通过）第十届全国人民代表大会常务委员会第二十三次会议审议了国务院关于提请审议授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的议案，第二十四次会议审议了关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定（草案）。\n```\n请回答`深圳湾口岸港方岸区的范围由谁规定`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 18:04:48.912 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 18:04:48.912 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.7928675413131714\ntext: 台湾省出席第十四届全国人民代表大会代表协商选举方案（2022年4月20日第十三届全国人民代表大会常务委员会第三十四次会议通过）根据《第十三届全国人民代表大会第五次会议关于第十四届全国人民代表大会代表名额和选举问题的决定》，台湾省出席第十四届全国人民代表大会代表协商选举方案如下：一、台湾省暂时选举第十四届全国人民代表大会代表13名，由各省、自治区、直辖市以及中央和国家机关、中国人民解放军和中国人民武装警察部队中的台湾省籍同胞组成的协商选举会议选举产生。\n\n[2] distance: 0.7484647631645203\ntext: 附件：台湾省出席第十四届全国人民代表大会代表协商选举会议代表分配方案。\n\n[3] distance: 0.7115254402160645\ntext: 二、协商选举会议人数为126人，由各省、自治区、直辖市以及中央和国家机关、中国人民解放军和中国人民武装警察部队中的台湾省籍同胞协商选定。\n\n[4] distance: 0.5679702758789062\ntext: 四、协商选举会议要发扬民主，酝酿代表候选人应考虑各方面的代表人士，适当注意中青年、妇女、少数民族等方面的人选。\n\n[5] distance: 0.48898226022720337\ntext: 五、协商选举会议由全国人大常委会委员长会议指定召集人召集。\n```\n请回答`第十四届全国人民代表大会代表台湾省有多少名额`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 18:26:13.601 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 18:26:13.602 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='重庆直辖市管辖哪些区域')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 18:27:24.883 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 18:27:24.883 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='哪会议决定设立重庆直辖市')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 18:28:35.569 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 18:28:35.569 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='税目税率表征税的对象是谁')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4708]
+INFO:     Stopping reloader process [4564]
+2024-09-01 18:35:07.283 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 18:35:07.288 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-09-01 18:35:07.288 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 18:35:07.289 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [6259] using WatchFiles
+2024-09-01 18:35:07.741 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 18:35:07.747 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-09-01 18:35:07.747 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 18:35:07.747 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-09-01 18:35:07.786 | INFO     | main:<module>:39 - Server is up and running.
+2024-09-01 18:35:07.786 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 18:35:07.786 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [6402]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-09-01 18:38:50.500 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 18:38:50.500 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='什么样的学历可以参加评估师资格全国统一考试')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 18:40:47.033 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 18:40:47.034 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='什么样的学历可以参加评估师资格全国统一考试')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 18:41:12.982 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 18:41:12.983 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.8590267300605774\ntext: \u3000\u3000具有高等院校专科以上学历的公民，可以参加评估师资格全国统一考试。\n\n[2] distance: 0.6898576021194458\ntext: \u3000\u3000评估师是指通过评估师资格考试的评估专业人员。\n\n[3] distance: 0.6798452734947205\ntext: \u3000\u3000第九条\u3000有关全国性评估行业协会按照国家规定组织实施评估师资格全国统一考试。\n\n[4] distance: 0.6493737101554871\ntext: 国家根据经济社会发展需要确定评估师专业类别。\n\n[5] distance: 0.6165210008621216\ntext: \u3000\u3000第十三条\u3000评估专业人员应当履行下列义务:\u3000\u3000（一）诚实守信，依法独立、客观、公正从事业务；\u3000\u3000（二）遵守评估准则，履行调查职责，独立分析估算，勤勉谨慎从事业务；\u3000\u3000（三）完成规定的继续教育，保持和提高专业能力；\u3000\u3000（四）对评估活动中使用的有关文件、证明和资料的真实性、准确性、完整性进行核查和验证；\u3000\u3000（五）对评估活动中知悉的国家秘密、商业秘密和个人隐私予以保密；\u3000\u3000（六）与委托人或者其他相关当事人及评估对象有利害关系的，应当回避；\u3000\u3000（七）接受行业协会的自律管理，履行行业协会章程规定的义务；\u3000\u3000（八）法律、行政法规规定的其他义务。\n```\n请回答`什么样的学历可以参加评估师资格全国统一考试`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 18:42:08.461 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 18:42:08.462 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.608582079410553\ntext: \u3000\u3000具有高等院校专科以上学历的公民，可以参加评估师资格全国统一考试。\n\n[2] distance: 0.5921921133995056\ntext: \u3000\u3000第九条\u3000有关全国性评估行业协会按照国家规定组织实施评估师资格全国统一考试。\n\n[3] distance: 0.569253146648407\ntext: \u3000\u3000第三十一条\u3000委托人认为评估机构或者评估专业人员违法开展业务的，可以向有关评估行政管理部门或者行业协会投诉、举报，有关评估行政管理部门或者行业协会应当及时调查处理，并答复委托人。\n\n[4] distance: 0.5688891410827637\ntext: \u3000\u3000第二十六条\u3000评估专业人员应当恰当选择评估方法，除依据评估执业准则只能选择一种评估方法的外，应当选择两种以上评估方法，经综合分析，形成评估结论，编制评估报告。\n\n[5] distance: 0.5670648217201233\ntext: \u3000\u3000第二十八条\u3000评估机构开展法定评估业务，应当指定至少两名相应专业类别的评估师承办，评估报告应当由至少两名承办该项业务的评估师签名并加盖评估机构印章。\n```\n请回答`请根据案例```\n            评\n\n估\n\n师\n\n资\n\n格\n\n全\n\n国\n\n统\n\n一\n\n考\n\n试\n\n开\n\n始\n\n啦\n            ```\n            编写一个80字左右的法律科普微博，文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 19:37:10.144 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 19:37:10.145 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我生成一篇关于`西\n藏\n之\n旅`\n                的小红书种草文案。文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达，内容包括`体验青藏的风俗民情`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6402]
+INFO:     Stopping reloader process [6259]
+2024-09-01 19:47:56.605 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 19:47:56.610 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-09-01 19:47:56.610 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 19:47:56.610 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [8000] using WatchFiles
+2024-09-01 19:47:57.074 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 19:47:57.079 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-09-01 19:47:57.079 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 19:47:57.079 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-09-01 19:47:57.091 | INFO     | main:<module>:39 - Server is up and running.
+2024-09-01 19:47:57.091 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 19:47:57.091 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [8143]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8143]
+INFO:     Stopping reloader process [8000]
+2024-09-01 20:05:12.005 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 20:05:12.010 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-09-01 20:05:12.010 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 20:05:12.011 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [8600] using WatchFiles
+2024-09-01 20:05:12.493 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-01 20:05:12.501 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-09-01 20:05:12.501 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 20:05:12.501 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-09-01 20:05:12.526 | INFO     | main:<module>:39 - Server is up and running.
+2024-09-01 20:05:12.526 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-01 20:05:12.527 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [8744]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-09-01 20:10:48.801 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 20:10:48.801 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='介绍一下免征资源税的情形')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 20:11:42.464 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 20:11:42.464 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.7851837873458862\ntext: 第七条有下列情形之一的，省、自治区、直辖市可以决定免征或者减征资源税：（一）纳税人开采或者生产应税产品过程中，因意外事故或者自然灾害等原因遭受重大损失；（二）纳税人开采共伴生矿、低品位矿、尾矿。\n\n[2] distance: 0.7785047888755798\ntext: 第六条有下列情形之一的，免征资源税：（一）开采原油以及在油田范围内运输原油过程中用于加热的原油、天然气；（二）煤炭开采企业因安全生产需要抽采的煤成（层）气。\n\n[3] distance: 0.7523912191390991\ntext: 根据国民经济和社会发展需要，国务院对有利于促进资源节约集约利用、保护环境等情形可以规定免征或者减征资源税，报全国人民代表大会常务委员会备案。\n\n[4] distance: 0.7362685203552246\ntext: 前款规定的免征或者减征资源税的具体办法，由省、自治区、直辖市人民政府提出，报同级人民代表大会常务委员会决定，并报全国人民代表大会常务委员会和国务院备案。\n\n[5] distance: 0.7241918444633484\ntext: 有下列情形之一的，减征资源税：（一）从低丰度油气田开采的原油、天然气，减征百分之二十资源税；（二）高含硫天然气、三次采油和从深水油气田开采的原油、天然气，减征百分之三十资源税；（三）稠油、高凝油减征百分之四十资源税；（四）从衰竭期矿山开采的矿产品，减征百分之三十资源税。\n```\n请回答`介绍一下免征资源税的情形`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 20:12:43.774 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 20:12:43.774 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.6268520951271057\ntext: 中华人民共和国资源税法（2019年8月26日第十三届全国人民代表大会常务委员会第十二次会议通过）第一条在中华人民共和国领域和中华人民共和国管辖的其他海域开发应税资源的单位和个人，为资源税的纳税人，应当依照本法规定缴纳资源税。\n\n[2] distance: 0.5974302887916565\ntext: 第九条资源税由税务机关依照本法和《中华人民共和国税收征收管理法》的规定征收管理。\n\n[3] distance: 0.5815913081169128\ntext: 根据国民经济和社会发展需要，国务院对有利于促进资源节约集约利用、保护环境等情形可以规定免征或者减征资源税，报全国人民代表大会常务委员会备案。\n\n[4] distance: 0.5718235969543457\ntext: 前款规定的免征或者减征资源税的具体办法，由省、自治区、直辖市人民政府提出，报同级人民代表大会常务委员会决定，并报全国人民代表大会常务委员会和国务院备案。\n\n[5] distance: 0.5706784725189209\ntext: 第十二条资源税按月或者按季申报缴纳；不能按固定期限计算缴纳的，可以按次申报缴纳。\n```\n请回答`请根据案例```\n            科\n\n普\n\n一\n\n下\n\n资\n\n源\n\n税\n\n法\n            ```\n            编写一个80字左右的法律科普微博，文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 20:20:14.713 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 20:20:14.713 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我生成一篇关于`云\n南\n大\n理\n之\n旅`\n                的小红书种草文案。文案需要包含标题和正文，需要使用多种 emoji 来增强视觉吸引力和情感表达，内容包括`体验云南大理的风俗民情`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-01 20:21:33.673 | INFO     | apps.private.views:inference:40 - run inference
+2024-09-01 20:21:33.673 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇公众号文章，要求如下：\n                公众号主题：`体\n验\n姑\n苏\n江\n南\n的\n园\n林`\n                公众号文章名称：`江南之旅`。\n                公众号内容要求：以生动的语言描述主题魅力，突出`幽默`，吸引读者关注。\n                整体风格要求：`言辞生动活泼、富有感染力`。\n                目标读者群体为：`年轻人`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-09-28 09:41:30.309 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-28 09:41:30.314 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-09-28 09:41:30.314 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-28 09:41:30.314 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [1101] using WatchFiles
+2024-09-28 09:41:30.776 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-28 09:41:30.780 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-09-28 09:41:30.780 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-28 09:41:30.781 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-09-28 09:41:30.797 | INFO     | main:<module>:39 - Server is up and running.
+2024-09-28 09:41:30.797 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-28 09:41:30.797 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [1244]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1244]
+INFO:     Stopping reloader process [1101]
+2024-09-28 11:06:33.279 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-28 11:06:33.285 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-09-28 11:06:33.285 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-28 11:06:33.285 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [2158] using WatchFiles
+2024-09-28 11:06:33.760 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-09-28 11:06:33.768 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-09-28 11:06:33.769 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-28 11:06:33.769 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-09-28 11:06:33.794 | INFO     | main:<module>:39 - Server is up and running.
+2024-09-28 11:06:33.794 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-09-28 11:06:33.794 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [2301]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-04 19:01:33.109 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-10-04 19:01:33.116 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-04 19:01:33.116 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-04 19:01:33.116 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [782] using WatchFiles
+2024-10-04 19:01:33.584 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-10-04 19:01:33.589 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-04 19:01:33.589 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-04 19:01:33.589 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-04 19:01:33.604 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-04 19:01:33.604 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-04 19:01:33.605 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [926]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-05 17:10:23.387 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-05 17:10:23.387 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7092544436454773\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.6975221633911133\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6931033730506897\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6739534735679626\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6414591670036316\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门行政长官是谁`")] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-05 17:12:23.410 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-05 17:12:23.410 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7092544436454773\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.6975221633911133\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6931033730506897\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6739534735679626\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6414591670036316\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门行政长官是谁`")] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-05 17:16:07.132 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-05 17:16:07.132 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7092544436454773\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.6975221633911133\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6931033730506897\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6739534735679626\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6414591670036316\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门行政长官是谁`")] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-05 17:19:17.225 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-05 17:19:17.225 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7092544436454773\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.6975221633911133\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6931033730506897\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6739534735679626\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6414591670036316\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门行政长官是谁`")] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-05 17:22:00.939 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-05 17:22:00.940 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.7092544436454773\ntext:  会 议 认 为 ， 《 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 》 （ 以 下 简 称 澳 门 基 本 法 ） 第 四 十 七 条 已 明 确 规 定 ， 澳 门 特 别 行 政 区 行 政 长 官 在 当 地 通 过 选 举 或 协 商 产 生 ， 由 中 央 人 民 政 府 任 命 \n\n[2] distance: 0.6975221633911133\ntext: ['全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 有 关 问 题 的 决 定 （ 2 0 1 2 年 2 月 2 9 日 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 通 过 ） 第 十 一 届 全 国 人 民 代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门', '代 表 大 会 常 务 委 员 会 第 二 十 五 次 会 议 审 议 了 澳 门 特 别 行 政 区 行 政 长 官 崔 世 安 2 0 1 2 年 2 月 7 日 提 交 的 《 关 于 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 是 否 需 要 修 改 的 报 告 》 ， 并 在 会 前 征 询 了 国 务 院 港 澳 事 务 办 公 室 的 意 见 \n\n[3] distance: 0.6931033730506897\ntext:  鉴 此 ， 全 国 人 大 常 委 会 依 据 澳 门 基 本 法 的 有 关 规 定 和 《 全 国 人 民 代 表 大 会 常 务 委 员 会 关 于 〈 中 华 人 民 共 和 国 澳 门 特 别 行 政 区 基 本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长', '本 法 〉 附 件 一 第 七 条 和 附 件 二 第 三 条 的 解 释 》 ， 对 澳 门 特 别 行 政 区 2 0 1 3 年 立 法 会 产 生 办 法 和 2 0 1 4 年 行 政 长 官 产 生 办 法 决 定 如 下 ： 一 、 澳 门 基 本 法 附 件 一 第 一 条 关 于 行 政 长 官 由 一 个 具 有 广 泛 代 表 性 的 选 举 委 员 会 选 举 产 生 的 规 定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的', '定 维 持 不 变 ， 澳 门 基 本 法 附 件 二 第 一 条 关 于 第 三 届 及 以 后 各 届 立 法 会 由 直 接 选 举 的 议 员 、 间 接 选 举 的 议 员 和 委 任 的 议 员 三 部 分 组 成 的 规 定 维 持 不 变 \n\n[4] distance: 0.6739534735679626\ntext:  有 关 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 和 立 法 会 产 生 办 法 的 任 何 修 改 ， 都 应 当 符 合 澳 门 基 本 法 的 上 述 规 定 ， 并 遵 循 从 澳 门 的 实 际 情 况 出 发 ， 有 利 于 保 持 澳 门 特 别 行 政 区 基 本 政 治 制 度 的 稳 定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣', '定 ， 有 利 于 行 政 主 导 政 治 体 制 的 有 效 运 作 ， 有 利 于 兼 顾 澳 门 社 会 各 阶 层 各 界 别 的 利 益 ， 有 利 于 保 持 澳 门 的 长 期 繁 荣 稳 定 和 发 展 等 原 则 \n\n[5] distance: 0.6414591670036316\ntext:  二 、 在 不 违 反 本 决 定 第 一 条 的 前 提 下 ， 2 0 1 3 年 澳 门 特 别 行 政 区 立 法 会 产 生 办 法 和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附', '和 2 0 1 4 年 澳 门 特 别 行 政 区 行 政 长 官 产 生 办 法 ， 可 按 照 澳 门 基 本 法 第 四 十 七 条 、 第 六 十 八 条 和 附 件 一 第 七 条 、 附 件 二 第 三 条 的 规 定 作 出 适 当 修 改 \n```\n请回答`澳门行政长官是谁`")] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-06 19:12:23.269 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-06 19:12:23.275 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-06 19:12:23.276 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-06 19:12:23.276 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [678] using WatchFiles
+2024-10-06 19:12:23.725 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-06 19:12:23.730 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-06 19:12:23.730 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-06 19:12:23.730 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-06 19:12:23.748 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-06 19:12:23.748 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-06 19:12:23.748 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [821]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

@@ -1,0 +1,13 @@
+2024-08-11 21:00:03.145 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-11 21:00:03.150 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-11 21:00:03.150 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-11 21:00:03.150 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-11 21:00:03.589 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-11 21:00:03.594 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-11 21:00:03.594 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-11 21:00:03.594 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-11 21:00:03.609 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-11 21:00:03.609 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-11 21:00:03.609 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-11 21:29:38.608 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-11 21:29:38.608 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：\n\n        # 用户输入\n        种子的稳定性\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60

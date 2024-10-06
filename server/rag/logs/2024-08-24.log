@@ -1,0 +1,11 @@
+2024-08-24 21:09:42.776 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/rag
+2024-08-24 21:09:42.822 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-08-24 21:09:42.823 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-24 21:09:42.823 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-24 21:09:43.241 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/rag
+2024-08-24 21:09:43.282 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-08-24 21:09:43.282 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-24 21:09:43.282 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-24 21:09:43.318 | INFO     | main:<module>:143 - Server is up and running.
+2024-08-24 21:09:43.318 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-24 21:09:43.318 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.

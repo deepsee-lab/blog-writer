@@ -1,0 +1,11 @@
+2024-10-06 19:12:23.269 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-06 19:12:23.275 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-06 19:12:23.276 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-06 19:12:23.276 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-06 19:12:23.725 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-06 19:12:23.730 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-06 19:12:23.730 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-06 19:12:23.730 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-06 19:12:23.748 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-06 19:12:23.748 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-06 19:12:23.748 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.

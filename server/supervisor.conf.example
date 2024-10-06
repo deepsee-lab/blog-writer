@@ -1,0 +1,95 @@
+[program:cdn]
+directory = cdn
+command = python3 main.py
+startsecs = 5
+stopwaitsecs = 5
+autostart = true
+autorestart = true
+stdout_logfile = logs/supervisord/http-cdn.log
+stderr_logfile = logs/supervisord/server-cdn.log
+
+[program:embedding]
+directory = embedding
+command = python3 main.py
+startsecs = 5
+stopwaitsecs = 5
+autostart = true
+autorestart = true
+stdout_logfile = logs/supervisord/http-embedding.log
+stderr_logfile = logs/supervisord/server-embedding.log
+
+[program:file_parsing]
+directory = file_parsing
+command = python3 main.py
+startsecs = 5
+stopwaitsecs = 5
+autostart = true
+autorestart = true
+stdout_logfile = logs/supervisord/http-file_parsing.log
+stderr_logfile = logs/supervisord/server-file_parsing.log
+
+[program:llm]
+directory = llm
+command = python3 main.py
+startsecs = 5
+stopwaitsecs = 5
+autostart = true
+autorestart = true
+stdout_logfile = logs/supervisord/http-llm.log
+stderr_logfile = logs/supervisord/server-llm.log
+
+[program:memory]
+directory = memory
+command = python3 main.py
+startsecs = 5
+stopwaitsecs = 5
+autostart = true
+autorestart = true
+stdout_logfile = logs/supervisord/http-memory.log
+stderr_logfile = logs/supervisord/server-memory.log
+
+[program:rag]
+directory = rag
+command = python3 main.py
+startsecs = 5
+stopwaitsecs = 5
+autostart = true
+autorestart = true
+stdout_logfile = logs/supervisord/http-rag.log
+stderr_logfile = logs/supervisord/server-rag.log
+
+[program:self_media]
+directory = self_media
+command = python3 main.py
+startsecs = 5
+stopwaitsecs = 5
+autostart = true
+autorestart = true
+stdout_logfile = logs/supervisord/http-self_media.log
+stderr_logfile = logs/supervisord/server-self_media.log
+
+[program:web]
+directory = web
+command = python3 api.py
+startsecs = 5
+stopwaitsecs = 5
+autostart = true
+autorestart = true
+stdout_logfile = logs/supervisord/http-web.log
+stderr_logfile = logs/supervisord/server-web.log
+
+[supervisord]
+loglevel = info
+
+[supervisorctl]
+serverurl = http://0.0.0.0:9001
+username = admin
+password = admin
+
+[inet_http_server]
+port = :9001
+username = admin
+password = admin
+
+[rpcinterface:supervisor]
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface

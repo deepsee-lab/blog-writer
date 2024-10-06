@@ -1,0 +1,146 @@
+2024-08-26 22:19:36.241 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/rag
+2024-08-26 22:19:36.308 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-08-26 22:19:36.309 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-26 22:19:36.309 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-26 22:19:36.744 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/rag
+2024-08-26 22:19:36.782 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-08-26 22:19:36.783 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-26 22:19:36.783 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-26 22:19:36.815 | INFO     | main:<module>:143 - Server is up and running.
+2024-08-26 22:19:36.815 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-26 22:19:36.815 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-26 22:36:28.814 | INFO     | main:inference:81 - run inference
+2024-08-26 22:36:28.814 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000111' top_k=10 threshold_value=0.0 messages=[MessageItem(role='user', content='介绍一下种子')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:36:29.738 | INFO     | main:inference:98 - retrieve_result: [[{'id': 1, 'distance': 0.28946980834007263, 'entity': {'text': ''}}, {'id': 0, 'distance': 0.28404945135116577, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}]]
+2024-08-26 22:36:29.738 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.28946980834007263
+text: 
+
+[2] distance: 0.28404945135116577
+text: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节
+```
+请回答`介绍一下种子`
+2024-08-26 22:36:29.738 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.28946980834007263\ntext: \n\n[2] distance: 0.28404945135116577\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n```\n请回答`介绍一下种子`'}]
+2024-08-26 22:36:30.233 | INFO     | main:inference:129 - rag_result: 抱歉，我是一个AI助手，并不是植物，请继续我的指导。如何为您提供帮助？
+2024-08-26 22:39:38.733 | INFO     | main:inference:81 - run inference
+2024-08-26 22:39:38.733 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000111' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='教师节决议是什么时候')] inference_service='ollama' model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:39:38.817 | INFO     | main:inference:98 - retrieve_result: [[{'id': 0, 'distance': 0.725868821144104, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.16623514890670776, 'entity': {'text': ''}}]]
+2024-08-26 22:39:38.818 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.725868821144104
+text: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节
+
+[2] distance: 0.16623514890670776
+text: 
+```
+请回答`教师节决议是什么时候`
+2024-08-26 22:39:38.818 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`'}]
+2024-08-26 22:39:43.001 | INFO     | main:inference:129 - rag_result: 由提供的文本信息可以得知教师节决议通过的实际日期是一九八五年的一月二十一日，因此可回答:
+
+教师节决议于一九八五年一月二十一日制定与通过,这之后的国务院会议决定设立10月份最后一个星期日作为教师节.
+2024-08-26 22:41:02.481 | INFO     | main:inference:81 - run inference
+2024-08-26 22:41:02.481 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000111' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='教师节决议是什么时候')] inference_service='ollama' model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:41:02.570 | INFO     | main:inference:98 - retrieve_result: [[{'id': 0, 'distance': 0.725868821144104, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.16623514890670776, 'entity': {'text': ''}}]]
+2024-08-26 22:41:02.570 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.725868821144104
+text: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节
+
+[2] distance: 0.16623514890670776
+text: 
+```
+请回答`教师节决议是什么时候`
+2024-08-26 22:41:02.570 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`'}]
+2024-08-26 22:41:03.835 | INFO     | main:inference:129 - rag_result: 根据提供的内容显示：
+
+```
+全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）
+```
+
+这是对于 `教师节决议通过的时间` 的回答。 该决定向读者说明，“全国人民代表大会常务委员会关于教师节的决定是于一九八五年的某一天（具体的会议日子为一月二十一日）通过。”所问到的内容“教师节是在什么时间和时候成立的”，对应答案中提到，教师节设立的具体时间发生在一九八五年的一月二十一日。
+2024-08-26 22:42:15.328 | INFO     | main:inference:81 - run inference
+2024-08-26 22:42:15.328 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000111' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='教师节决议是什么时候')] inference_service='ollama' model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:42:15.415 | INFO     | main:inference:98 - retrieve_result: [[{'id': 0, 'distance': 0.725868821144104, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.16623514890670776, 'entity': {'text': ''}}]]
+2024-08-26 22:42:15.415 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.725868821144104
+text: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节
+
+[2] distance: 0.16623514890670776
+text: 
+```
+请回答`教师节决议是什么时候`
+2024-08-26 22:42:15.415 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`'}]
+2024-08-26 22:42:16.431 | INFO     | main:inference:129 - rag_result: 根据文本内容得知：\"全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委会员认同意国务院关于建立teacher
+\
+的议论 ，决定将教师节设在九月十日。
+
+所以，教师节决议是1985年一月二十一日。
+2024-08-26 22:53:21.329 | INFO     | main:inference:81 - run inference
+2024-08-26 22:53:21.329 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000111' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='教师节决议是什么时候')] inference_service='ollama' model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:21.417 | INFO     | main:inference:98 - retrieve_result: [[{'id': 0, 'distance': 0.725868821144104, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.16623514890670776, 'entity': {'text': ''}}]]
+2024-08-26 22:53:21.417 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.725868821144104
+text: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节
+
+[2] distance: 0.16623514890670776
+text: 
+```
+请回答`教师节决议是什么时候`
+2024-08-26 22:53:21.417 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`'}]
+2024-08-26 22:53:22.410 | INFO     | main:inference:129 - rag_result: 根据给出的信息段落，“全国人民代表大会常务委员会关于教师节的决定”在“一九八五年一月二十一日通过”。这意味着该关于设立教师节日的决策是在1985年1月21日被接受并通过的。所以教师决议通过的时间是1985年1月21日。
+2024-08-26 22:53:38.159 | INFO     | main:inference:81 - run inference
+2024-08-26 22:53:38.159 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000111' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='教师节决议是什么时候')] inference_service='ollama' model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:38.244 | INFO     | main:inference:98 - retrieve_result: [[{'id': 0, 'distance': 0.725868821144104, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.16623514890670776, 'entity': {'text': ''}}]]
+2024-08-26 22:53:38.244 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.725868821144104
+text: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节
+
+[2] distance: 0.16623514890670776
+text: 
+```
+请回答`教师节决议是什么时候`
+2024-08-26 22:53:38.245 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`'}]
+2024-08-26 22:53:40.950 | INFO     | main:inference:129 - rag_result: 基于你提供的信息和问题，
+
+关于你的问题“{`Teacher's Day decision was made what time?`} {教师节决议是何时的?}`, 根据文本`全国[r e]{r N g o u}人民代表大会常[t m]{t ā}常务[{C i]{Cǐ}}委员会[w y r]关于教师[k ]{j i }节{k }决议{j ì}（一九八五[e {r}]五[g ^]{g# }月[m e][`y t n i d`]?){[y i w g`]}六[n _e c o]{n_ h g?1天[h z c y m g r]}通过[j ]`,`
+
+我们可以看出决议是通过于一九八五年一月二十一日. 因此，
+Teacher's\]Day\) decision was\) made\)on\) January 28),^\) the one^{w e}[^t^i ][o]w i h [yi g^h#], \(fourh[ r ^y t]{16^f}?^e r^i d[?g ? c^] [k g]^s \[ o].^\)
+
+翻译并理解此内容，“教师节决议是在一九八五年一月二十一日被采纳的。”
+2024-08-26 22:53:49.889 | INFO     | main:inference:81 - run inference
+2024-08-26 22:53:49.889 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000111' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='教师节决议是什么时候')] inference_service='ollama' model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:49.973 | INFO     | main:inference:98 - retrieve_result: [[{'id': 0, 'distance': 0.725868821144104, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.16623514890670776, 'entity': {'text': ''}}]]
+2024-08-26 22:53:49.973 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.725868821144104
+text: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节
+
+[2] distance: 0.16623514890670776
+text: 
+```
+请回答`教师节决议是什么时候`
+2024-08-26 22:53:49.973 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`'}]
+2024-08-26 22:53:52.453 | INFO     | main:inference:129 - rag_result: 中华人民共和国全国人民代表大会常务委员会关于建立教师节的决定是于一九八五年一月二十一日通过的。在这个文本中提到了“第六届全国人民代表大会常务委员会第九次会议”，这描述的是作出这一决定了当时的法律途径。
+
+如果“距离[1]”这个术语指的是某些与文本关联度或文本特征的距离计量方法，则数值比较结果显示（文本）1相对离题目（教师节决议什么时候被提及？问题）“较远”。但根据给出的句子信息本身来说：
+
+“全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）"
+
+这明显表明这个决策过程发生在公元一九八五年。
+
+需要注意的是，"距离 [值] 在此并未作为一个特定指标解读和应用于上下文中去解答问题。它是无关紧要或是被错误表述的对象。”教师节得以设定的决定实际日期“一九八五年一月二十一日”是从文本中解析得来的答案，而不考虑所谓“距离”的信息进行讨论。
+
+综上，根据所给出的有效文字内容推断出"教师节决策设立的时间是1985年。"
+2024-08-26 22:54:25.592 | INFO     | main:inference:81 - run inference
+2024-08-26 22:54:25.592 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000111' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='教师节决议是什么时候')] inference_service='ollama' model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:54:25.682 | INFO     | main:inference:98 - retrieve_result: [[{'id': 0, 'distance': 0.725868821144104, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.16623514890670776, 'entity': {'text': ''}}]]
+2024-08-26 22:54:25.682 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.725868821144104
+text: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节
+
+[2] distance: 0.16623514890670776
+text: 
+```
+请回答`教师节决议是什么时候`
+2024-08-26 22:54:25.682 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`'}]
+2024-08-26 22:54:26.951 | INFO     | main:inference:129 - rag_result: 查询的信息条有关于教师节决议时间的具体表述：
+
+通过给出的距离可以大致评估文本相关性。较低的“distance”说明文本与相关信息更具密切相关性。基于这个数据，“教师节决议”的公布时间为1985年的一月份，在该月进行的是第六十三届全国人民代表大会常务委员举行的第九次会议。最终确定为 1985年1月21日。这段文字阐述了正式同意并设立了将九月十日（当天也是中国纪念教师的节日）列为“教师节”决策的信息内容。

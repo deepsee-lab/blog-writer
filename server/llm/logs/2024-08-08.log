@@ -1,0 +1,41 @@
+2024-08-08 00:00:31.467 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-08 00:00:31.467 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n        # 用户输入\n        教师节建立的议案是什么时候建立的\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-08 08:58:51.827 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 08:58:51.832 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-08 08:58:51.832 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 08:58:51.832 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 08:58:52.257 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 08:58:52.261 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-08 08:58:52.261 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 08:58:52.261 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 08:58:52.276 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-08 08:58:52.276 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 08:58:52.276 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 09:06:41.911 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 09:06:41.916 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-08 09:06:41.916 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:06:41.917 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 09:06:42.429 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 09:06:42.434 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-08 09:06:42.434 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:06:42.434 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 09:06:42.446 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-08 09:06:42.446 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:06:42.446 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 09:12:15.934 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 09:12:15.939 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-08 09:12:15.939 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:12:15.939 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 09:12:16.395 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-08 09:12:16.404 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-08 09:12:16.404 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:12:16.404 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 09:12:16.440 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-08 09:12:16.440 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-08 09:12:16.441 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-08 19:03:48.031 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-08 19:03:48.032 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n        # 用户输入\n        教师节决议的建立时间\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-08 19:28:59.299 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-08 19:28:59.299 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：\u3000\u3000（九）稳定性是指一个植物品种经过反复繁殖后或者在特定繁殖周期结束时，其主要性状保持不变\n\n        # 用户输入\n        请解释一下种子的稳定性\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-08 19:31:36.297 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-08 19:31:36.297 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='\n        # 目标\n        你的任务是根据已知内容回答问题，已知：\u3000\u3000禁止抢采掠青、损坏母树，禁止在劣质林内、劣质母树上采集种子\n\n        # 用户输入\n        抢采掠青、损坏母树或者在劣质林内、劣质母树上采种的行为，会有什么后果\n        ')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60

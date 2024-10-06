@@ -1,0 +1,11 @@
+2024-08-29 19:23:02.464 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-29 19:23:02.474 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-29 19:23:02.475 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-29 19:23:02.475 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-29 19:23:03.288 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-29 19:23:03.298 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-29 19:23:03.298 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-29 19:23:03.298 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-29 19:23:03.322 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-29 19:23:03.323 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-29 19:23:03.323 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.

@@ -1,0 +1,76 @@
+2024-08-04 22:18:06.720 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:18:06.725 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-04 22:18:06.725 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:18:06.726 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:18:07.044 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:18:07.049 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-04 22:18:07.049 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:18:07.049 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:18:07.071 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-04 22:18:07.072 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:18:07.072 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:18:14.508 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/202310.docx'
+2024-08-04 22:19:39.125 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/202310.docx'
+2024-08-04 22:21:18.656 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/202310.docx'
+2024-08-04 22:23:29.887 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:23:29.894 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-04 22:23:29.894 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:23:29.895 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:23:30.226 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:23:30.231 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-04 22:23:30.231 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:23:30.231 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:23:30.242 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-04 22:23:30.242 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:23:30.242 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:23:47.187 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/home/lnform/202310.docx'
+2024-08-04 22:27:43.645 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:27:43.650 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-04 22:27:43.650 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:27:43.650 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:27:43.975 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:27:43.980 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-04 22:27:43.980 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:27:43.980 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:27:43.991 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-04 22:27:43.991 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:27:43.991 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:28:00.179 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/home/lnform/202310.docx'
+2024-08-04 22:42:57.700 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:42:57.706 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-04 22:42:57.706 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:42:57.707 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:42:58.016 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:42:58.021 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-04 22:42:58.021 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:42:58.021 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:42:58.029 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-04 22:42:58.029 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:42:58.030 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:43:37.790 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/home/lnform/202310.docx'
+2024-08-04 22:45:34.125 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:45:34.130 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-04 22:45:34.130 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:45:34.131 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:45:34.443 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:45:34.448 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-04 22:45:34.448 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:45:34.448 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:45:34.466 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-04 22:45:34.466 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:45:34.466 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:46:12.236 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-04 22:46:12.543 | INFO     | apps.document.views:docx_to_text:59 - result: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节。
+2024-08-04 22:49:15.750 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:49:15.755 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-04 22:49:15.755 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:49:15.755 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:49:16.077 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-04 22:49:16.081 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-04 22:49:16.081 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:49:16.082 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:49:16.111 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-04 22:49:16.112 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-04 22:49:16.112 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-04 22:49:24.939 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-04 22:49:24.949 | INFO     | apps.document.views:docx_to_text:59 - result: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节。

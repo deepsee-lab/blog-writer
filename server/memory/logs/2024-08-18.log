@@ -1,0 +1,11 @@
+2024-08-18 08:16:02.679 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-18 08:16:02.686 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-18 08:16:02.686 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-18 08:16:02.686 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-18 08:16:03.236 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-18 08:16:03.243 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-18 08:16:03.243 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-18 08:16:03.243 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-18 08:16:03.259 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-18 08:16:03.259 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-18 08:16:03.259 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6020/docs to test.

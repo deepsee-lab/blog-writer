@@ -1,0 +1,37 @@
+2024-08-09 19:13:30.779 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-09 19:13:30.785 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-09 19:13:30.785 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:13:30.785 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 19:13:31.311 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-09 19:13:31.317 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-09 19:13:31.317 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:13:31.317 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 19:13:31.343 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-09 19:13:31.343 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:13:31.344 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 19:15:15.528 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-09 19:15:15.535 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-09 19:15:15.536 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:15:15.536 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 19:15:16.105 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-09 19:15:16.111 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-09 19:15:16.111 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:15:16.111 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 19:15:16.124 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-09 19:15:16.124 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:15:16.124 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 19:15:30.127 | INFO     | apps.vector_database.views:search:217 - run search
+2024-08-09 19:15:30.127 | INFO     | apps.vector_database.views:search:218 - kb_id='uuid0000000000000000000000000110' query='你好' top_k=5 output_fields=['text']
+2024-08-09 19:33:51.785 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-09 19:33:51.791 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-09 19:33:51.791 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:33:51.792 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 19:33:52.333 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-09 19:33:52.339 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-09 19:33:52.339 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:33:52.340 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 19:33:52.370 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-09 19:33:52.370 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-09 19:33:52.370 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-09 20:21:22.883 | INFO     | apps.vector_database.views:search:217 - run search
+2024-08-09 20:21:22.883 | INFO     | apps.vector_database.views:search:218 - kb_id='uuid0000000000000000000000000111' query='介绍一下种子的稳定性' top_k=5 output_fields=['text']
