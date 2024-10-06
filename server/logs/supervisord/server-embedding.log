@@ -974,3 +974,5 @@ INFO:     Started reloader process [676] using WatchFiles
 INFO:     Started server process [1019]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+2024-10-06 19:54:34.442 | INFO     | main:inference_mul:59 - run inference_mul
+2024-10-06 19:54:34.442 | INFO     | main:inference_mul:63 - sentences:['介绍一下名额分配的方案']

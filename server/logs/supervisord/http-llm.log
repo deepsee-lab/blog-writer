@@ -88,3 +88,4 @@ INFO:     127.0.0.1:40104 - "POST /private/inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:35748 - "POST /private/inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:42938 - "POST /private/inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:41418 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41422 - "POST /private/inference HTTP/1.1" 200 OK

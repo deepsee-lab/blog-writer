@@ -9,3 +9,8 @@
 2024-10-06 19:12:24.000 | INFO     | main:<module>:39 - Server is up and running.
 2024-10-06 19:12:24.000 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6020 to verify.
 2024-10-06 19:12:24.000 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-10-06 19:38:44.914 | INFO     | apps.vector_database.views:kb_list_all:79 - run kb_list_all
+2024-10-06 19:38:49.192 | INFO     | apps.vector_database.views:kb_list_all:79 - run kb_list_all
+2024-10-06 19:54:34.438 | INFO     | apps.vector_database.views:search:205 - run search
+2024-10-06 19:54:34.439 | INFO     | apps.vector_database.views:search:206 - kb_id='uuid0000000000000000000000000012' query='介绍一下名额分配的方案' top_k=5 output_fields=['text']
+2024-10-06 19:55:18.425 | INFO     | apps.vector_database.views:kb_list_all:79 - run kb_list_all

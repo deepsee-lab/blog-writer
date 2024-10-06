@@ -233,3 +233,7 @@ INFO:     127.0.0.1:59574 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
 INFO:     127.0.0.1:56054 - "POST /vector/search HTTP/1.1" 200 OK
 INFO:     127.0.0.1:47604 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
 INFO:     127.0.0.1:57930 - "POST /vector/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38178 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38190 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42774 - "POST /vector/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34042 - "GET /vector/kb_list_all HTTP/1.1" 200 OK

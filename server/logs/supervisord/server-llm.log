@@ -776,3 +776,5 @@ INFO:     Started reloader process [678] using WatchFiles
 INFO:     Started server process [821]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+2024-10-06 19:54:35.202 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-06 19:54:35.202 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.5726617574691772\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[2] distance: 0.5726617574691772\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[3] distance: 0.5349026918411255\ntext:  第 六 十 七 条 国 家 支', '有 关 规 定 给 予 扶 持 \n\n[4] distance: 0.5283462405204773\ntext:  对 品 种 选 育 、 生 产 、 示 范 推 广 、 种 质 资 源 保 护 、 种 子 储 备 以 及 制 种 大 县 给 予 扶 持 \n\n[5] distance: 0.5062547922134399\ntext:  第 三 章 品 种 选 育', '、 林 业 主 管 部 门 批 准 \n```\n请回答`介绍一下名额分配的方案`")] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
