@@ -1,0 +1,270 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+{% endblock %}
+{% block content %}
+
+    <div class="pagetitle">
+      <h1>Draft add</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/weibo_UI/index">Home</a></li>
+          <li class="breadcrumb-item">AI</li>
+          <li class="breadcrumb-item active">Draft add</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div >
+          <div class="row">
+
+            <!-- Recent task -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Filter</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Week</a></li>
+                    <li><a class="dropdown-item" href="#">This Month</a></li>
+                    <li><a class="dropdown-item" href="#">This Year</a></li>
+                  </ul>
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">AI <span>| fighting</span></h5>
+                  <div class="col-sm-3">
+                    <select id="type_select" name="type_name_select" class="form-select" aria-label="Default select example">
+                      <option value="-1">--请选择模型框架--</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-3">
+                    <select id="model_select" name="choose_select" class="form-select" aria-label="Default select example">
+                      <option value="-1">--请选择模型名称--</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-13">
+                    <label for="format">请选择文章风格:</label>
+                    <select id="format" name="format" class="form-select" aria-label="Default select example">
+                      <option value="-1">--select_format--</option>
+                      <option value="2">--小红书--</option>
+                      <option value="3">--公众号--</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-16">
+                    <label for="Title">Title:</label>
+                    <input type="text" id="Title" name="Title"  size="30" />
+                    <button id="generate" type="submit" class="btn btn-primary">AI Generate</button>
+                  </div>
+                  <div class="col-sm-13">
+                    <label for="pic_file">请选择封面图片:</label>
+                    <select id="pic_file" name="pic_file" class="form-select" aria-label="Default select example">
+                      <option value="-1">--select_pic_file--</option>
+                    </select>
+                  </div>
+                  <label for="digest" class="col-sm-2 col-form-label">摘要</label>
+                    <div class="col-sm-20">
+                        <textarea class="form-control" style="height: 100px" id="digest"></textarea>
+                    </div>
+                  <label for="content" class="col-sm-2 col-form-label">content</label>
+                    <div class="col-sm-20">
+                        <textarea class="form-control" style="height: 100px" id="content"></textarea>
+                    </div>
+                    <div class="col-sm-16">
+                      <label for="content_source_url">阅读原文地址:</label>
+                      <input type="text" id="content_source_url" name="content_source_url"  size="30" />
+                    </div>
+                      <div class="col-sm-3">
+                        <button id="submit_draft" type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                    
+                </div>
+                
+              </div>
+            </div><!-- End Recent Sales -->
+
+          </div>
+        </div><!-- End Left side columns -->
+
+        
+
+      </div>
+    </section>
+
+{% endblock %}
+
+{% block js %}
+<script src="/weibo_UI/static/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+
+  $(function () {
+      //页面框架加载完成后代码自动执行
+      bindBtn1Event_Task();
+  })
+  function bindBtn1Event_Task(){
+    $("#submit_draft").click(function () {
+        var Title = document.getElementById("Title").value; // 获取输入框中的值
+        var thumb_media_id = document.getElementById("pic_file").value; // 获取输入框中的值
+        var digest = document.getElementById("digest").value; // 获取输入框中的值
+        var content = document.getElementById("content").value; // 获取输入框中的值
+        var content_source_url = document.getElementById("content_source_url").value; // 获取输入框中的值
+        console.log(thumb_media_id)
+        console.log(content)
+        console.log(Title)
+          if (thumb_media_id=="") {
+            alert('thumb_media_id 请填写!')
+          } else if (Title=="") {
+            alert('Title 请填写!')
+        } else if (content=="") {
+            alert('content 请填写!')
+          } else if (digest=="") {
+            alert('digest 请填写!')
+          } else if (content_source_url=="") {
+            alert('content_source_url 请填写!')
+          } else {
+            $.ajax({
+                url:"/weibo_UI/draft_add",
+                type:"post",
+                data:JSON.stringify({'Type':'submit','thumb_media_id':thumb_media_id,'Title':Title,'content':content,'digest':digest,'content_source_url':content_source_url}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                    if (choose_dict['result']) {
+                        alert('成功添加');
+                    } else {
+                        alert('处理失败');
+                    }
+                },
+
+            })
+          }
+
+      })
+      $("#pic_file").click(function () {
+        count = $('#pic_file').find('option').length
+          if (count<=1) {
+            $.ajax({
+                url:"/weibo_UI/draft_add",
+                type:"post",
+                data:JSON.stringify({'Type':'selec_pic'}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                  file_list=choose_dict['content']
+                      $("#pic_file").find("option").remove();
+                      count = $('#pic_file').find('option').length
+                      $.each(file_list, function(index,item) {
+                        pic=item['pic'];
+                        thumb_media_id=item['thumb_media_id'];
+                        console.log(pic)
+                        console.log(thumb_media_id)
+                        $("#pic_file").append(  //此处向select中循环绑定数据
+                        "<option value="+thumb_media_id+">" + pic+ "</option>");
+                        
+                      });
+                },
+              
+            })
+           }
+        })
+        $("#generate").click(function () {
+        var Title = document.getElementById("Title").value; // 获取输入框中的值
+        var format = document.getElementById("format").value; // 获取输入框中的值
+        var digest = document.getElementById("digest").value; // 获取输入框中的值
+        var type_name = document.getElementById("type_select").value; // 获取输入框中的值
+        var model_name = document.getElementById("model_select").value; // 获取输入框中的值
+        console.log(Title)
+          if (Title=="") {
+            alert('Title 请填写!')
+          } else if (format=="-1") {
+            alert('format 请选择!')
+          } else if (digest=="") {
+            alert('digest 请填写!')
+          } else if (type_name=="-1") {
+            alert('type_name 请选择!')
+          } else if (model_name=="-1") {
+            alert('model_name 请选择!')
+          } else {
+            $.ajax({
+                url:"/weibo_UI/draft_add",
+                type:"post",
+                data:JSON.stringify({'Type':'generate','Title':Title,'format':format,'digest':digest,'type_name':type_name,'model_name':model_name}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                    if (choose_dict['result']) {
+                      document.getElementById("content").innerHTML = choose_dict['res_result'];
+                    } else {
+                        alert('处理失败');
+                    }
+                },
+
+            })
+          }
+
+      })
+      $("#type_select").click(function () {
+          type_name='choose_type'
+          console.log('hello1')
+          count = $('#type_select').find('option').length
+          if (count<=1) {
+            $.ajax({
+                url:"/weibo_UI/choose_model_post",
+                type:"post",
+                data:JSON.stringify({'type_name':type_name}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                  file_list=choose_dict['content']
+                      $("#type_select").find("option").remove();
+                      count = $('#type_select').find('file_list').length
+                      console.log(count)
+                      $.each(file_list, function(index,item) {
+                        if (!count) {
+                          $("#type_select").append(  //此处向select中循环绑定数据
+                          "<option value="+item+">" + item+ "</option>");
+                        }
+                      });
+                },
+              
+            })
+          }
+
+      })
+      $("#model_select").click(function () {
+          type_name='choose_model'
+          var type_select = document.getElementById("type_select").value;
+          count = $('#model_select').find('option').length
+          if (count<=1) {
+            $.ajax({
+                url:"/weibo_UI/choose_model_post",
+                type:"post",
+                data:JSON.stringify({'type_name':type_name,'type_select':type_select}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                  file_list=choose_dict['content']
+                      $("#model_select").find("option").remove();
+                      count = $('#model_select').find('file_list').length
+                      console.log(count)
+                      $.each(file_list, function(index,item) {
+                        if (!count) {
+                          $("#model_select").append(  //此处向select中循环绑定数据
+                          "<option value="+item+">" + item+ "</option>");
+                        }
+                      });
+                },
+              
+            })
+          }
+
+      })
+  }
+
+</script>
+
+{% endblock %}

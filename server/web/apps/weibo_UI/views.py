@@ -3,6 +3,7 @@
 import sqlite3,os,json,re,requests,uuid,urllib.request,datetime,pyperclip
 # Related third party imports.
 from flask import Flask, Blueprint,render_template,request,jsonify,url_for,current_app,session,redirect,g
+from flask_cors import CORS, cross_origin
 from functools import wraps
 from loguru import logger
 from werkzeug.utils import secure_filename
@@ -11,7 +12,6 @@ from extends import (
 )
 # Local application/library specific imports.
 from apps.weibo_UI.rag_run import *
-from apps.weibo_UI.models import weibo_UI_Model,weibo_Pic_add_Model,weibo_Vedio_add_Model,weibo_wpp_add_draft_Model,weibo_file_change_Model,weibo_UserInfo
 
 bp = Blueprint("weibo_UI", __name__, url_prefix='/weibo_UI',static_folder='static',template_folder='templates')
 
@@ -167,4 +167,26 @@ def model_list_all():
         result['code']=verify_code
         result['data']=model_list
     return result
+
+@bp.route('/api/v1/KB/upload',methods=['GET','POST'] )
+@cross_origin()
+def KB_upload_file():
+    if request.method == "POST":
+        result={}
+        if 'file' not in request.files:
+            message='No file part'
+            status=400
+        file = request.files['file']
+        if file.filename == '':
+            message='No selected file'
+            status= 400
+        if file:
+            file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], file.filename))
+            message='File uploaded successfully'
+            status=200
+        result['message']=message
+        result['status']=status
+        result['code']=verify_code
+        print(result)
+        return result
 #############################################

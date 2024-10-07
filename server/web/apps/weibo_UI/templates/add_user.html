@@ -1,0 +1,119 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+{% endblock %}
+{% block content %}
+
+    <div class="pagetitle">
+      <h1>Form Add user</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/weibo_UI/home/">Home</a></li>
+          <li class="breadcrumb-item">管理账号</li>
+          <li class="breadcrumb-item active">添加用户</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+    <section class="section">
+      <div class="row">
+        <div >
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Add user Form</h5>
+
+              <!-- Horizontal Form -->
+              <form>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Your Name</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputText" placeholder="Example : Alice_Liu">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword">
+                  </div>
+                </div>
+                <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="man" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        man
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="women">
+                      <label class="form-check-label" for="gridRadios2">
+                        woman
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="other" disabled>
+                      <label class="form-check-label" for="gridRadios3">
+                        Other
+                      </label>
+                    </div>
+                  </div>
+                </fieldset>
+                <div class="text-center">
+                  <button id="btn1_submit_userinfo" type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+              </form><!-- End Horizontal Form -->
+
+            </div>
+          </div>
+
+        </div>
+
+          
+      </div>
+    </section>
+
+{% endblock %}
+
+{% block js %}
+
+  <!-- ajax JS File -->
+  <script src="/weibo_UI/static/js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript">
+
+    $(function () {
+        //页面框架加载完成后代码自动执行
+        bindBtn1Event();
+
+    })
+    function bindBtn1Event(){
+        $("#btn1_submit_userinfo").click(function () {
+            var UserName = document.getElementById("inputText").value; // 获取输入框中的值
+            var Pwd = document.getElementById("inputPassword").value; // 获取输入框中的值
+            var Gender1 = $("input[name = 'gridRadios']:checked").val();
+            console.log(UserName)
+            console.log(Pwd)
+            console.log(Gender1)
+            if (UserName=="" || Pwd=="" ) {
+            alert(' 请填写!')
+          } else {
+            $.ajax({
+                url:"/weibo_UI/add_user",
+                type:"post",
+                data:JSON.stringify({'UserName':UserName,'Pwd':Pwd,'Gender1':Gender1}),
+                contentType: 'application/json; charset=UTF-8',
+                success: function(choose_dict) {
+                    if (choose_dict['result']) {
+                        alert('添加成功');
+                    } else {
+                        alert('添加失败');
+                    }
+                },
+            })
+          }
+        })
+    }
+
+  </script>
+{% endblock %}

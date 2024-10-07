@@ -3928,3 +3928,51 @@ requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:9020
 [33mPress CTRL+C to quit[0m
+2024-10-07 10:10:36.057 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/api.py", line 14, in <module>
+    from apps.weibo_UI.models import weibo_UI_Model
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/__init__.py", line 3, in <module>
+    from apps.weibo_UI.views import bp
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/views.py", line 14, in <module>
+    from apps.weibo_UI.models import weibo_UI_Model,weibo_Pic_add_Model,weibo_Vedio_add_Model,weibo_wpp_add_draft_Model,weibo_file_change_Model,weibo_UserInfo
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/models.py", line 38
+    >>>>>>> 4c162b985a5611444e38ac9391c9d91b0e03da71
+            ^
+SyntaxError: invalid decimal literal
+2024-10-07 10:10:37.651 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/api.py", line 14, in <module>
+    from apps.weibo_UI.models import weibo_UI_Model
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/__init__.py", line 3, in <module>
+    from apps.weibo_UI.views import bp
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/views.py", line 14, in <module>
+    from apps.weibo_UI.models import weibo_UI_Model,weibo_Pic_add_Model,weibo_Vedio_add_Model,weibo_wpp_add_draft_Model,weibo_file_change_Model,weibo_UserInfo
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/models.py", line 38
+    >>>>>>> 4c162b985a5611444e38ac9391c9d91b0e03da71
+            ^
+SyntaxError: invalid decimal literal
+2024-10-07 10:10:40.217 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/api.py", line 14, in <module>
+    from apps.weibo_UI.models import weibo_UI_Model
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/__init__.py", line 3, in <module>
+    from apps.weibo_UI.views import bp
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/views.py", line 14, in <module>
+    from apps.weibo_UI.models import weibo_UI_Model,weibo_Pic_add_Model,weibo_Vedio_add_Model,weibo_wpp_add_draft_Model,weibo_file_change_Model,weibo_UserInfo
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/models.py", line 38
+    >>>>>>> 4c162b985a5611444e38ac9391c9d91b0e03da71
+            ^
+SyntaxError: invalid decimal literal
+2024-10-07 10:10:44.033 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/api.py", line 14, in <module>
+    from apps.weibo_UI.models import weibo_UI_Model
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/__init__.py", line 3, in <module>
+    from apps.weibo_UI.views import bp
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/views.py", line 14, in <module>
+    from apps.weibo_UI.models import weibo_UI_Model,weibo_Pic_add_Model,weibo_Vedio_add_Model,weibo_wpp_add_draft_Model,weibo_file_change_Model,weibo_UserInfo
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/models.py", line 38
+    >>>>>>> 4c162b985a5611444e38ac9391c9d91b0e03da71
+            ^
+SyntaxError: invalid decimal literal
