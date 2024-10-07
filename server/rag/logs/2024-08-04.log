@@ -1,0 +1,43 @@
+2024-08-04 22:53:09.519 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/rag
+2024-08-04 22:53:09.562 | INFO     | __main__:<module>:116 - Server is up and running.
+2024-08-04 22:53:09.562 | INFO     | __main__:<module>:117 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-04 22:53:09.562 | INFO     | __main__:<module>:118 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-04 22:53:09.851 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/rag
+2024-08-04 22:53:09.890 | INFO     | __mp_main__:<module>:116 - Server is up and running.
+2024-08-04 22:53:09.891 | INFO     | __mp_main__:<module>:117 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-04 22:53:09.891 | INFO     | __mp_main__:<module>:118 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-04 22:53:09.906 | INFO     | main:<module>:116 - Server is up and running.
+2024-08-04 22:53:09.907 | INFO     | main:<module>:117 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-04 22:53:09.907 | INFO     | main:<module>:118 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-04 22:53:50.785 | INFO     | main:inference:78 - run inference
+2024-08-04 22:53:50.785 | INFO     | main:inference:79 - item: messages=[MessageItem(role='user', content='教师节是几号')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60 rag=False kb_id='uuid0000000000000000000000000000' history_count=10 top_k=10 threshold_value=0.0 retrieve_only=False
+2024-08-04 22:53:50.842 | INFO     | main:inference:90 - retrieve_result: [[{'id': 0, 'distance': 0.6818814873695374, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.32622990012168884, 'entity': {'text': ''}}]]
+2024-08-04 22:55:28.963 | INFO     | main:inference:78 - run inference
+2024-08-04 22:55:28.964 | INFO     | main:inference:79 - item: messages=[MessageItem(role='user', content='教师节是几号')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60 rag=False kb_id='uuid0000000000000000000000000000' history_count=10 top_k=10 threshold_value=0.0 retrieve_only=False
+2024-08-04 22:55:29.018 | INFO     | main:inference:90 - retrieve_result: [[{'id': 0, 'distance': 0.6818814873695374, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.32622990012168884, 'entity': {'text': ''}}]]
+2024-08-04 22:57:11.785 | INFO     | main:inference:78 - run inference
+2024-08-04 22:57:11.785 | INFO     | main:inference:79 - item: messages=[MessageItem(role='user', content='教师节是几号')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60 rag=False kb_id='uuid0000000000000000000000000000' history_count=10 top_k=10 threshold_value=0.0 retrieve_only=False
+2024-08-04 22:57:11.795 | INFO     | main:inference:90 - retrieve_result: [[{'id': 0, 'distance': 0.6818814873695374, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.32622990012168884, 'entity': {'text': ''}}]]
+2024-08-04 23:06:19.738 | INFO     | main:inference:78 - run inference
+2024-08-04 23:06:19.739 | INFO     | main:inference:79 - item: messages=[MessageItem(role='user', content='教师节是几号')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60 rag=False kb_id='uuid0000000000000000000000000000' history_count=10 top_k=10 threshold_value=0.0 retrieve_only=False
+2024-08-04 23:06:19.791 | INFO     | main:inference:90 - retrieve_result: [[{'id': 0, 'distance': 0.6818814873695374, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.32622990012168884, 'entity': {'text': ''}}]]
+2024-08-04 23:07:14.983 | INFO     | main:inference:78 - run inference
+2024-08-04 23:07:14.984 | INFO     | main:inference:79 - item: messages=[MessageItem(role='user', content='教师节是几号')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60 rag=False kb_id='uuid0000000000000000000000000000' history_count=10 top_k=10 threshold_value=0.0 retrieve_only=False
+2024-08-04 23:07:14.996 | INFO     | main:inference:90 - retrieve_result: [[{'id': 0, 'distance': 0.6818814873695374, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.32622990012168884, 'entity': {'text': ''}}]]
+2024-08-04 23:07:38.169 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/rag
+2024-08-04 23:07:38.217 | INFO     | __main__:<module>:116 - Server is up and running.
+2024-08-04 23:07:38.218 | INFO     | __main__:<module>:117 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-04 23:07:38.218 | INFO     | __main__:<module>:118 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-04 23:07:38.534 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/rag
+2024-08-04 23:07:38.569 | INFO     | __mp_main__:<module>:116 - Server is up and running.
+2024-08-04 23:07:38.570 | INFO     | __mp_main__:<module>:117 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-04 23:07:38.570 | INFO     | __mp_main__:<module>:118 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-04 23:07:38.599 | INFO     | main:<module>:116 - Server is up and running.
+2024-08-04 23:07:38.599 | INFO     | main:<module>:117 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-08-04 23:07:38.599 | INFO     | main:<module>:118 - Browse http://127.0.0.1:7020/docs to test.
+2024-08-04 23:07:53.949 | INFO     | main:inference:78 - run inference
+2024-08-04 23:07:53.950 | INFO     | main:inference:79 - item: messages=[MessageItem(role='user', content='教师节')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60 rag=False kb_id='uuid0000000000000000000000000000' history_count=10 top_k=10 threshold_value=0.0 retrieve_only=False
+2024-08-04 23:07:53.964 | INFO     | main:inference:90 - retrieve_result: [[{'id': 0, 'distance': 0.6838477849960327, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.37361201643943787, 'entity': {'text': ''}}]]
+2024-08-04 23:08:40.370 | INFO     | main:inference:78 - run inference
+2024-08-04 23:08:40.370 | INFO     | main:inference:79 - item: messages=[MessageItem(role='user', content='教师节')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60 rag=False kb_id='uuid0000000000000000000000000000' history_count=10 top_k=10 threshold_value=0.0 retrieve_only=False
+2024-08-04 23:08:40.399 | INFO     | main:inference:90 - retrieve_result: [[{'id': 0, 'distance': 0.6838477849960327, 'entity': {'text': '全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节'}}, {'id': 1, 'distance': 0.37361201643943787, 'entity': {'text': ''}}]]

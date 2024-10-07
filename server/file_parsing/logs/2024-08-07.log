@@ -1,0 +1,24 @@
+2024-08-07 17:24:20.628 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-07 17:24:20.634 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-07 17:24:20.634 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-07 17:24:20.634 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-07 17:24:20.947 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-07 17:24:20.954 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-07 17:24:20.954 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-07 17:24:20.954 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-07 17:24:20.990 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-07 17:24:20.990 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-07 17:24:20.990 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-07 20:20:42.844 | INFO     | apps.document.views:docx_to_json:36 - item: doc_id='001' doc_name='法律' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-07 21:57:00.301 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-07 21:57:00.310 | INFO     | apps.document.views:docx_to_text:59 - result: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节。
+2024-08-07 22:46:36.380 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-07 22:46:36.389 | INFO     | apps.document.views:docx_to_text:59 - result: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节。
+2024-08-07 22:50:01.579 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-07 22:50:01.593 | INFO     | apps.document.views:docx_to_text:59 - result: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节。
+2024-08-07 23:04:06.439 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-07 23:04:06.449 | INFO     | apps.document.views:docx_to_text:59 - result: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节。
+2024-08-07 23:05:00.389 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-07 23:05:00.401 | INFO     | apps.document.views:docx_to_text:59 - result: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节。
+2024-08-07 23:07:22.298 | INFO     | apps.document.views:docx_to_text:54 - item: doc_id='doc_id' doc_name='doc_name' doc_path='/mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/web/apps/weibo_UI/data/demo_small.docx'
+2024-08-07 23:07:22.310 | INFO     | apps.document.views:docx_to_text:59 - result: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节。

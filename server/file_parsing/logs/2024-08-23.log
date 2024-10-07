@@ -1,0 +1,22 @@
+2024-08-23 21:19:22.952 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-23 21:19:22.957 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-23 21:19:22.957 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-23 21:19:22.957 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-23 21:19:23.357 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-23 21:19:23.362 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-23 21:19:23.362 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-23 21:19:23.363 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-23 21:19:23.377 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-23 21:19:23.377 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-23 21:19:23.377 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-23 21:20:49.535 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-23 21:20:49.547 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-08-23 21:20:49.547 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-23 21:20:49.547 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-23 21:20:49.961 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/file_parsing
+2024-08-23 21:20:49.966 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-08-23 21:20:49.966 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-23 21:20:49.966 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-08-23 21:20:49.979 | INFO     | main:<module>:43 - Server is up and running.
+2024-08-23 21:20:49.979 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-08-23 21:20:49.979 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.

@@ -1,0 +1,35 @@
+2024-08-26 22:19:36.699 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-26 22:19:36.706 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-26 22:19:36.706 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-26 22:19:36.706 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-26 22:19:37.142 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-26 22:19:37.147 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-26 22:19:37.147 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-26 22:19:37.147 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-26 22:19:37.163 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-26 22:19:37.163 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-26 22:19:37.163 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-26 22:32:47.506 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:32:47.506 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='介绍一下种子')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:33:52.576 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:33:52.576 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='介绍一下种子')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:36:29.739 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:36:29.740 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.28946980834007263\ntext: \n\n[2] distance: 0.28404945135116577\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n```\n请回答`介绍一下种子`')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:39:38.819 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:39:38.819 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:41:02.571 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:41:02.571 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:42:15.416 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:42:15.416 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:49:06.280 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:49:06.280 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='教师节是什么时候')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:52:03.424 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:52:03.424 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='教师节决议是什么时候')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:21.418 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:53:21.419 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:38.246 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:53:38.246 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:53:49.974 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:53:49.975 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-08-26 22:54:25.684 | INFO     | apps.private.views:inference:40 - run inference
+2024-08-26 22:54:25.684 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.725868821144104\ntext: 全国人民代表大会常务委员会关于教师节的决定（一九八五年一月二十一日通过）第六届全国人民代表大会常务委员会第九次会议同意国务院关于建立教师节的议案，决定九月十日为教师节\n\n[2] distance: 0.16623514890670776\ntext: \n```\n请回答`教师节决议是什么时候`')] model='qwen2:7b' max_tokens=4096 stream=False temperature=0.8 timeout=60

@@ -1,0 +1,66 @@
+2024-08-25 10:45:17.703 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 10:45:17.708 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 10:45:17.709 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:45:17.709 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 10:45:18.207 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 10:45:18.212 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 10:45:18.212 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:45:18.212 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 10:45:18.229 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 10:45:18.229 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:45:18.229 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 10:47:09.933 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 10:47:09.938 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 10:47:09.938 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:47:09.938 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 10:47:10.401 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 10:47:10.406 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 10:47:10.406 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:47:10.406 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 10:47:10.418 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 10:47:10.418 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 10:47:10.418 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 21:59:15.294 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 21:59:15.300 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 21:59:15.300 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 21:59:15.300 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 21:59:15.761 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 21:59:15.766 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 21:59:15.766 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 21:59:15.766 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 21:59:15.781 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 21:59:15.781 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 21:59:15.781 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 22:37:44.736 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 22:37:44.740 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 22:37:44.741 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:37:44.741 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 22:37:45.240 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 22:37:45.246 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 22:37:45.246 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:37:45.246 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 22:37:45.265 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 22:37:45.265 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:37:45.265 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 22:54:10.086 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 22:54:10.091 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 22:54:10.091 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:54:10.092 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 22:54:10.542 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 22:54:10.549 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 22:54:10.549 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:54:10.549 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 22:54:10.564 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 22:54:10.564 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 22:54:10.564 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 23:00:37.563 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 23:00:37.571 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-25 23:00:37.571 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 23:00:37.571 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 23:00:38.068 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/llm
+2024-08-25 23:00:38.072 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-25 23:00:38.072 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 23:00:38.073 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-08-25 23:00:38.083 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-25 23:00:38.083 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-08-25 23:00:38.084 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.

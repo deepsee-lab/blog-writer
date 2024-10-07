@@ -1,0 +1,44 @@
+2024-08-26 22:19:36.843 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-26 22:19:36.850 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-08-26 22:19:36.850 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-26 22:19:36.850 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-26 22:19:37.421 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/weibo-writer-agent/weibo-writer-agent/server/memory
+2024-08-26 22:19:37.427 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-08-26 22:19:37.428 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-26 22:19:37.428 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-26 22:19:37.450 | INFO     | main:<module>:39 - Server is up and running.
+2024-08-26 22:19:37.450 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6020 to verify.
+2024-08-26 22:19:37.450 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6020/docs to test.
+2024-08-26 22:28:54.626 | INFO     | apps.vector_database.views:kb_list_all:78 - run kb_list_all
+2024-08-26 22:29:10.243 | INFO     | apps.vector_database.views:kb_list_all:78 - run kb_list_all
+2024-08-26 22:36:28.816 | INFO     | apps.vector_database.views:search:202 - run search
+2024-08-26 22:36:28.816 | INFO     | apps.vector_database.views:search:203 - kb_id='uuid0000000000000000000000000111' query='介绍一下种子' top_k=10 output_fields=['text']
+2024-08-26 22:39:38.735 | INFO     | apps.vector_database.views:search:202 - run search
+2024-08-26 22:39:38.735 | INFO     | apps.vector_database.views:search:203 - kb_id='uuid0000000000000000000000000111' query='教师节决议是什么时候' top_k=5 output_fields=['text']
+2024-08-26 22:41:02.482 | INFO     | apps.vector_database.views:search:202 - run search
+2024-08-26 22:41:02.483 | INFO     | apps.vector_database.views:search:203 - kb_id='uuid0000000000000000000000000111' query='教师节决议是什么时候' top_k=5 output_fields=['text']
+2024-08-26 22:42:15.329 | INFO     | apps.vector_database.views:search:202 - run search
+2024-08-26 22:42:15.329 | INFO     | apps.vector_database.views:search:203 - kb_id='uuid0000000000000000000000000111' query='教师节决议是什么时候' top_k=5 output_fields=['text']
+2024-08-26 22:53:21.330 | INFO     | apps.vector_database.views:search:202 - run search
+2024-08-26 22:53:21.331 | INFO     | apps.vector_database.views:search:203 - kb_id='uuid0000000000000000000000000111' query='教师节决议是什么时候' top_k=5 output_fields=['text']
+2024-08-26 22:53:38.160 | INFO     | apps.vector_database.views:search:202 - run search
+2024-08-26 22:53:38.160 | INFO     | apps.vector_database.views:search:203 - kb_id='uuid0000000000000000000000000111' query='教师节决议是什么时候' top_k=5 output_fields=['text']
+2024-08-26 22:53:49.890 | INFO     | apps.vector_database.views:search:202 - run search
+2024-08-26 22:53:49.891 | INFO     | apps.vector_database.views:search:203 - kb_id='uuid0000000000000000000000000111' query='教师节决议是什么时候' top_k=5 output_fields=['text']
+2024-08-26 22:54:25.593 | INFO     | apps.vector_database.views:search:202 - run search
+2024-08-26 22:54:25.594 | INFO     | apps.vector_database.views:search:203 - kb_id='uuid0000000000000000000000000111' query='教师节决议是什么时候' top_k=5 output_fields=['text']
+2024-08-26 23:21:56.359 | INFO     | apps.vector_database.views:kb_add_one:88 - run kb_add_one
+2024-08-26 23:21:56.359 | INFO     | apps.vector_database.views:kb_add_one:89 - kb_id='02d2f68d-6de4-41c3-8968-c6b58b31dcfd' kb_name='名额分配方案' kb_desc='第十三届全国人民代表大会代表名额分配方案_' vector_store_name='milvus' embedding_model_name='bge-large-zh-v1.5' dim=1024
+2024-08-26 23:22:17.194 | INFO     | apps.vector_database.views:kb_add_one:88 - run kb_add_one
+2024-08-26 23:22:17.194 | INFO     | apps.vector_database.views:kb_add_one:89 - kb_id='02d2f68d6de441c38968c6b58b31dcfd' kb_name='名额分配方案' kb_desc='第十三届全国人民代表大会代表名额分配方案_' vector_store_name='milvus' embedding_model_name='bge-large-zh-v1.5' dim=1024
+2024-08-26 23:25:58.865 | INFO     | apps.vector_database.views:kb_add_one:88 - run kb_add_one
+2024-08-26 23:25:58.865 | INFO     | apps.vector_database.views:kb_add_one:89 - kb_id='02d2f68d6de441c38968c6b58b31dcfd' kb_name='名额分配方案' kb_desc='第十三届全国人民代表大会代表名额分配方案_' vector_store_name='milvus' embedding_model_name='bge-large-zh-v1.5' dim=1024
+2024-08-26 23:26:12.006 | INFO     | apps.vector_database.views:kb_add_one:88 - run kb_add_one
+2024-08-26 23:26:12.006 | INFO     | apps.vector_database.views:kb_add_one:89 - kb_id='02d2f68d6de441c38968c6b58b31dcfd' kb_name='名额分配方案' kb_desc='第十三届全国人民代表大会代表名额' vector_store_name='milvus' embedding_model_name='bge-large-zh-v1.5' dim=1024
+2024-08-26 23:26:28.241 | INFO     | apps.vector_database.views:kb_add_one:88 - run kb_add_one
+2024-08-26 23:26:28.241 | INFO     | apps.vector_database.views:kb_add_one:89 - kb_id='02d2f68d6de441c38968c6b58b31dcfd' kb_name='名额分配方案' kb_desc='' vector_store_name='milvus' embedding_model_name='bge-large-zh-v1.5' dim=1024
+2024-08-26 23:27:56.732 | INFO     | apps.vector_database.views:kb_add_one:88 - run kb_add_one
+2024-08-26 23:27:56.733 | INFO     | apps.vector_database.views:kb_add_one:89 - kb_id='uuid0000000000000000000000000012' kb_name='名额分配方案' kb_desc='第十三届全国人民代表大会代表名额分配方案_' vector_store_name='milvus' embedding_model_name='bge-large-zh-v1.5' dim=1024
+2024-08-26 23:30:38.050 | INFO     | apps.vector_database.views:kb_add_one:88 - run kb_add_one
+2024-08-26 23:30:38.050 | INFO     | apps.vector_database.views:kb_add_one:89 - kb_id='bc47ff298d5b49d3aa07245a2f115acb' kb_name='国务院机构改革方案' kb_desc='第十四届全国人民代表大会第一次会议关于国务院机构改革方案的决定（附：国务院机构改革方案）_2023_03_10' vector_store_name='milvus' embedding_model_name='bge-large-zh-v1.5' dim=1024
+2024-08-26 23:31:07.404 | INFO     | apps.vector_database.views:kb_list_all:78 - run kb_list_all

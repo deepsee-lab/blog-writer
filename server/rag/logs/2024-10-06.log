@@ -1,0 +1,42 @@
+2024-10-06 19:12:22.826 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-10-06 19:12:22.882 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-10-06 19:12:22.883 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-06 19:12:22.883 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-10-06 19:12:23.371 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-10-06 19:12:23.411 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-10-06 19:12:23.411 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-06 19:12:23.411 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-10-06 19:12:23.445 | INFO     | main:<module>:143 - Server is up and running.
+2024-10-06 19:12:23.446 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-06 19:12:23.446 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-10-06 19:54:34.436 | INFO     | main:inference:81 - run inference
+2024-10-06 19:54:34.437 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='uuid0000000000000000000000000012' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='介绍一下名额分配的方案')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-06 19:54:35.186 | INFO     | main:inference:98 - retrieve_result: [[{'id': 20, 'distance': 0.5726617574691772, 'entity': {'text': ' 具 体 办 法 由 国 务 院 规 定 '}}, {'id': 18, 'distance': 0.5726617574691772, 'entity': {'text': ' 具 体 办 法 由 国 务 院 规 定 '}}, {'id': 256, 'distance': 0.5349026918411255, 'entity': {'text': " 第 六 十 七 条 国 家 支', '有 关 规 定 给 予 扶 持 "}}, {'id': 245, 'distance': 0.5283462405204773, 'entity': {'text': ' 对 品 种 选 育 、 生 产 、 示 范 推 广 、 种 质 资 源 保 护 、 种 子 储 备 以 及 制 种 大 县 给 予 扶 持 '}}, {'id': 36, 'distance': 0.5062547922134399, 'entity': {'text': " 第 三 章 品 种 选 育', '、 林 业 主 管 部 门 批 准 "}}]]
+2024-10-06 19:54:35.186 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.5726617574691772
+text:  具 体 办 法 由 国 务 院 规 定 
+
+[2] distance: 0.5726617574691772
+text:  具 体 办 法 由 国 务 院 规 定 
+
+[3] distance: 0.5349026918411255
+text:  第 六 十 七 条 国 家 支', '有 关 规 定 给 予 扶 持 
+
+[4] distance: 0.5283462405204773
+text:  对 品 种 选 育 、 生 产 、 示 范 推 广 、 种 质 资 源 保 护 、 种 子 储 备 以 及 制 种 大 县 给 予 扶 持 
+
+[5] distance: 0.5062547922134399
+text:  第 三 章 品 种 选 育', '、 林 业 主 管 部 门 批 准 
+```
+请回答`介绍一下名额分配的方案`
+2024-10-06 19:54:35.186 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': "已知```\n[1] distance: 0.5726617574691772\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[2] distance: 0.5726617574691772\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[3] distance: 0.5349026918411255\ntext:  第 六 十 七 条 国 家 支', '有 关 规 定 给 予 扶 持 \n\n[4] distance: 0.5283462405204773\ntext:  对 品 种 选 育 、 生 产 、 示 范 推 广 、 种 质 资 源 保 护 、 种 子 储 备 以 及 制 种 大 县 给 予 扶 持 \n\n[5] distance: 0.5062547922134399\ntext:  第 三 章 品 种 选 育', '、 林 业 主 管 部 门 批 准 \n```\n请回答`介绍一下名额分配的方案`"}]
+2024-10-06 19:54:40.355 | INFO     | main:inference:129 - rag_result: 这个文本主要描述了关于如何进行具体方法指定以及国务院的相关规定。对于您询问具体的优惠政策或其他政策，这段文本并没有直接或间接表述出来，并且可能与问的问题不符合。建议询问其他相关的文档、论文或者通知等更具有针对性的信息来源。在这里给出的文本中，并没有直接提及"如何分配名额"的问题。
+
+至于如何分享这种提问：根据所获取文本信息的意图，通常此类疑问可以追溯为以下几个领域：
+1. 如何处理政策法规；
+2. 高额资助标准的理解与把握；
+3. 不平等待遇在某种设定情境下的讨论和解析；
+
+但基于此段落没有足够的上下文，无法就给的具体项目"名额分配情况的方案制定或讨论情况进行明确回答。如果问题与此类型，应联系相关政策手册、文件内容或者官方论坛获得解答。
+
+如果您有兴趣进一步了解这种优惠政策的相关资料或者是具体的优惠政策规则，在获取更详细信息的同时，您应当留意这些政策文本背景以及相关的解释和解释性内容。
