@@ -12806,3 +12806,52 @@
 2024-10-06 19:12:27,502 INFO success: web entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
 2024-10-06 19:12:29,706 INFO waiting for web to stop
 2024-10-06 19:12:29,709 WARN stopped: web (terminated by SIGTERM)
+2024-10-07 10:10:34,894 INFO RPC interface 'supervisor' initialized
+2024-10-07 10:10:34,895 INFO daemonizing the supervisord process
+2024-10-07 10:10:34,896 INFO supervisord started with pid 780
+2024-10-07 10:10:35,901 INFO spawned: 'embedding' with pid 781
+2024-10-07 10:10:35,904 INFO spawned: 'file_parsing' with pid 782
+2024-10-07 10:10:35,909 INFO spawned: 'llm' with pid 783
+2024-10-07 10:10:35,911 INFO spawned: 'memory' with pid 784
+2024-10-07 10:10:35,914 INFO spawned: 'rag' with pid 785
+2024-10-07 10:10:35,916 INFO spawned: 'self_media' with pid 786
+2024-10-07 10:10:35,918 INFO spawned: 'web' with pid 787
+2024-10-07 10:10:36,349 WARN exited: web (exit status 1; not expected)
+2024-10-07 10:10:37,552 INFO spawned: 'web' with pid 1026
+2024-10-07 10:10:37,907 WARN exited: web (exit status 1; not expected)
+2024-10-07 10:10:40,087 INFO spawned: 'web' with pid 1124
+2024-10-07 10:10:40,454 WARN exited: web (exit status 1; not expected)
+2024-10-07 10:10:41,456 INFO success: embedding entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 10:10:41,456 INFO success: file_parsing entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 10:10:41,456 INFO success: llm entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 10:10:41,456 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 10:10:41,457 INFO success: rag entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 10:10:41,457 INFO success: self_media entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 10:10:43,932 INFO spawned: 'web' with pid 1195
+2024-10-07 10:10:44,207 WARN exited: web (exit status 1; not expected)
+2024-10-07 10:10:44,538 INFO gave up: web entered FATAL state, too many start retries too quickly
+2024-10-07 21:04:02,549 WARN received SIGTERM indicating exit request
+2024-10-07 21:04:02,549 INFO waiting for embedding, file_parsing, llm, memory, rag, self_media to die
+2024-10-07 21:04:03,773 INFO stopped: self_media (exit status 0)
+2024-10-07 21:04:03,966 INFO stopped: rag (exit status 0)
+2024-10-07 21:04:04,224 INFO stopped: memory (exit status 0)
+2024-10-07 21:04:04,384 INFO stopped: llm (exit status 0)
+2024-10-07 21:04:04,678 INFO stopped: file_parsing (exit status 0)
+2024-10-07 21:04:06,367 INFO stopped: embedding (exit status 0)
+2024-10-07 21:04:25,899 INFO RPC interface 'supervisor' initialized
+2024-10-07 21:04:25,900 INFO daemonizing the supervisord process
+2024-10-07 21:04:25,901 INFO supervisord started with pid 4519
+2024-10-07 21:04:26,907 INFO spawned: 'embedding' with pid 4520
+2024-10-07 21:04:26,911 INFO spawned: 'file_parsing' with pid 4521
+2024-10-07 21:04:26,914 INFO spawned: 'llm' with pid 4522
+2024-10-07 21:04:26,916 INFO spawned: 'memory' with pid 4523
+2024-10-07 21:04:26,918 INFO spawned: 'rag' with pid 4524
+2024-10-07 21:04:26,920 INFO spawned: 'self_media' with pid 4525
+2024-10-07 21:04:26,922 INFO spawned: 'web' with pid 4526
+2024-10-07 21:04:32,762 INFO success: embedding entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 21:04:32,762 INFO success: file_parsing entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 21:04:32,762 INFO success: llm entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 21:04:32,763 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 21:04:32,763 INFO success: rag entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 21:04:32,763 INFO success: self_media entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-10-07 21:04:32,763 INFO success: web entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)

@@ -778,3 +778,46 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 2024-10-06 19:54:35.202 | INFO     | apps.private.views:inference:40 - run inference
 2024-10-06 19:54:35.202 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content="已知```\n[1] distance: 0.5726617574691772\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[2] distance: 0.5726617574691772\ntext:  具 体 办 法 由 国 务 院 规 定 \n\n[3] distance: 0.5349026918411255\ntext:  第 六 十 七 条 国 家 支', '有 关 规 定 给 予 扶 持 \n\n[4] distance: 0.5283462405204773\ntext:  对 品 种 选 育 、 生 产 、 示 范 推 广 、 种 质 资 源 保 护 、 种 子 储 备 以 及 制 种 大 县 给 予 扶 持 \n\n[5] distance: 0.5062547922134399\ntext:  第 三 章 品 种 选 育', '、 林 业 主 管 部 门 批 准 \n```\n请回答`介绍一下名额分配的方案`")] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-07 10:10:36.783 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-07 10:10:36.789 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-07 10:10:36.789 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-07 10:10:36.789 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [783] using WatchFiles
+2024-10-07 10:10:37.239 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-07 10:10:37.244 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-07 10:10:37.245 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-07 10:10:37.245 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-07 10:10:37.262 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-07 10:10:37.263 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-07 10:10:37.263 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [926]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-07 10:19:53.964 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-07 10:19:53.964 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.6105237603187561\ntext: 会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。\n\n[2] distance: 0.5921704769134521\ntext: 我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。\n\n[3] distance: 0.5376559495925903\ntext: 全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。\n\n[4] distance: 0.5242917537689209\ntext: 根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。\n\n[5] distance: 0.2541999816894531\ntext: （此决定于2001年11月9日公布）。\n```\n请回答`世界贸易组织的任务是什么`')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [926]
+INFO:     Stopping reloader process [783]
+2024-10-07 21:04:27.765 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-07 21:04:27.770 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-07 21:04:27.771 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-07 21:04:27.771 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [4522] using WatchFiles
+2024-10-07 21:04:28.230 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-07 21:04:28.235 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-07 21:04:28.235 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-07 21:04:28.235 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-07 21:04:28.260 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-07 21:04:28.260 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-07 21:04:28.260 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [4665]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-07 21:06:23.193 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-07 21:06:23.194 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.6565380692481995\ntext: 会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。\n\n[2] distance: 0.598376989364624\ntext: 我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。\n\n[3] distance: 0.5852962732315063\ntext: 全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。\n\n[4] distance: 0.560029149055481\ntext: 根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。\n\n[5] distance: 0.26957982778549194\ntext: （此决定于2001年11月9日公布）。\n```\n请回答`介绍一下世界贸易组织`')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60

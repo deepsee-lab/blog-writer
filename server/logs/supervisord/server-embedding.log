@@ -976,3 +976,60 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 2024-10-06 19:54:34.442 | INFO     | main:inference_mul:59 - run inference_mul
 2024-10-06 19:54:34.442 | INFO     | main:inference_mul:63 - sentences:['介绍一下名额分配的方案']
+2024-10-07 10:10:36.330 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-07 10:10:36.335 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-07 10:10:36.335 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-07 10:10:42.576 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-07 10:10:42.578 | INFO     | __main__:<module>:80 - Server is up and running.
+2024-10-07 10:10:42.579 | INFO     | __main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-07 10:10:42.579 | INFO     | __main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/embedding']
+INFO:     Uvicorn running on http://0.0.0.0:4020 (Press CTRL+C to quit)
+INFO:     Started reloader process [781] using WatchFiles
+2024-10-07 10:10:42.924 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-07 10:10:42.928 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-07 10:10:42.928 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-07 10:10:44.537 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-07 10:10:44.540 | INFO     | __mp_main__:<module>:80 - Server is up and running.
+2024-10-07 10:10:44.540 | INFO     | __mp_main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-07 10:10:44.540 | INFO     | __mp_main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+2024-10-07 10:10:44.556 | INFO     | main:<module>:80 - Server is up and running.
+2024-10-07 10:10:44.557 | INFO     | main:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-07 10:10:44.557 | INFO     | main:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Started server process [1130]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-07 10:19:53.059 | INFO     | main:inference_mul:59 - run inference_mul
+2024-10-07 10:19:53.060 | INFO     | main:inference_mul:63 - sentences:['世界贸易组织的任务是什么']
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1130]
+INFO:     Stopping reloader process [781]
+/home/lnform/miniconda3/envs/WWA/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+2024-10-07 21:04:27.302 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-07 21:04:27.306 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-07 21:04:27.306 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-07 21:04:31.445 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-07 21:04:31.448 | INFO     | __main__:<module>:80 - Server is up and running.
+2024-10-07 21:04:31.448 | INFO     | __main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-07 21:04:31.448 | INFO     | __main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/embedding']
+INFO:     Uvicorn running on http://0.0.0.0:4020 (Press CTRL+C to quit)
+INFO:     Started reloader process [4520] using WatchFiles
+2024-10-07 21:04:31.756 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-07 21:04:31.760 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-07 21:04:31.761 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-07 21:04:33.434 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-07 21:04:33.437 | INFO     | __mp_main__:<module>:80 - Server is up and running.
+2024-10-07 21:04:33.437 | INFO     | __mp_main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-07 21:04:33.437 | INFO     | __mp_main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+2024-10-07 21:04:33.455 | INFO     | main:<module>:80 - Server is up and running.
+2024-10-07 21:04:33.455 | INFO     | main:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-07 21:04:33.455 | INFO     | main:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Started server process [4862]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-07 21:06:22.403 | INFO     | main:inference_mul:59 - run inference_mul
+2024-10-07 21:06:22.404 | INFO     | main:inference_mul:63 - sentences:['介绍一下世界贸易组织']

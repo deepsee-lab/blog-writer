@@ -2099,3 +2099,106 @@ text:  第 三 章 品 种 选 育', '、 林 业 主 管 部 门 批 准
 但基于此段落没有足够的上下文，无法就给的具体项目"名额分配情况的方案制定或讨论情况进行明确回答。如果问题与此类型，应联系相关政策手册、文件内容或者官方论坛获得解答。
 
 如果您有兴趣进一步了解这种优惠政策的相关资料或者是具体的优惠政策规则，在获取更详细信息的同时，您应当留意这些政策文本背景以及相关的解释和解释性内容。
+2024-10-07 10:10:36.332 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-10-07 10:10:36.379 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-10-07 10:10:36.380 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-07 10:10:36.380 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/rag']
+INFO:     Uvicorn running on http://0.0.0.0:7020 (Press CTRL+C to quit)
+INFO:     Started reloader process [785] using WatchFiles
+2024-10-07 10:10:36.842 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-10-07 10:10:36.880 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-10-07 10:10:36.881 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-07 10:10:36.881 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-10-07 10:10:36.915 | INFO     | main:<module>:143 - Server is up and running.
+2024-10-07 10:10:36.916 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-07 10:10:36.916 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Started server process [823]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-07 10:19:53.051 | INFO     | main:inference:81 - run inference
+2024-10-07 10:19:53.052 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='kb_id_kba5a008b69c4d1eb9e75fa915c9de2d' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='世界贸易组织的任务是什么')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-07 10:19:53.945 | INFO     | main:inference:98 - retrieve_result: [[{'id': 1, 'distance': 0.6105237603187561, 'entity': {'text': '会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。'}}, {'id': 2, 'distance': 0.5921704769134521, 'entity': {'text': '我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。'}}, {'id': 0, 'distance': 0.5376559495925903, 'entity': {'text': '全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。'}}, {'id': 3, 'distance': 0.5242917537689209, 'entity': {'text': '根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。'}}, {'id': 4, 'distance': 0.2541999816894531, 'entity': {'text': '（此决定于2001年11月9日公布）。'}}]]
+2024-10-07 10:19:53.946 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.6105237603187561
+text: 会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。
+
+[2] distance: 0.5921704769134521
+text: 我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。
+
+[3] distance: 0.5376559495925903
+text: 全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。
+
+[4] distance: 0.5242917537689209
+text: 根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。
+
+[5] distance: 0.2541999816894531
+text: （此决定于2001年11月9日公布）。
+```
+请回答`世界贸易组织的任务是什么`
+2024-10-07 10:19:53.946 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.6105237603187561\ntext: 会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。\n\n[2] distance: 0.5921704769134521\ntext: 我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。\n\n[3] distance: 0.5376559495925903\ntext: 全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。\n\n[4] distance: 0.5242917537689209\ntext: 根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。\n\n[5] distance: 0.2541999816894531\ntext: （此决定于2001年11月9日公布）。\n```\n请回答`世界贸易组织的任务是什么`'}]
+2024-10-07 10:20:00.999 | INFO     | main:inference:129 - rag_result: **世界贸易组织（WTO）的目标和任务是在其成员间进行自由贸易，以保障一个充满活力的国际市场和服务的流通环境。下面是中国谈判议定书中提及的一些核心目标和任务：**
+
+1. **遵守原则与相互适应**：
+该规定旨在确保每个成员国通过履行所有规定的义务并保持互惠关系获得最大限度的利益。
+
+2. 开放市场的基本原则被坚持：WTO保证了国家自主选择、主权和国家控制以及保护自身安全权利，即市场封闭国应该尊重自由贸易政策，否则其将不能成为会员方。
+
+3. **遵守国际协议**：为了有效实施这些准则，所有的谈判协定都在正式签署后，向国会提交作为修正的法律（如果任何其他谈判未能签订，条约就会退回到WTO秘书处）。因此所有条款应在得到国会批准前才能生效
+
+4. **多边贸易治理**：
+中国的目标是要确保世界经济在遵守国际协议框架下继续增长和发展。这意味着政府有权决定哪些行业可以进行出口并限制哪些行业的竞争力以及出口水平，并需要与其他缔约国一致执行此类协定。
+
+5. 理念之一：保护知识产权，这涵盖了包括创新者和原创内容创作者的工作。尽管WTO有义务维护成员国的独立性，并提供必要的措施以允许国家自行选择知识产权政策，并将其应用到本国政策中。
+
+6. 通过开放市场来增进消费者福祉：
+强调自由贸易的原则可以防止关税和其他贸易壁垒导致的商品和服务过度流动限制市场流通，因此有必要促进和保持公平竞争格局。同时，政府有责任解决滥用不公平的竞争地位等滥用优势问题的能力的监管行动
+
+7. **多部门综合谈判以维护多边自由化协议与体系**:
+这些协定需要广泛协调不同机构、部委甚至各国间的法律框架来实施。
+
+请注意这是依据当前的世界贸易组织议定书中提及的核心目标，具体的规则和支持性文件可能会根据各国具体情况有所变化。
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [823]
+INFO:     Stopping reloader process [785]
+2024-10-07 21:04:27.300 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-10-07 21:04:27.363 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-10-07 21:04:27.364 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-07 21:04:27.364 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/rag']
+INFO:     Uvicorn running on http://0.0.0.0:7020 (Press CTRL+C to quit)
+INFO:     Started reloader process [4524] using WatchFiles
+2024-10-07 21:04:27.854 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-10-07 21:04:27.894 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-10-07 21:04:27.895 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-07 21:04:27.895 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-10-07 21:04:27.926 | INFO     | main:<module>:143 - Server is up and running.
+2024-10-07 21:04:27.926 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-10-07 21:04:27.926 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Started server process [4562]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-07 21:06:22.398 | INFO     | main:inference:81 - run inference
+2024-10-07 21:06:22.398 | INFO     | main:inference:82 - item: retrieve_only=False vector_search=True kb_id='kb_id_kba5a008b69c4d1eb9e75fa915c9de2d' top_k=5 threshold_value=0.0 messages=[MessageItem(role='user', content='介绍一下世界贸易组织')] inference_service='ollama' model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-07 21:06:23.176 | INFO     | main:inference:98 - retrieve_result: [[{'id': 1, 'distance': 0.6565380692481995, 'entity': {'text': '会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。'}}, {'id': 2, 'distance': 0.598376989364624, 'entity': {'text': '我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。'}}, {'id': 0, 'distance': 0.5852962732315063, 'entity': {'text': '全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。'}}, {'id': 3, 'distance': 0.560029149055481, 'entity': {'text': '根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。'}}, {'id': 4, 'distance': 0.26957982778549194, 'entity': {'text': '（此决定于2001年11月9日公布）。'}}]]
+2024-10-07 21:06:23.177 | INFO     | main:inference:120 - prompt: 已知```
+[1] distance: 0.6565380692481995
+text: 会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。
+
+[2] distance: 0.598376989364624
+text: 我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。
+
+[3] distance: 0.5852962732315063
+text: 全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。
+
+[4] distance: 0.560029149055481
+text: 根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。
+
+[5] distance: 0.26957982778549194
+text: （此决定于2001年11月9日公布）。
+```
+请回答`介绍一下世界贸易组织`
+2024-10-07 21:06:23.177 | INFO     | main:inference:121 - messages: [{'role': 'user', 'content': '已知```\n[1] distance: 0.6565380692481995\ntext: 会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。\n\n[2] distance: 0.598376989364624\ntext: 我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。\n\n[3] distance: 0.5852962732315063\ntext: 全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。\n\n[4] distance: 0.560029149055481\ntext: 根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。\n\n[5] distance: 0.26957982778549194\ntext: （此决定于2001年11月9日公布）。\n```\n请回答`介绍一下世界贸易组织`'}]
+2024-10-07 21:06:27.377 | INFO     | main:inference:129 - rag_result: 很抱歉，我暂时未能使用英文自然语言生成功能来展示关于世贸易组织信息，请考虑其他合适的文本代替，如总结以上四篇文章的关键点等。
