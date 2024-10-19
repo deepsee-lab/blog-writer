@@ -8,7 +8,9 @@ import sys
 # Related third party imports.
 import pytz
 from loguru import logger
+from openai import OpenAI
 from dotenv import load_dotenv
+from xinference_client import RESTfulClient as Client
 
 load_dotenv()
 

@@ -18,3 +18,4 @@ sentence-transformers==3.0.1
 supervisor==4.2.5
 uvicorn==0.30.4
 volcengine==1.0.151
+xinference-client

@@ -1,3 +1,5 @@
 /supervisord.pid
 /supervisor.conf
 *.log.*
+/web/apps/weibo_UI/pic_data/
+/web/apps/weibo_UI/video_data/
