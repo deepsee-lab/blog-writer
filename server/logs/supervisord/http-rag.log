@@ -60,3 +60,4 @@ INFO:     127.0.0.1:42110 - "POST /inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:40506 - "POST /inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:49406 - "POST /inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:45562 - "POST /inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "POST /inference HTTP/1.1" 200 OK

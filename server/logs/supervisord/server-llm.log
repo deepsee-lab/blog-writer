@@ -821,3 +821,88 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 2024-10-07 21:06:23.193 | INFO     | apps.private.views:inference:40 - run inference
 2024-10-07 21:06:23.194 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.6565380692481995\ntext: 会议认为：我国作为世界上最大的发展中国家，加入世界贸易组织，有利于我国改革开放和经济发展，也是建立完整开放的国际贸易体系的需要。\n\n[2] distance: 0.598376989364624\ntext: 我国加入世界贸易组织，只能以发展中国家的身份加入，并坚持权利与义务平衡、循序渐进开放市场的原则，以确保国家控制国民经济命脉，维护国家经济安全和国家主权。\n\n[3] distance: 0.5852962732315063\ntext: 全国人民代表大会常务委员会关于我国加入世界贸易组织的决定（2000年8月25日第九届全国人民代表大会常务委员会第十七次会议通过）第九届全国人民代表大会常务委员会第十五次会议听取并审议了对外贸易经济合作部受国务院委托所作的《关于我国加入世界贸易组织进展情况的报告》，对我国政府为我国加入世界贸易组织所作的努力予以充分肯定。\n\n[4] distance: 0.560029149055481\ntext: 根据第十五次会议以后我国加入世界贸易组织谈判的新的进展情况，本次会议决定：同意国务院根据上述原则完成加入世界贸易组织的谈判和委派代表签署的中国加入世界贸易组织议定书，经国家主席批准后，完成我国加入世界贸易组织的程序。\n\n[5] distance: 0.26957982778549194\ntext: （此决定于2001年11月9日公布）。\n```\n请回答`介绍一下世界贸易组织`')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-13 09:35:33.726 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-13 09:35:33.731 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-13 09:35:33.731 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 09:35:33.731 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [1023] using WatchFiles
+2024-10-13 09:35:34.187 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-13 09:35:34.192 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-13 09:35:34.192 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 09:35:34.192 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-13 09:35:34.209 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-13 09:35:34.210 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 09:35:34.210 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [1166]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1166]
+INFO:     Stopping reloader process [1023]
+2024-10-13 20:48:19.197 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-13 20:48:19.202 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-13 20:48:19.202 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:48:19.202 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [2708] using WatchFiles
+2024-10-13 20:48:19.665 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-13 20:48:19.669 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-13 20:48:19.669 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:48:19.669 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-13 20:48:19.696 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-13 20:48:19.697 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:48:19.697 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [2820]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2820]
+INFO:     Stopping reloader process [2708]
+2024-10-13 20:49:53.875 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-13 20:49:53.880 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-13 20:49:53.880 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:49:53.880 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [3009] using WatchFiles
+2024-10-13 20:49:54.333 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-13 20:49:54.338 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-13 20:49:54.338 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:49:54.338 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-13 20:49:54.352 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-13 20:49:54.352 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:49:54.352 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [3121]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3121]
+INFO:     Stopping reloader process [3009]
+2024-10-13 20:52:13.963 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-13 20:52:13.967 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-13 20:52:13.968 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:52:13.968 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [3306] using WatchFiles
+2024-10-13 20:52:14.442 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-13 20:52:14.447 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-13 20:52:14.447 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:52:14.448 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-13 20:52:14.464 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-13 20:52:14.464 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-13 20:52:14.464 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [3449]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-13 20:55:18.613 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-13 20:55:18.614 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.6394345164299011\ntext: 全国人民代表大会常务委员会关于军官制度改革期间暂时调整适用相关法律规定的决定（2016年12月25日第十二届全国人民代表大会常务委员会第二十五次会议通过）按照党中央批准的深化国防和军队改革总体方案，为加快建立军官职业化制度，构建科学规范的军官制度体系，适应现代军队建设和作战要求，第十二届全国人民代表大会常务委员会第二十五次会议决定：军官制度改革期间，暂时调整适用《中华人民共和国现役军官法》、《中国人民解放军军官军衔条例》中军官职务等级、军衔、职务任免、教育培训、待遇保障、退役安置有关规定。\n\n[2] distance: 0.49058640003204346\ntext: 具体办法和试行范围，由中央军事委员会组织制定和予以明确。\n\n[3] distance: 0.32715412974357605\ntext: 改革措施成熟后，及时修改完善有关法律。\n\n[4] distance: 0.28797447681427\ntext: 本决定自2017年1月1日起施行。\n\n[5] distance: 0.2444179803133011\ntext: 。\n```\n请回答`介绍一下军官制度`')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60

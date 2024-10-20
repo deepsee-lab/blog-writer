@@ -1084,3 +1084,86 @@ INFO:     Started reloader process [4525] using WatchFiles
 INFO:     Started server process [4629]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+2024-10-13 09:35:33.498 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-13 09:35:33.509 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-13 09:35:33.509 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 09:35:33.509 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [1026] using WatchFiles
+2024-10-13 09:35:33.980 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-13 09:35:33.989 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-13 09:35:33.989 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 09:35:33.989 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-10-13 09:35:34.010 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-13 09:35:34.011 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 09:35:34.011 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [1130]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1130]
+INFO:     Stopping reloader process [1026]
+2024-10-13 20:48:19.003 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-13 20:48:19.011 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-13 20:48:19.011 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:48:19.011 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [2711] using WatchFiles
+2024-10-13 20:48:19.489 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-13 20:48:19.495 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-13 20:48:19.495 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:48:19.495 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-10-13 20:48:19.514 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-13 20:48:19.514 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:48:19.514 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [2784]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2784]
+INFO:     Stopping reloader process [2711]
+2024-10-13 20:49:53.670 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-13 20:49:53.684 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-13 20:49:53.684 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:49:53.684 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [3012] using WatchFiles
+2024-10-13 20:49:54.156 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-13 20:49:54.162 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-13 20:49:54.162 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:49:54.162 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-10-13 20:49:54.176 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-13 20:49:54.176 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:49:54.176 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [3085]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3085]
+INFO:     Stopping reloader process [3012]
+2024-10-13 20:52:13.733 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-13 20:52:13.744 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-13 20:52:13.745 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:52:13.745 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [3309] using WatchFiles
+2024-10-13 20:52:14.234 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-13 20:52:14.241 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-13 20:52:14.241 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:52:14.241 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-10-13 20:52:14.255 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-13 20:52:14.255 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-13 20:52:14.255 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [3413]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

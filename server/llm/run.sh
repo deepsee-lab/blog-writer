@@ -1,1 +1,1 @@
-python run.sh
+python main.py
