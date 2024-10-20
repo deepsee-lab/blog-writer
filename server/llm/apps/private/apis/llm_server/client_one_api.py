@@ -5,7 +5,6 @@ import os
 from loguru import logger
 from openai import OpenAI
 from dotenv import load_dotenv
-from xinference_client import RESTfulClient as Client
 
 load_dotenv()
 
@@ -13,8 +12,6 @@ one_api_client = OpenAI(
     base_url=os.getenv('ONE_API_BASE'),
     api_key=os.getenv('ONE_API_KEY'),
 )
-
-xinference_client = Client(os.getenv('XINFERENCE_API_BASE'), api_key=os.getenv('XINFERENCE_API_KEY'))
 
 
 def inf(messages, model, max_tokens=4096, stream=False, temperature=0.8, timeout=60):
@@ -35,13 +32,13 @@ def inf(messages, model, max_tokens=4096, stream=False, temperature=0.8, timeout
         return vars(completion.choices[0].message)
 
 
-def get_embeddings(model, text):
+def get_embedding_list(model, sentences):
     response = one_api_client.embeddings.create(
         model=model,
-        input=text,
+        input=sentences,
         encoding_format="float"
     )
-    return response.data[0].embedding
+    return [item.embedding for item in response.data]
 
 
 def run_inf_llm():
@@ -79,10 +76,10 @@ def run_inf_lvm():
     logger.info('result: {}'.format(result))
 
 
-def run_embedding():
+def run_get_embedding_list():
     model = 'bge-base-zh-v1.5'
-    text = '你好'
-    result = get_embeddings(model, text)
+    text_list = ['你好', '您好']
+    result = get_embedding_list(model, text_list)
 
     logger.info('result: {}'.format(result))
 
@@ -90,7 +87,7 @@ def run_embedding():
 def run():
     run_inf_llm()
     run_inf_lvm()
-    run_embedding()
+    run_get_embedding_list()
 
 
 if __name__ == '__main__':
