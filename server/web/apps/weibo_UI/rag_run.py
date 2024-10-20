@@ -1,5 +1,6 @@
 import requests
 from loguru import logger
+from apps.weibo_UI.models import weibo_Model_setting
 
 def vector_model_rag(url,KB_id,top_K,query,type_name,model_select):
     #url = 'http://127.0.0.1:4010/private/inference'
@@ -28,22 +29,38 @@ def vector_model_rag(url,KB_id,top_K,query,type_name,model_select):
     response = requests.post(url, json=json_data).json()
     return response
 
-def no_vector_model_rag(url,query,type_name,model_select):
+def no_vector_model_rag(url,query):
     #url = 'http://127.0.0.1:4010/private/inference'
+    '''
+    Type_item: Mapped[str] = mapped_column(db.String, nullable=False)
+    Model_item: Mapped[str] = mapped_column(db.String, nullable=False)
+    Top_K: Mapped[str] = mapped_column(db.String, nullable=False)
+    Temprature: Mapped[str] = mapped_column(db.String, nullable=False)
+    max_time: Mapped[str] = mapped_column(db.String, nullable=False)'''
+    item_list = weibo_Model_setting.query.all()
+    item_latest=item_list[-1]
+    Type_item=item_latest.Type_item
+    Model_item=item_latest.Model_item
+    #Top_K=item_latest['Top_K']
+    Temprature=item_latest.Temprature
+    Temprature=float(Temprature)
+    max_time=item_latest.max_time
+    max_time=int(max_time)
     json_data = {
-            "inference_service": type_name,
+            "inference_service": Type_item,
             "messages": [
               {
                 "role": "user",
                 "content": query
               }
             ],
-            "model": model_select,
+            "model": Model_item,
             "max_tokens": 4096,
             "stream": False,
-            "temperature": 0.8,
-            "timeout": 60
+            "temperature": Temprature,
+            "timeout": max_time
     }
+    print(json_data)
     # 发送请求并存储响应
     response = requests.post(url, json=json_data).json()
     return response

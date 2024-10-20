@@ -121,6 +121,15 @@ export const constantRoutes: RouteRecordRaw[] = [
           title: "知识库上传",
           keepAlive: true
         }
+      },
+      {
+        path: "setting",
+        component: () => import("@/views/table/setting/index.vue"),
+        name: "大模型设置",
+        meta: {
+          title: "大模型设置",
+          keepAlive: true
+        }
       }
     ]
   }
@@ -133,32 +142,42 @@ export const constantRoutes: RouteRecordRaw[] = [
  */
 export const dynamicRoutes: RouteRecordRaw[] = [
   {
-    path: "/permission",
+    path: "/wenxin",
     component: Layouts,
-    redirect: "/permission/page",
-    name: "Permission",
+    redirect: "/wenxin/material",
+    name: "wenxin",
     meta: {
-      title: "权限",
+      title: "微信公众号",
       svgIcon: "lock",
       roles: ["admin", "editor"], // 可以在根路由中设置角色
       alwaysShow: true // 将始终显示根菜单
     },
     children: [
       {
-        path: "page",
-        component: () => import("@/views/permission/page.vue"),
-        name: "PagePermission",
+        path: "material",
+        component: () => import("@/views/wenxin/material/index.vue"),
+        name: "上传素材",
         meta: {
-          title: "页面级",
+          title: "上传素材",
           roles: ["admin"] // 或者在子导航中设置角色
         }
       },
       {
-        path: "directive",
-        component: () => import("@/views/permission/directive.vue"),
-        name: "DirectivePermission",
+        path: "create",
+        component: () => import("@/views/wenxin/create/index.vue"),
+        name: "新建草稿",
         meta: {
-          title: "按钮级" // 如果未设置角色，则表示：该页面不需要权限，但会继承根路由的角色
+          title: "新建草稿",
+          roles: ["admin"] // 或者在子导航中设置角色
+        }
+      },
+      {
+        path: "publish",
+        component: () => import("@/views/wenxin/publish/index.vue"),
+        name: "发布文章",
+        meta: {
+          title: "发布文章",
+          roles: ["admin"] // 或者在子导航中设置角色
         }
       }
     ]

@@ -82,3 +82,12 @@ class weibo_UserInfo(db.Model):
     code: Mapped[str] = mapped_column(db.String, nullable=False)
     password: Mapped[str] = mapped_column(db.String, nullable=False)
     username: Mapped[str] = mapped_column(db.String, nullable=False)
+
+class weibo_Model_setting(db.Model):
+    __tablename__ = 'weibo_Model_setting'
+    id: Mapped[int] = mapped_column(db.Integer, primary_key=True)
+    Type_item: Mapped[str] = mapped_column(db.String, nullable=False)
+    Model_item: Mapped[str] = mapped_column(db.String, nullable=False)
+    Top_K: Mapped[str] = mapped_column(db.String, nullable=False)
+    Temprature: Mapped[str] = mapped_column(db.String, nullable=False)
+    max_time: Mapped[str] = mapped_column(db.String, nullable=False)

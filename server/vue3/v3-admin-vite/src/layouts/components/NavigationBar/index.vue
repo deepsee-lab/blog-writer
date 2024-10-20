@@ -33,6 +33,10 @@ const logout = () => {
   userStore.logout()
   router.push("/login")
 }
+const go_to_setting=() => {
+  router.push({ path: "/home" });
+}
+
 </script>
 
 <template>
@@ -57,12 +61,10 @@ const logout = () => {
         </div>
         <template #dropdown>
           <el-dropdown-menu>
-            <a target="_blank" href="https://github.com/un-pany/v3-admin-vite">
-              <el-dropdown-item>GitHub</el-dropdown-item>
+            <a target="_blank" @click.prevent="go_to_setting">
+              <el-dropdown-item>配置</el-dropdown-item>
             </a>
-            <a target="_blank" href="https://gitee.com/un-pany/v3-admin-vite">
-              <el-dropdown-item>Gitee</el-dropdown-item>
-            </a>
+            
             <el-dropdown-item divided @click="logout">
               <span style="display: block">退出登录</span>
             </el-dropdown-item>
