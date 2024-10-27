@@ -785,3 +785,32 @@ def WX_publish_draft():
         result['code']=verify_code
         result['data']=message
     return result
+
+#######################################
+#Dashboard
+##prompt 建立
+###vue3 
+@bp.route('/api/v1/Dashboard/chat',methods=['GET','POST'] )
+def Dashboard_chat():
+    result={}
+    if request.method == "POST":
+        Content_item = request.json['Content_item']
+        prompt = Content_item
+        url = 'http://127.0.0.1:4010/private/inference'
+        # 检查响应状态代码
+        answer=no_vector_model_rag(url,prompt)
+        print('--------',str(answer))
+        res_result=''
+        if answer['message'] == 'success':
+            # 打印响应文本
+            res_result=answer['data']['result']
+            result={
+                "code":verify_code,
+                "data":{
+                    "Content_item":Content_item,
+                    "Result":res_result,
+                    "code":0
+                },
+                "message":"获取成功"
+            }
+        return result

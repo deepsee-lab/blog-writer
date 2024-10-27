@@ -8,6 +8,7 @@ import axios from 'axios';
 //import { usePagination } from "@/hooks/usePagination"
 //import { cloneDeep } from "lodash-es"
 import type * as Fight_path from "./types/Fight"
+import {Dashboard_chat } from "./index"
 import {reactive,ref,onMounted} from "vue";
 import { fi } from "element-plus/lib/locale/index.js";
 defineOptions({
@@ -22,19 +23,70 @@ const FormRules: FormRules = {
 const FormRef = ref<FormInstance | null>(null)
 const FormData: Fight_path.F_Data = reactive({
   Content_item: "",
+  Result:"",
   code:""
 })
+/** 提交信息 */
+const handleDB = () => {
+  
+  try {
+    Dashboard_chat(FormData).then((res) => {
+      FormData.value = res.data
+    alert(FormData.value.Result)
+  })
+  }catch (error){
+    console.error(
+        '错误',error
+    )
+  }
 
+}
 </script>
 
 
 <template>
-  <div class="footer_wrap">
-      <router-link to="/wenxin/material">上传素材 | </router-link>
-      <router-link to="/wenxin/create">新建草稿 | </router-link>
-      <router-link to="/wenxin/publish">发布文章 | </router-link>
-    </div>
-  <el-form ref="wxFormRef" :model="FormData" :rules="FormRules" >
+  <div class="dashboard-container">
+    <el-card shadow="never">
+      <el-col :span="18" :xs="24">
+          <div class="flex h-full items-center">
+            
+            <div>
+              <h2>智能公众号写手</h2>
+            </div>
+          </div>
+        </el-col>
+        <el-col :span="26" :xs="24">
+          <div class="flex h-full items-center justify-around">
+            <p class="text-sm text-gray">
+                智能生成  一键发布，开启轻松愉快的创作旅途
+              </p>
+          </div>
+        </el-col>
+    </el-card>
+    <!-- 数据卡片 -->
+    <el-row :gutter="10" class="mt-5">
+      <el-col :xs="24" :sm="12" :lg="6">
+        <el-card shadow="never">
+          <router-link to="/wenxin/material">上传素材  </router-link>
+        </el-card>
+      </el-col>
+      <el-col :xs="24" :sm="12" :lg="6">
+        <el-card shadow="never">
+          <router-link to="/wenxin/create">新建草稿  </router-link>
+        </el-card>
+      </el-col>
+      <el-col :xs="24" :sm="12" :lg="6">
+        <el-card shadow="never">
+          <router-link to="/wenxin/publish">发布文章  </router-link>
+        </el-card>
+      </el-col>
+
+    </el-row>
+
+    <el-row :gutter="10" class="mt-5">  
+      <el-col :xs="24" :sm="12" :lg="26">
+        <el-card shadow="never">
+          <el-form ref="wxFormRef" :model="FormData" :rules="FormRules" @keyup.enter="handleDB" >
           <el-form-item prop="Content_item">
             <p>输入内容提示：</p>
             <el-input
@@ -45,10 +97,15 @@ const FormData: Fight_path.F_Data = reactive({
               :prefix-icon="RefreshRight"
               size="large"
             />
-            <el-button  type="primary" size="large">生成</el-button>
+            <el-button  type="primary" size="large" @click.prevent="handleDB">生成</el-button>
           </el-form-item>
           
         </el-form>
+        </el-card>
+      </el-col>
+    </el-row>
+
+  </div>
 </template>
 
 <style lang="scss" scoped>
