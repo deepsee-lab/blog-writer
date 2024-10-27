@@ -1323,3 +1323,26 @@ INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
 INFO:     Finished server process [71674]
 INFO:     Stopping reloader process [71395]
+2024-10-27 10:07:25.420 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-27 10:07:25.425 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-27 10:07:25.425 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-27 10:07:30.311 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-27 10:07:30.313 | INFO     | __main__:<module>:80 - Server is up and running.
+2024-10-27 10:07:30.313 | INFO     | __main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-27 10:07:30.313 | INFO     | __main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/embedding']
+INFO:     Uvicorn running on http://0.0.0.0:4020 (Press CTRL+C to quit)
+INFO:     Started reloader process [1783] using WatchFiles
+2024-10-27 10:07:30.559 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-27 10:07:30.563 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-27 10:07:30.563 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-27 10:07:32.763 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-27 10:07:32.765 | INFO     | __mp_main__:<module>:80 - Server is up and running.
+2024-10-27 10:07:32.765 | INFO     | __mp_main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-27 10:07:32.766 | INFO     | __mp_main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+2024-10-27 10:07:32.781 | INFO     | main:<module>:80 - Server is up and running.
+2024-10-27 10:07:32.781 | INFO     | main:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-27 10:07:32.781 | INFO     | main:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Started server process [2129]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

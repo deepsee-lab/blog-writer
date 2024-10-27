@@ -1329,3 +1329,20 @@ Traceback (most recent call last):
   File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
     raise OpenAIError(
 openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2024-10-27 10:07:26.050 | INFO     | configs.config:<module>:29 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-27 10:07:26.057 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-27 10:07:26.057 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-27 10:07:26.057 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [1785] using WatchFiles
+2024-10-27 10:07:26.598 | INFO     | configs.config:<module>:29 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-27 10:07:26.604 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-27 10:07:26.605 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-27 10:07:26.605 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-27 10:07:26.622 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-27 10:07:26.622 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-27 10:07:26.622 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [1959]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
