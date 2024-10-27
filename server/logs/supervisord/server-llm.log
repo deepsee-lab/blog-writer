@@ -906,3 +906,426 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 2024-10-13 20:55:18.613 | INFO     | apps.private.views:inference:40 - run inference
 2024-10-13 20:55:18.614 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='已知```\n[1] distance: 0.6394345164299011\ntext: 全国人民代表大会常务委员会关于军官制度改革期间暂时调整适用相关法律规定的决定（2016年12月25日第十二届全国人民代表大会常务委员会第二十五次会议通过）按照党中央批准的深化国防和军队改革总体方案，为加快建立军官职业化制度，构建科学规范的军官制度体系，适应现代军队建设和作战要求，第十二届全国人民代表大会常务委员会第二十五次会议决定：军官制度改革期间，暂时调整适用《中华人民共和国现役军官法》、《中国人民解放军军官军衔条例》中军官职务等级、军衔、职务任免、教育培训、待遇保障、退役安置有关规定。\n\n[2] distance: 0.49058640003204346\ntext: 具体办法和试行范围，由中央军事委员会组织制定和予以明确。\n\n[3] distance: 0.32715412974357605\ntext: 改革措施成熟后，及时修改完善有关法律。\n\n[4] distance: 0.28797447681427\ntext: 本决定自2017年1月1日起施行。\n\n[5] distance: 0.2444179803133011\ntext: 。\n```\n请回答`介绍一下军官制度`')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=0.8 timeout=60
+2024-10-20 09:35:42.722 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-20 09:35:42.728 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-20 09:35:42.728 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-20 09:35:42.729 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [1013] using WatchFiles
+2024-10-20 09:35:43.184 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-20 09:35:43.189 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-20 09:35:43.189 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-20 09:35:43.190 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-20 09:35:43.206 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-20 09:35:43.206 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-20 09:35:43.206 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [1156]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-20 15:56:01.167 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 15:56:01.167 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`去\n西\n藏\n的\n布\n达\n拉\n宫\n游\n玩\n，\n体\n验\n当\n地\n风\n俗\n民\n情`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`西藏之旅`\n        文章字数在:`客观陈述风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+2024-10-20 15:59:54.215 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 15:59:54.216 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`去\n西\n藏\n的\n布\n达\n拉\n宫\n游\n玩\n，\n体\n验\n当\n地\n风\n俗\n民\n情`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`西藏之旅`\n        文章字数在:`客观陈述风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+2024-10-20 16:01:14.214 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 16:01:14.215 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`去\n西\n藏\n的\n布\n达\n拉\n宫\n游\n玩\n，\n体\n验\n当\n地\n风\n俗\n民\n情`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`西藏之旅`\n        文章字数在:`客观陈述风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+2024-10-20 17:32:34.455 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 17:32:34.455 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`参\n观\n布\n达\n拉\n宫\n，\n体\n验\n当\n地\n民\n情`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`西藏之旅`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+2024-10-20 17:56:33.237 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 17:56:33.237 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`参\n观\n布\n达\n拉\n宫\n，\n体\n验\n当\n地\n民\n情`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`西藏之旅`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+2024-10-20 20:26:05.307 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 20:26:05.308 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`参\n观\n黑\n龙\n江\n的\n冰\n雕\n，\n体\n验\n当\n地\n的\n冰\n雪\n大\n文\n化`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`黑龙江之旅`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+2024-10-20 20:32:37.589 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 20:32:37.589 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`参\n观\n黑\n龙\n江\n冰\n雪\n大\n世\n界\n，\n体\n验\n当\n地\n冰\n雪\n文\n化`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`黑龙江之旅`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，emoj 表情多一点，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1156]
+INFO:     Stopping reloader process [1013]
+2024-10-20 21:17:04.672 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-20 21:17:04.677 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-20 21:17:04.677 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-20 21:17:04.677 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [4651] using WatchFiles
+2024-10-20 21:17:05.208 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-20 21:17:05.213 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-20 21:17:05.213 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-20 21:17:05.213 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-20 21:17:05.231 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-20 21:17:05.232 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-20 21:17:05.232 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [4794]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-20 21:18:56.788 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 21:18:56.788 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`新\n疆\n戈\n壁\n大\n沙\n漠\n，\n体\n验\n文\n化\n习\n俗`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`新疆之旅`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 99, in handle_request
+    raise exc
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 978, in _request
+    response = self._client.send(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2177, in run_sync_in_worker_thread
+    return await future
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 859, in run
+    result = context.run(func, *args)
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 43, in inference
+    result = inf(**item.model_dump())
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/llms/ollama_inference.py", line 21, in inf
+    chat_completion = client.chat.completions.create(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/resources/chat/completions.py", line 646, in create
+    return self._post(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1266, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 942, in request
+    return self._request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1002, in _request
+    return self._retry_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1079, in _retry_request
+    return self._request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1002, in _request
+    return self._retry_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1079, in _retry_request
+    return self._request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1012, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2024-10-20 21:19:20.418 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 21:19:20.418 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`新\n疆\n戈\n壁\n大\n沙\n漠\n，\n体\n验\n文\n化\n习\n俗`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`新疆之旅`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 99, in handle_request
+    raise exc
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 76, in handle_request
+    stream = self._connect(request)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 122, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 205, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 978, in _request
+    response = self._client.send(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/fastapi/routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/starlette/concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2177, in run_sync_in_worker_thread
+    return await future
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 859, in run
+    result = context.run(func, *args)
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 43, in inference
+    result = inf(**item.model_dump())
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/llms/ollama_inference.py", line 21, in inf
+    chat_completion = client.chat.completions.create(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_utils/_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/resources/chat/completions.py", line 646, in create
+    return self._post(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1266, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 942, in request
+    return self._request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1002, in _request
+    return self._retry_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1079, in _retry_request
+    return self._request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1002, in _request
+    return self._retry_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1079, in _retry_request
+    return self._request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_base_client.py", line 1012, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2024-10-20 21:19:46.745 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-20 21:19:46.745 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`新\n疆\n戈\n壁\n大\n沙\n漠\n，\n体\n验\n文\n化\n习\n俗`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`新疆之旅`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+2024-10-26 13:27:32.806 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-26 13:27:32.812 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-26 13:27:32.812 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-26 13:27:32.812 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [1031] using WatchFiles
+2024-10-26 13:27:33.257 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-10-26 13:27:33.262 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-26 13:27:33.262 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-26 13:27:33.262 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-10-26 13:27:33.280 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-26 13:27:33.280 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-10-26 13:27:33.280 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [1175]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-26 13:32:50.785 | INFO     | apps.private.views:inference:40 - run inference
+2024-10-26 13:32:50.785 | INFO     | apps.private.views:inference:41 - item: inference_service='ollama' messages=[MessageItem(role='user', content='帮我写一篇`去\n布\n达\n拉\n宫`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`西藏之旅`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=60
+WARNING:  WatchFiles detected changes in 'apps/private/llms/xinference_inference.py', 'apps/private/apis/llm_server/client_one_api.py', 'apps/private/views.py', 'apps/saas/llms/openai_client.py', 'configs/config.py', 'apps/private/apis/llm_server/client_xinference.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1175]
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+INFO:     Stopping reloader process [1031]
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 11, in <module>
+    from apps.private.apis.llm_server.client_one_api import inf as inf_v2
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_one_api.py", line 11, in <module>
+    one_api_client = OpenAI(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable

@@ -72,3 +72,5 @@ INFO:     127.0.0.1:60426 - "POST /inference_mul HTTP/1.1" 200 OK
 INFO:     127.0.0.1:39260 - "POST /inference_mul HTTP/1.1" 200 OK
 INFO:     127.0.0.1:37470 - "POST /inference_mul HTTP/1.1" 200 OK
 INFO:     127.0.0.1:45424 - "POST /inference_mul HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45516 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45516 - "GET /openapi.json HTTP/1.1" 200 OK

@@ -1167,3 +1167,192 @@ INFO:     Started reloader process [3309] using WatchFiles
 INFO:     Started server process [3413]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+2024-10-20 09:35:42.471 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-20 09:35:42.482 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-20 09:35:42.486 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-20 09:35:42.486 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [1016] using WatchFiles
+2024-10-20 09:35:42.953 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-20 09:35:42.960 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-20 09:35:42.960 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-20 09:35:42.960 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-10-20 09:35:42.976 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-20 09:35:42.977 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-20 09:35:42.977 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [1120]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-20 11:47:50.170 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:47:50.454 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147d68-2eccb4fa-46451818'}}
+2024-10-20 11:49:10.259 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:49:10.490 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147db8-711376ef-245d881f'}}
+2024-10-20 11:50:34.210 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:50:34.508 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147e0c-26df0eab-0ddea849'}}
+2024-10-20 11:51:39.346 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:51:39.586 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147e4d-1c279962-38dbac0a'}}
+2024-10-20 11:51:41.381 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:51:41.634 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147e4f-2b011daf-72ab40bc'}}
+2024-10-20 11:51:42.240 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:51:42.465 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147e50-14efd177-7876ce47'}}
+2024-10-20 11:51:43.015 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:51:43.223 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147e51-75015edb-318d0f40'}}
+2024-10-20 11:51:44.663 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:51:44.855 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147e52-2b2c3477-430084b8'}}
+2024-10-20 11:51:48.711 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:51:48.951 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'errcode': 40164, 'errmsg': 'invalid ip 112.48.60.72 ipv6 ::ffff:112.48.60.72, not in whitelist rid: 67147e56-5aabd8ea-0d62eae7'}}
+2024-10-20 11:53:52.685 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:53:53.303 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'access_token': '85_TEpjzN4Ly1Pd4I-jcWjWky0zDK3_Lsb-SX69K7aVlorvXbLp3h9UfminvLCMh7SeZgFlQHia72ZTbrULZ_q8erxhOgDab82E2cWtNdRzH8pQDQUKkfoeK3WbfAgFCOjAEAROA', 'expires_in': 7200}}
+2024-10-20 11:54:00.510 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 11:54:00.975 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'access_token': '85_TEpjzN4Ly1Pd4I-jcWjWky0zDK3_Lsb-SX69K7aVlorvXbLp3h9UfminvLCMh7SeZgFlQHia72ZTbrULZ_q8erxhOgDab82E2cWtNdRzH8pQDQUKkfoeK3WbfAgFCOjAEAROA', 'expires_in': 7193}}
+2024-10-20 11:55:34.846 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 11:55:35.605 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 67147f39-38bc1650-5fb1cef1'}
+2024-10-20 11:56:26.926 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 11:56:27.509 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 67147f6d-0f10a2f0-021fe71b'}
+2024-10-20 11:57:38.038 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 11:57:39.304 | INFO     | apps.wpp.views:material_img_add:90 - {'media_id': '7Wxc9h8I-qEyM99wXU_uLQcxaxTzTieJ0gZL8HWcSepHQBvH3Gy9cuViT9eA_gHm', 'url': 'http://mmbiz.qpic.cn/mmbiz_png/RibNrtQ85OkavsvumSF7TNEkBD0BnB8EoZm4ib0IggfHzbcKxPzv7lXnEd2WicHoiaQS6UqQypp0xnYIdw5fpG6oiaA/0?wx_fmt=png', 'item': []}
+2024-10-20 11:58:13.849 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 11:58:14.796 | INFO     | apps.wpp.views:material_img_add:90 - {'media_id': '7Wxc9h8I-qEyM99wXU_uLS2QEXAOro9az1hhoM8MhMOEzupxbBrvwsopbDkc1ob3', 'url': 'http://mmbiz.qpic.cn/mmbiz_png/RibNrtQ85OkavsvumSF7TNEkBD0BnB8EoZm4ib0IggfHzbcKxPzv7lXnEd2WicHoiaQS6UqQypp0xnYIdw5fpG6oiaA/0?wx_fmt=png', 'item': []}
+2024-10-20 17:12:04.689 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 17:12:05.252 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714c967-531e8813-04b89596'}
+2024-10-20 17:12:07.544 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 17:12:08.460 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'access_token': '85_fnWi6ivc5BSTWSI99Cacejf0ekmHo6oNkrCdO-k6Gt0UWmMLFCH-Jc4BgOSgwqRRrpwGf4M5V_qofw4izORhi6s7u_5qOxSmj8P49OtQ7wbDZFgmkcnININ7EOAHQIfAEAPYQ', 'expires_in': 7200}}
+2024-10-20 17:12:13.476 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 17:12:14.024 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714c970-2b778260-2bef7d53'}
+2024-10-20 17:14:01.281 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 17:14:01.755 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714c9db-066ab9d4-184d437d'}
+2024-10-20 17:18:16.937 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 17:18:17.426 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714cadb-59c25661-2abe2133'}
+2024-10-20 17:21:24.388 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 17:21:26.751 | INFO     | apps.wpp.views:material_img_add:90 - {'media_id': '7Wxc9h8I-qEyM99wXU_uLZwu5LhJsGSfaVOJgRrQhfVomI3KMAOUVK4b4j2epsPt', 'url': 'http://mmbiz.qpic.cn/mmbiz_png/RibNrtQ85OkavsvumSF7TNEkBD0BnB8EoDFbnGzoIKobcGL5I3ricrr3AaF9JPibiaviawI2ibpjrOibDyC8RwGr8N10Q/0?wx_fmt=png', 'item': []}
+2024-10-20 17:58:35.172 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-20 17:58:35.172 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_fnWi6ivc5BSTWSI99Cacejf0ekmHo6oNkrCdO-k6Gt0UWmMLFCH-Jc4BgOSgwqRRrpwGf4M5V_qofw4izORhi6s7u_5qOxSmj8P49OtQ7wbDZFgmkcnININ7EOAHQIfAEAPYQ' title='西藏之旅' author='作者' digest='参观布达拉宫，体验当地民情' content='从古老的时间之流穿过心灵。\n跨过的路网，\n记录我们每一张笑容\n如那翻新寺庙外墙的日影的细纹……——西藏之路,我的诗情无限延烧 \n《你眼之所想便是所游。我在佛曲歌风之神》（摘自我对"诗化生活西藏旅图「」-「西藏世界旅游胜观录专辑」\n\n文中的抒写了那西藏风光、宗教、人文与民族风俗的独特和壮观。而作为旅游探索者们亦应切忌地步，深入体会当地的宗教历史传承的魅力的同时不忘去探访他们的内心、生活情感所及。\n\n“人间三万里，在青砖紫城墙内翻歌书，\n千帆旧影泛如画。\n\n大觉园的花影月痕，在我手中，\n写诗的句子。”\n\n在这充满神奇浪漫气氛之中,旅路从一而重,\n每处行进都能感知出它与众区其它的文化特色\n这都是一个历史和哲学结合之地;我们走出了自己的世界却在无意之间走进这个宇宙，仿佛时间本身。\n我们的记忆开始回游...' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZwu5LhJsGSfaVOJgRrQhfVomI3KMAOUVK4b4j2epsPt' need_open_comment=1 only_fans_can_comment=0
+2024-10-20 17:58:35.844 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 41039, 'errmsg': 'invalid content_source_url hint: [Y03177734] rid: 6714d44d-00e3dc07-47f4cb5d'}
+2024-10-20 18:00:07.289 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-20 18:00:07.289 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_fnWi6ivc5BSTWSI99Cacejf0ekmHo6oNkrCdO-k6Gt0UWmMLFCH-Jc4BgOSgwqRRrpwGf4M5V_qofw4izORhi6s7u_5qOxSmj8P49OtQ7wbDZFgmkcnININ7EOAHQIfAEAPYQ' title='西藏之旅' author='王颖锋' digest='参观布达拉宫，体验当地民情' content='从古老的时间之流穿过心灵。\n跨过的路网，\n记录我们每一张笑容\n如那翻新寺庙外墙的日影的细纹……——西藏之路,我的诗情无限延烧 \n《你眼之所想便是所游。我在佛曲歌风之神》（摘自我对"诗化生活西藏旅图「」-「西藏世界旅游胜观录专辑」\n\n文中的抒写了那西藏风光、宗教、人文与民族风俗的独特和壮观。而作为旅游探索者们亦应切忌地步，深入体会当地的宗教历史传承的魅力的同时不忘去探访他们的内心、生活情感所及。\n\n“人间三万里，在青砖紫城墙内翻歌书，\n千帆旧影泛如画。\n\n大觉园的花影月痕，在我手中，\n写诗的句子。”\n\n在这充满神奇浪漫气氛之中,旅路从一而重,\n每处行进都能感知出它与众区其它的文化特色\n这都是一个历史和哲学结合之地;我们走出了自己的世界却在无意之间走进这个宇宙，仿佛时间本身。\n我们的记忆开始回游...' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZwu5LhJsGSfaVOJgRrQhfVomI3KMAOUVK4b4j2epsPt' need_open_comment=1 only_fans_can_comment=0
+2024-10-20 18:00:08.103 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 41039, 'errmsg': 'invalid content_source_url hint: [D0YtqA0409w752] rid: 6714d4a9-3137714c-241c8c33'}
+2024-10-20 18:04:28.152 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-20 18:04:28.152 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_fnWi6ivc5BSTWSI99Cacejf0ekmHo6oNkrCdO-k6Gt0UWmMLFCH-Jc4BgOSgwqRRrpwGf4M5V_qofw4izORhi6s7u_5qOxSmj8P49OtQ7wbDZFgmkcnININ7EOAHQIfAEAPYQ' title='西藏之旅' author='作者' digest='参观布达拉宫，体验当地民情' content='从古老的时间之流穿过心灵。\n跨过的路网，\n记录我们每一张笑容\n如那翻新寺庙外墙的日影的细纹……——西藏之路,我的诗情无限延烧 \n《你眼之所想便是所游。我在佛曲歌风之神》（摘自我对"诗化生活西藏旅图「」-「西藏世界旅游胜观录专辑」\n\n文中的抒写了那西藏风光、宗教、人文与民族风俗的独特和壮观。而作为旅游探索者们亦应切忌地步，深入体会当地的宗教历史传承的魅力的同时不忘去探访他们的内心、生活情感所及。\n\n“人间三万里，在青砖紫城墙内翻歌书，\n千帆旧影泛如画。\n\n大觉园的花影月痕，在我手中，\n写诗的句子。”\n\n在这充满神奇浪漫气氛之中,旅路从一而重,\n每处行进都能感知出它与众区其它的文化特色\n这都是一个历史和哲学结合之地;我们走出了自己的世界却在无意之间走进这个宇宙，仿佛时间本身。\n我们的记忆开始回游...' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZwu5LhJsGSfaVOJgRrQhfVomI3KMAOUVK4b4j2epsPt' need_open_comment=1 only_fans_can_comment=0
+2024-10-20 18:04:28.777 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 41039, 'errmsg': 'invalid content_source_url hint: [qiw5PA06704667] rid: 6714d5ae-7ff12d6c-34b7210a'}
+2024-10-20 18:08:07.840 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-20 18:08:07.840 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_fnWi6ivc5BSTWSI99Cacejf0ekmHo6oNkrCdO-k6Gt0UWmMLFCH-Jc4BgOSgwqRRrpwGf4M5V_qofw4izORhi6s7u_5qOxSmj8P49OtQ7wbDZFgmkcnININ7EOAHQIfAEAPYQ' title='西藏之旅' author='王颖锋' digest='参观布达拉宫，体验当地民情' content='从古老的时间之流穿过心灵' content_source_url='http://127.0.0.1:6050/wpp/draft_add' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZwu5LhJsGSfaVOJgRrQhfVomI3KMAOUVK4b4j2epsPt' need_open_comment=1 only_fans_can_comment=0
+2024-10-20 18:08:11.164 | INFO     | apps.wpp.views:draft_add:108 - {'media_id': '7Wxc9h8I-qEyM99wXU_uLanepA8QMwlRiWks2Sok-f7f_E9PNRKKBejCvdu9iLN-', 'item': []}
+2024-10-20 18:09:46.588 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-20 18:09:46.588 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_fnWi6ivc5BSTWSI99Cacejf0ekmHo6oNkrCdO-k6Gt0UWmMLFCH-Jc4BgOSgwqRRrpwGf4M5V_qofw4izORhi6s7u_5qOxSmj8P49OtQ7wbDZFgmkcnININ7EOAHQIfAEAPYQ' title='西藏之旅123' author='作者' digest='参观布达拉宫，体验当地民情' content='从古老的时间之流穿过心灵' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZwu5LhJsGSfaVOJgRrQhfVomI3KMAOUVK4b4j2epsPt' need_open_comment=1 only_fans_can_comment=0
+2024-10-20 18:09:47.342 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 41039, 'errmsg': 'invalid content_source_url hint: [wJTeGa09893707] rid: 6714d6ec-55270d54-71e3cfce'}
+2024-10-20 18:11:29.916 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-20 18:11:29.916 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_fnWi6ivc5BSTWSI99Cacejf0ekmHo6oNkrCdO-k6Gt0UWmMLFCH-Jc4BgOSgwqRRrpwGf4M5V_qofw4izORhi6s7u_5qOxSmj8P49OtQ7wbDZFgmkcnININ7EOAHQIfAEAPYQ' title='西藏之旅1234' author='作者' digest='参观布达拉宫，体验当地民情' content='从古老的时间之流穿过心灵' content_source_url='http://127.0.0.1:6050/wpp/draft_add' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZwu5LhJsGSfaVOJgRrQhfVomI3KMAOUVK4b4j2epsPt' need_open_comment=1 only_fans_can_comment=0
+2024-10-20 18:11:32.873 | INFO     | apps.wpp.views:draft_add:108 - {'media_id': '7Wxc9h8I-qEyM99wXU_uLX902bl9WenNuLhJ-pwD7QKWRCQDr5gh5JwnW52TPIDO', 'item': []}
+2024-10-20 19:43:37.496 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-20 19:43:37.497 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_fnWi6ivc5BSTWSI99Cacejf0ekmHo6oNkrCdO-k6Gt0UWmMLFCH-Jc4BgOSgwqRRrpwGf4M5V_qofw4izORhi6s7u_5qOxSmj8P49OtQ7wbDZFgmkcnININ7EOAHQIfAEAPYQ' title='西藏之旅' author='王颖锋' digest='参观布达拉宫，体验当地民情' content='从古老的时间之流穿过心灵。' content_source_url='http://127.0.0.1:6050/wpp/draft_add' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZwu5LhJsGSfaVOJgRrQhfVomI3KMAOUVK4b4j2epsPt' need_open_comment=1 only_fans_can_comment=0
+2024-10-20 19:43:37.686 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714eceb-17fc7a5a-4bc84630'}
+2024-10-20 20:08:35.536 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:08:36.099 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f2c3-3cb21ed3-6f0a536e'}
+2024-10-20 20:09:02.527 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 20:09:03.154 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'access_token': '85_xtmMWqfMS-RxVP6pTQh4hxYaxPahW_cCVJaxkQFQzeWXDgfMeuTb_SKQouygtsVbfby0pBbWGp6KDsxsCxLS0vl8_JLG-5zPkqUHkiGDnikENellc07VUiRKtjwXLFhAEAHVP', 'expires_in': 7200}}
+2024-10-20 20:09:08.182 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:09:08.801 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f2e4-24887f95-348d5ca0'}
+2024-10-20 20:09:28.880 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:09:29.385 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f2f9-25685c43-09b372ba'}
+2024-10-20 20:09:42.860 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:09:43.801 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f307-69e09252-5fd8f37f'}
+2024-10-20 20:09:55.970 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:09:56.235 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f314-10709965-5f0d17d5'}
+2024-10-20 20:10:02.939 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:10:03.203 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f31b-5bfa2b4c-442ea1f4'}
+2024-10-20 20:10:47.369 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:10:47.887 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f347-75167986-4a88674b'}
+2024-10-20 20:11:40.214 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:11:40.889 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f37c-0774226b-79896b18'}
+2024-10-20 20:11:55.782 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-20 20:11:56.220 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'access_token': '85_xtmMWqfMS-RxVP6pTQh4hxYaxPahW_cCVJaxkQFQzeWXDgfMeuTb_SKQouygtsVbfby0pBbWGp6KDsxsCxLS0vl8_JLG-5zPkqUHkiGDnikENellc07VUiRKtjwXLFhAEAHVP', 'expires_in': 7027}}
+2024-10-20 20:12:00.886 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:12:01.535 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f391-0e9271f7-67f40ab2'}
+2024-10-20 20:21:52.435 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:21:53.160 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f5e1-0ed2b428-37003d1c'}
+2024-10-20 20:22:00.245 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:22:00.863 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f5e8-31b8cb6e-21ef5ff7'}
+2024-10-20 20:22:17.380 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 20:22:18.027 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 6714f5f9-268950c5-6ddb63dc'}
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1120]
+INFO:     Stopping reloader process [1016]
+2024-10-20 21:17:04.421 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-20 21:17:04.432 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-20 21:17:04.432 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-20 21:17:04.443 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [4654] using WatchFiles
+2024-10-20 21:17:04.914 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-20 21:17:04.920 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-20 21:17:04.920 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-20 21:17:04.920 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-10-20 21:17:04.940 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-20 21:17:04.940 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-20 21:17:04.940 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [4758]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-20 21:18:05.267 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-20 21:18:07.804 | INFO     | apps.wpp.views:material_img_add:90 - {'media_id': '7Wxc9h8I-qEyM99wXU_uLXEM8MZ1tvM3ssUZs9w_X0gpAVoXR8zsdteOtNnaAm3j', 'url': 'http://mmbiz.qpic.cn/mmbiz_png/RibNrtQ85OkavsvumSF7TNEkBD0BnB8Eo7oibjGtGcj3M3njaEmmBcbS6fWUOKSuiav4TKyoeSUKeZwsDf06MyibRQ/0?wx_fmt=png', 'item': []}
+2024-10-20 21:20:42.662 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-20 21:20:42.663 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_xtmMWqfMS-RxVP6pTQh4hxYaxPahW_cCVJaxkQFQzeWXDgfMeuTb_SKQouygtsVbfby0pBbWGp6KDsxsCxLS0vl8_JLG-5zPkqUHkiGDnikENellc07VUiRKtjwXLFhAEAHVP' title='新疆之旅' author='王王' digest='新疆大沙漠呀' content='《丝路南客•风情疆新纪旅述新韵 新载人间万象奇篇\n\n序·新之端至远与新处变一，行新亦见新，\n\n从遥远西域启渡于茫茫天宇之上，穿越新疆这一段古西域沧桑变迁的时光洪源间．吾愿化身为一片白沫游漾流湍之间, 依江而浮身于戈斯两荒之中！以笔与口记载和讲述新在新远在之行。”\n\n旅行之初见至新：新疆如一片汪大滩心，\n心上是草原,心中为瀚海水深.天池玉洁夜幕里\n轻叹“天地山皆空”, 囀自寻一境世游无尽.。\n吾自古多闲散之心\n\n从戈格里荒烟落牧牛炊事人家，\n\n至塔川沙色连水天，天色澄蓝映山间 。\n\n白俄乌勒夜读诗经“关民”\n思慕故乡与旧居.情动千帆影在江 \n\n至楼观，万道祥曦流进长湖．如幻光映，\n吾生所向往的景愿！吾眼欲飞往之，\n是天地间最璀璨不衰的新境界啊!\n我知：世上有花不尽\n无山不住着。\n我所看此书,只为抒意怀！\n\n然:天下美景不可复，惟恐时光多流转,\n\n新疆古丝绸一绝，在西之遥\n\n我已初成游矣新旧篇。\n\n其情真语至是快！然其亦心系世故，深涉历史情怀\n\n《乌鲁木齐夜》：“满目无心落人间",\n但为红绿柳间独赏千叶，望穿万里孤蓬，\n\n夜观月水波银色闪\n夜闻湖涛呜\n夜晚清露冷．夜景映花下,\n我问路漫有歧方。\n我在疆行,寻至戈山天河无界。\n何道得胜，吾道如白流也! 轴身已老！' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLXEM8MZ1tvM3ssUZs9w_X0gpAVoXR8zsdteOtNnaAm3j' need_open_comment=1 only_fans_can_comment=0
+2024-10-20 21:20:43.700 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 41039, 'errmsg': 'invalid content_source_url hint: [UpQC5a0443d100] rid: 671503ab-1640422d-3bcc768f'}
+2024-10-26 13:27:32.493 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-26 13:27:32.502 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-26 13:27:32.502 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-26 13:27:32.502 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [1034] using WatchFiles
+2024-10-26 13:27:33.004 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-26 13:27:33.009 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-26 13:27:33.010 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-26 13:27:33.010 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-10-26 13:27:33.026 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-26 13:27:33.026 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-26 13:27:33.026 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [1107]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-26 13:33:35.872 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-26 13:33:35.872 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_xtmMWqfMS-RxVP6pTQh4hxYaxPahW_cCVJaxkQFQzeWXDgfMeuTb_SKQouygtsVbfby0pBbWGp6KDsxsCxLS0vl8_JLG-5zPkqUHkiGDnikENellc07VUiRKtjwXLFhAEAHVP' title='西藏之旅' author='作者' digest='哈哈哈哈哈哈' content='当然!这里是一串包括文章各个组件以及可能的文字的具体要求、结构设计：\n文本文写体：\n---\n《旅行为心之所钟》，去「布洛赫公园——寻藏文化的踪忆·灵魂绽放于山水墨华。』  \n内容如下简：\n\n你想象里关于旅行的样子到底是个什摸形状；是一副画卷上的瑰光奇谭还是否一簇焰焰熊\n猫烟火；你的选择似乎在无声言传不响处，在心底埋下一个印记;而我也静静地看着你，在这片云生雨息之间游动如\n\n布，不觉已到人间百千年轮回与历史之重。\n\n行影不随人。 \n身临一汪潭光粼水之间也感受到天长久地在沉思静止的深处中探寻历史变迁和灵魂生长；\n仿佛在聆听风霜冷语的故事中感悟出古远山丘岁月轮回。\n这回子就是，从山花鸟蝶嬉笑着绽放生机，\n以青枝黄叶书写生活的韵致！去“巴罗拉藏园，我们在这里重演生命的故事里。]\n本文为作者所描绘一幅旅行在山水里的想象空间。\n\n主题是寻找「灵魂觉醒之地;追寻古代文化的辉煌，以及心灵被大地哺抚后升华和飞翔的故事的象征性的轨迹 以此吸引目光并鼓励深意思索：\n\n- 迮越的旅程如同一座藏经架。文字在画卷内轻灵行走于岁月深处, 悪者\n 以悲寂故事与山石作对话. 兖行着。\n[作者为我将我的灵感之墨水化在每一个细读文本的人物,让我们与藏歌文明携手\n进入古老的辉煌与神秘交织时空里的新天地,\n体息生命之力去理解世界之繁生]\n本文虽属游移思绪和想象的创作尝试，请深观，别以臆意对待，并从中得到收获并引其遐兴的共鸣\n\n###西藏旅游札言：穿越千年寻藏脉\n\n### 妻妾同心·结交百年同窗挚，我梦相望万里难，心事随春梦而碎的思绪;\n\n一程旅途行如虹;在幽远荒静中邂会古人之志高致，我们是与藏民族最密切的伴侣,\n心灵中的明器!穿越风物卷动间。\n此行程是一帧画卷，在画境\n和我共同走过的历史和现代的河，\n在这里遇见古老的秘迹。\n\n西藏古诗“文殊宝像下千斤载，不老香风万岁寿\n山外是长安”\n\n这里的每一个瞬间，\n与你的每一个想法里。\n就像一幅中国泼砚下的巨画，在云端之间。  \n\n行书于岁月、时空——你将在这次奇谲人生穿越梦寐游行中的藏历大宝月，体验在古代朝中密部宗·大昭圣观——藏密派寺庙的大法会在《六殊密地文(布康仓德普瓦玛雅布吉洛姆萨哈林帕达嘎纳巴拉波图噶)中体验与之交颈双盟·誓师同心携手同飞升的信念、勇气;\n\n此等时刻会带你领悟古老神秘与真实,以及心灵飞翔无极限。\n\n**——结成心志为道书\n让我们相携手, 近现代的人情事;将心灵穿越与文化共呼吸**\n\n西藏之美美在哪里?[文图相综描绘]([文字叙述）藏香布道人[如画篇作序](文本描述)\n\n《中国之古稀，人间梦影花之最美丽】\n\n让我们一同寻步山阶——心与万物同行者.\n\n【文中未结束: 合首语致】\n\n### 怖静中悟大化:\n「不离众生我法。一法本具,一切佛都具备，\n万物各怀法海内宝藏在. 迷我所生。\n此亦法藏为吾人最珍护的大密经(1/卷)(无底波达)\n你与文同走，在时间永恒，永远走在宇宙大道。”\n\n文中不端的诗画如风行在天地间的神韵之中;在古代大漠苍黄,一骑游于戈楼城·青龙洞等自然的鬼神般奇山,\n藏秘里探出的历史与现代文明相遇。我在这里观此景,\n\n而今此之日. 夫唯命所拟，在这古幽地长啸中领悟和思考者在你我的心结成大盟书\n\n### 盀眼·静止: 后视来;从远去之处。\n行不遗其远矣。\n[文中提及的文字片段整理总结].\n\n#### 嵯梧云中鹰·独空天\n\n“若能将时间等腰梯状的线向西平延，则东面便没有东西而唯独北方。\n\n这是什么法则？” 迏行者的法门，\n\n我在内心深深叹息.\n「生，死亡,\n大白,黑\n\n### 在这一去来的世界行走, 在每一个有山水处，以一画写一世人生，在此生遇见在文史秘影，让我们把时空共书为一处情深;\n\n与诸相、明道于世，\n在此寻步千年山程，\n藏布巴拉——你的人生。\n“西藏之路的旅程\n心之旅之旅行……" 麆\n本文已撰写出。\n【完  筠]** 喃, 绝句《云间古渡处留待后行记;去\'古韵\'\'风」诗化, 衜此文意境尽然)\n\n【本文注: 導\n\n(未完善，请继续修改);\n**本文结束**, 后有小注**西藏情。 **希望你喜欢阅读!让我们探索其中未知的秘密.让我们在这片古时遗留的故事之中漫步\n。\n\n---\n\n当然要提醒：上述文案完全免费文本输出，在正式制作或刊入公众号页面和线上之前你有权自行对所有文字符句是否适台使用做决定（这应主要依你的实际写作或出版水平），亦可在需求额外帮助的期间向此咨询请求或联络此服务组进行商检以更有效保障。我们在此愿你持续书写且找到最优秀的平台、技巧运用文字展现你的情感感受的能力.\n\n--- (文中没有完整的「云...后前行者）文尾应，即请修改或按我的建议继续续接）。若非这样我仍在此期盼在与读者的未来共鸣. 在未来一起走。\n\n期待我们从现在到那末世一起走过这片神奇天地。"** — 臭话哥 "文里之旨,\n\n注：\n如您的文章中有更准确的主题描述文字，并提供需要处理的角度要求内容等等详请可以随时指摘。\n---" 肪、心所之\n### 往何处？\n\n一九一五，二四年前之岁底.  \n在这一条蜿岖于群峭间的石径；  \n「达玛·马隆\'中\'与西藏交臂，   \n是这一个古堡;在这里，\n"无尘藏王古府. 夦色」\n\n## (补：\n\n### 关注我们和此文字的情感：\n《山风送过天。静止的时光如画境\n于藏景生相思；心有万物来伴\n\n一纸梦白画、以心事如烟如尘;\n\n从东峰眺看西南日长光, 十字星,\n\n是永恒与瞬间, 奂语。\n(此可略,留篇空间写文章更深主题部分, 戛住,暂请。 \n--本文结尾可定\n--待后期更文修改. 臘心为大同所用者）\n\n祝：创作无恙、\n\n期待能给你更多有情文与深藏心之所钟的地方;\n- 戯\n【完 文篇\n\n____ [全文已经完毕 供选择进行更新, 修改，添加后续内容. \n\n欢迎回转以表达期望或者在某些段落后结束继续制作；也可以留下未作回复或已作反应的意见或修改点；以及有其他可改进方案或希望加更的文字.](此处需要补文脚边) \n\n如上。' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLXEM8MZ1tvM3ssUZs9w_X0gpAVoXR8zsdteOtNnaAm3j' need_open_comment=1 only_fans_can_comment=0
+2024-10-26 13:33:36.085 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671c7f30-086065fb-7529aeaa'}
+2024-10-26 13:34:33.507 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-26 13:34:34.067 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'access_token': '85_cSBp02KM-bSikD0ycWjWky0zDK3_Lsb-SX69K18KavG8P8CBomKk0MRfK559Gwwny6ZKf7A6WXbGomkhHWnlh7Oy7RGb0s-lvh0qXOzpcZhz3cb6n90EjHtCg3MTWYfAIABEG', 'expires_in': 7200}}
+2024-10-26 13:36:26.397 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-26 13:36:26.398 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_cSBp02KM-bSikD0ycWjWky0zDK3_Lsb-SX69K18KavG8P8CBomKk0MRfK559Gwwny6ZKf7A6WXbGomkhHWnlh7Oy7RGb0s-lvh0qXOzpcZhz3cb6n90EjHtCg3MTWYfAIABEG' title='西藏' author='aaa' digest='hhhhh' content='当然!这里是一串包括文章各个组件以及可能的文字的具体要求、结构设计：\n文本文写体：\n---\n《旅行为心之所钟》，去「布洛赫公园——寻藏文化的踪忆·灵魂绽放于山水墨华。』  \n内容如下简：\n\n你想象里关于旅行的样子到底是个什摸形状；是一副画卷上的瑰光奇谭还是否一簇焰焰熊\n猫烟火；你的选择似乎在无声言传不响处，在心底埋下一个印记;而我也静静地看着你，在这片云生雨息之间游动如\n\n布，不觉已到人间百千年轮回与历史之重。\n\n行影不随人。 \n身临一汪潭光粼水之间也感受到天长久地在沉思静止的深处中探寻历史变迁和灵魂生长；\n仿佛在聆听风霜冷语的故事中感悟出古远山丘岁月轮回。\n这回子就是，从山花鸟蝶嬉笑着绽放生机，\n以青枝黄叶书写生活的韵致！去“巴罗拉藏园，我们在这里重演生命的故事里。]\n本文为作者所描绘一幅旅行在山水里的想象空间。\n\n主题是寻找「灵魂觉醒之地;追寻古代文化的辉煌，以及心灵被大地哺抚后升华和飞翔的故事的象征性的轨迹 以此吸引目光并鼓励深意思索：\n\n- 迮越的旅程如同一座藏经架。文字在画卷内轻灵行走于岁月深处, 悪者\n 以悲寂故事与山石作对话. 兖行着。\n[作者为我将我的灵感之墨水化在每一个细读文本的人物,让我们与藏歌文明携手\n进入古老的辉煌与神秘交织时空里的新天地,\n体息生命之力去理解世界之繁生]\n本文虽属游移思绪和想象的创作尝试，请深观，别以臆意对待，并从中得到收获并引其遐兴的共鸣\n\n###西藏旅游札言：穿越千年寻藏脉\n\n### 妻妾同心·结交百年同窗挚，我梦相望万里难，心事随春梦而碎的思绪;\n\n一程旅途行如虹;在幽远荒静中邂会古人之志高致，我们是与藏民族最密切的伴侣,\n心灵中的明器!穿越风物卷动间。\n此行程是一帧画卷，在画境\n和我共同走过的历史和现代的河，\n在这里遇见古老的秘迹。\n\n西藏古诗“文殊宝像下千斤载，不老香风万岁寿\n山外是长安”\n\n这里的每一个瞬间，\n与你的每一个想法里。\n就像一幅中国泼砚下的巨画，在云端之间。  \n\n行书于岁月、时空——你将在这次奇谲人生穿越梦寐游行中的藏历大宝月，体验在古代朝中密部宗·大昭圣观——藏密派寺庙的大法会在《六殊密地文(布康仓德普瓦玛雅布吉洛姆萨哈林帕达嘎纳巴拉波图噶)中体验与之交颈双盟·誓师同心携手同飞升的信念、勇气;\n\n此等时刻会带你领悟古老神秘与真实,以及心灵飞翔无极限。\n\n**——结成心志为道书\n让我们相携手, 近现代的人情事;将心灵穿越与文化共呼吸**\n\n西藏之美美在哪里?[文图相综描绘]([文字叙述）藏香布道人[如画篇作序](文本描述)\n\n《中国之古稀，人间梦影花之最美丽】\n\n让我们一同寻步山阶——心与万物同行者.\n\n【文中未结束: 合首语致】\n\n### 怖静中悟大化:\n「不离众生我法。一法本具,一切佛都具备，\n万物各怀法海内宝藏在. 迷我所生。\n此亦法藏为吾人最珍护的大密经(1/卷)(无底波达)\n你与文同走，在时间永恒，永远走在宇宙大道。”\n\n文中不端的诗画如风行在天地间的神韵之中;在古代大漠苍黄,一骑游于戈楼城·青龙洞等自然的鬼神般奇山,\n藏秘里探出的历史与现代文明相遇。我在这里观此景,\n\n而今此之日. 夫唯命所拟，在这古幽地长啸中领悟和思考者在你我的心结成大盟书\n\n### 盀眼·静止: 后视来;从远去之处。\n行不遗其远矣。\n[文中提及的文字片段整理总结].\n\n#### 嵯梧云中鹰·独空天\n\n“若能将时间等腰梯状的线向西平延，则东面便没有东西而唯独北方。\n\n这是什么法则？” 迏行者的法门，\n\n我在内心深深叹息.\n「生，死亡,\n大白,黑\n\n### 在这一去来的世界行走, 在每一个有山水处，以一画写一世人生，在此生遇见在文史秘影，让我们把时空共书为一处情深;\n\n与诸相、明道于世，\n在此寻步千年山程，\n藏布巴拉——你的人生。\n“西藏之路的旅程\n心之旅之旅行……" 麆\n本文已撰写出。\n【完  筠]** 喃, 绝句《云间古渡处留待后行记;去\'古韵\'\'风」诗化, 衜此文意境尽然)\n\n【本文注: 導\n\n(未完善，请继续修改);\n**本文结束**, 后有小注**西藏情。 **希望你喜欢阅读!让我们探索其中未知的秘密.让我们在这片古时遗留的故事之中漫步\n。\n\n---\n\n当然要提醒：上述文案完全免费文本输出，在正式制作或刊入公众号页面和线上之前你有权自行对所有文字符句是否适台使用做决定（这应主要依你的实际写作或出版水平），亦可在需求额外帮助的期间向此咨询请求或联络此服务组进行商检以更有效保障。我们在此愿你持续书写且找到最优秀的平台、技巧运用文字展现你的情感感受的能力.\n\n--- (文中没有完整的「云...后前行者）文尾应，即请修改或按我的建议继续续接）。若非这样我仍在此期盼在与读者的未来共鸣. 在未来一起走。\n\n期待我们从现在到那末世一起走过这片神奇天地。"** — 臭话哥 "文里之旨,\n\n注：\n如您的文章中有更准确的主题描述文字，并提供需要处理的角度要求内容等等详请可以随时指摘。\n---" 肪、心所之\n### 往何处？\n\n一九一五，二四年前之岁底.  \n在这一条蜿岖于群峭间的石径；  \n「达玛·马隆\'中\'与西藏交臂，   \n是这一个古堡;在这里，\n"无尘藏王古府. 夦色」\n\n## (补：\n\n### 关注我们和此文字的情感：\n《山风送过天。静止的时光如画境\n于藏景生相思；心有万物来伴\n\n一纸梦白画、以心事如烟如尘;\n\n从东峰眺看西南日长光, 十字星,\n\n是永恒与瞬间, 奂语。\n(此可略,留篇空间写文章更深主题部分, 戛住,暂请。 \n--本文结尾可定\n--待后期更文修改. 臘心为大同所用者）\n\n祝：创作无恙、\n\n期待能给你更多有情文与深藏心之所钟的地方;\n- 戯\n【完 文篇\n\n____ [全文已经完毕 供选择进行更新, 修改，添加后续内容. \n\n欢迎回转以表达期望或者在某些段落后结束继续制作；也可以留下未作回复或已作反应的意见或修改点；以及有其他可改进方案或希望加更的文字.](此处需要补文脚边) \n\n如上。' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLXEM8MZ1tvM3ssUZs9w_X0gpAVoXR8zsdteOtNnaAm3j' need_open_comment=1 only_fans_can_comment=0
+2024-10-26 13:36:27.356 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 41039, 'errmsg': 'invalid content_source_url hint: [hwTBSa09874927] rid: 671c7fdb-7da70689-4d348837'}
+2024-10-26 15:24:27.343 | INFO     | apps.wpp.views:publish_free:117 - run publish_free
+2024-10-26 15:24:29.229 | INFO     | apps.wpp.views:publish_free:120 - data: {'errcode': 0, 'errmsg': 'ok', 'publish_id': 2247483780, 'msg_data_id': 2247483780}
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1107]
+INFO:     Stopping reloader process [1034]
+2024-10-26 17:22:57.940 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-26 17:22:57.948 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-10-26 17:22:57.949 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-26 17:22:57.949 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [71400] using WatchFiles
+2024-10-26 17:22:58.419 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-10-26 17:22:58.425 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-10-26 17:22:58.425 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-26 17:22:58.425 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-10-26 17:22:58.438 | INFO     | main:<module>:39 - Server is up and running.
+2024-10-26 17:22:58.438 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-10-26 17:22:58.438 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [71504]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71504]
+INFO:     Stopping reloader process [71400]

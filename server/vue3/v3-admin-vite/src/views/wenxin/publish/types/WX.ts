@@ -1,5 +1,5 @@
 export interface Wenxin_article_Type {
-  Data: JSON,
+  DATA: JSON,
   code: string
 }
 
@@ -13,5 +13,10 @@ export interface WXData {
   thumb_media_id:string,
   need_open_comment:string,
   only_fans_can_comment:string,
+  code:string
+}
+
+export interface Wenxin_Media_ID {
+  MEDIA_ID: string,
   code:string
 }

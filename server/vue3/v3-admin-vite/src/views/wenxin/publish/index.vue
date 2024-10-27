@@ -8,7 +8,7 @@ import axios from 'axios';
 //import { usePagination } from "@/hooks/usePagination"
 //import { cloneDeep } from "lodash-es"
 import type * as WX_path from "./types/WX"
-import {type_list_all,need_open_data_list_all,create_WX,fans_comment_list_all } from "./index"
+import {type_list_all,need_open_data_list_all,create_WX,fans_comment_list_all,MEDIA_ID_data_list_all,publish_WX } from "./index"
 import {reactive,ref,onMounted} from "vue";
 import { fi } from "element-plus/lib/locale/index.js";
 defineOptions({
@@ -79,8 +79,45 @@ const handleWX = () => {
   
   try {
     create_WX(WXFormData).then((res) => {
-    alert("创建成功")
+    if (res.success){
+      alert("创建成功")
+    }else{
+      alert("创建失败")
+    }
+  })
+  }catch (error){
+    console.error(
+        '错误',error
+    )
+  }
 
+}
+const WXFormData_final: WX_path.Wenxin_Media_ID = reactive({
+  MEDIA_ID: "请选择ID",
+  code:""
+})
+const MEDIA_ID_data =ref([])
+onMounted(async () =>{
+  try {
+    MEDIA_ID_data_list_all().then((res) => {
+      MEDIA_ID_data.value = res.data
+  })
+  }catch (error){
+    console.error(
+        '错误',error
+    )
+  }
+})
+/** 发布信息 */
+const submitWX = () => {
+  
+  try {
+    publish_WX(WXFormData_final).then((res) => {
+    if (res.success){
+      alert("发布成功")
+    }else{
+      alert("发布失败")
+    }
   })
   }catch (error){
     console.error(
@@ -190,8 +227,26 @@ const handleWX = () => {
                 :value="item.name"></el-option>
           </el-select>
           </el-form-item>
-          <el-button :loading="loading" type="primary" size="large" @click.prevent="handleWX">提交</el-button>
+          <el-button :loading="loading" type="primary" size="large" @click.prevent="handleWX">提交草稿</el-button>
         </el-form>
+        <el-form ref="wxFormRef" :model="WXFormData_final" :rules="WXFormRules" @keyup.enter="submitWX">
+          <el-form-item prop="MEDIA_ID">
+            <p>MEDIA_ID</p>
+            <el-select 
+            v-model.trim="WXFormData_final.MEDIA_ID"
+            placeholder="选择：" 
+            tabindex="1"
+            size="large">
+            <el-option
+                v-for="item in MEDIA_ID_data"
+                :key="item.value"
+                :label="item.name"
+                :value="item.value"></el-option>
+          </el-select>
+          </el-form-item>
+          <el-button :loading="loading" type="primary" size="large" @click.prevent="submitWX">发布草稿</el-button>
+        </el-form>
+     
 </template>
 
 <style lang="scss" scoped>
