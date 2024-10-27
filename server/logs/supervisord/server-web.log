@@ -4303,3 +4303,140 @@ TypeError: The view function for 'weibo_UI.submit_kb' did not return a valid res
 127.0.0.1 - - [20/Oct/2024 09:40:33] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
 127.0.0.1 - - [20/Oct/2024 09:40:33] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
 127.0.0.1 - - [20/Oct/2024 09:40:33] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+2024-10-20 21:17:03.949 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+2024-10-20 21:17:04.183 | INFO     | __main__:<module>:46 - Server is up and running.
+2024-10-20 21:17:04.183 | INFO     | __main__:<module>:47 - Please visit http://127.0.0.1:9020/demo/heartbeat to verify.
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9020
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Oct/2024 21:17:51] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:17:56] "POST /weibo_UI/api/v1/users/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:17:56] "GET /weibo_UI/api/v1/users/info HTTP/1.1" 200 -
+2024-10-20 21:18:05.262 | INFO     | apps.weibo_UI.views:Wenxin_upload_file:416 - /mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/pic_data/美丽的青藏高原，远方高山有皑皑白雪_20240901_192619.027655.png
+2024-10-20 21:18:05.263 | INFO     | apps.weibo_UI.views:Wenxin_upload_file:417 - 85_xtmMWqfMS-RxVP6pTQh4hxYaxPahW_cCVJaxkQFQzeWXDgfMeuTb_SKQouygtsVbfby0pBbWGp6KDsxsCxLS0vl8_JLG-5zPkqUHkiGDnikENellc07VUiRKtjwXLFhAEAHVP
+127.0.0.1 - - [20/Oct/2024 21:18:07] "POST /weibo_UI/api/v1/Wenxin/upload HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:18:18] "GET /weibo_UI/api/v1/users/info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:18:18] "GET /weibo_UI/api/v1/Wenxin/acticle_type HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:18:18] "GET /weibo_UI/api/v1/Wenxin/word_number HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:18:18] "GET /weibo_UI/api/v1/Wenxin/acticle_style HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:18:18] "GET /weibo_UI/api/v1/Wenxin/word_style HTTP/1.1" 200 -
+[2024-10-20 21:18:59,329] ERROR in app: Exception on /weibo_UI/api/v1/Wenxin/create_draft [POST]
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/views.py", line 576, in WX_create_draft
+    answer=no_vector_model_rag(url,prompt)
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/rag_run.py", line 65, in no_vector_model_rag
+    response = requests.post(url, json=json_data).json()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+127.0.0.1 - - [20/Oct/2024 21:18:59] "[35m[1mPOST /weibo_UI/api/v1/Wenxin/create_draft HTTP/1.1[0m" 500 -
+[2024-10-20 21:19:23,206] ERROR in app: Exception on /weibo_UI/api/v1/Wenxin/create_draft [POST]
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/views.py", line 576, in WX_create_draft
+    answer=no_vector_model_rag(url,prompt)
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/web/apps/weibo_UI/rag_run.py", line 65, in no_vector_model_rag
+    response = requests.post(url, json=json_data).json()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+127.0.0.1 - - [20/Oct/2024 21:19:23] "[35m[1mPOST /weibo_UI/api/v1/Wenxin/create_draft HTTP/1.1[0m" 500 -
+127.0.0.1 - - [20/Oct/2024 21:19:54] "POST /weibo_UI/api/v1/Wenxin/create_draft HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:20:11] "GET /weibo_UI/api/v1/Wenxin/need_open_data HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:20:11] "GET /weibo_UI/api/v1/Wenxin/fans_comment HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:20:11] "GET /weibo_UI/api/v1/Wenxin/thumb_media_data HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:20:43] "POST /weibo_UI/api/v1/Wenxin/publish_draft HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:24:57] "GET /weibo_UI/api/v1/users/info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2024 21:24:57] "GET /weibo_UI/api/v1/model/type HTTP/1.1" 200 -
+2024-10-20 21:24:57.441 | INFO     | apps.weibo_UI.views:model_list_all:167 - no ollama
+127.0.0.1 - - [20/Oct/2024 21:24:57] "POST /weibo_UI/api/v1/model/list HTTP/1.1" 200 -
+2024-10-20 21:24:57.485 | INFO     | apps.weibo_UI.rag_run:kb_list:72 - {'success': True, 'code': '000000', 'message': 'success', 'data': {'kb_list': [{'kb_id': 'bc47ff298d5b49d3aa07245a2f115acb', 'kb_name': '国务院机构改革方案', 'kb_desc': '第十四届全国人民代表大会第一次会议关于国务院机构改革方案的决定（附：国务院机构改革方案）_2023_03_10', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-08-26 23:30:39.421807', 'is_delete': 0}, {'kb_id': 'bf83de5d18fb40bdb68f4e060e4d080d', 'kb_name': '房地产税改革试点工作', 'kb_desc': '全国人民代表大会常务委员会关于授权国务院在部分地区开展房地产税改革试点工作的决定_2021_10_23', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-08-31 13:39:05.185121', 'is_delete': 0}, {'kb_id': 'd5bd038bdca845948513cfab28575a60', 'kb_name': '澳门行政长官', 'kb_desc': '全国人民代表大会常务委员会关于澳门特别行政区2013年立法会产生办法和2014年行政长官产生办法有关问题的决定_', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-08-31 13:20:33.468332', 'is_delete': 0}, {'kb_id': 'eb55d06a233a4a02b8266d85c58edbef', 'kb_name': '北京金融院', 'kb_desc': '全国人民代表大会常务委员会关于设立北京金融法院的决定', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-08-31 16:20:24.179002', 'is_delete': 0}, {'kb_id': 'kb_id_2a84608810b84a68a8b63f734ccc545b', 'kb_name': '出口退税', 'kb_desc': '全国人民代表大会常务委员会关于《中华人民共和国刑法》有关出口退税、抵扣税款的其他发票规定的解释_2005_12_29', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-09-01 14:18:24.347137', 'is_delete': 0}, {'kb_id': 'kb_id_a3b42e4a59c04b2fb04d57dafa9b3f55', 'kb_name': '香港特别行政区对深圳湾口岸港', 'kb_desc': '全国人民代表大会常务委员会关于授权香港特别行政区对深圳湾口岸港方口岸区实施管辖的决定_', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-09-01 14:32:19.300942', 'is_delete': 0}, {'kb_id': 'kb_id_kb06890a0aff4e04bc1fc63016fb0c81', 'kb_name': '军官制度', 'kb_desc': '军官制度', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-10-13 20:53:26.969533', 'is_delete': 0}, {'kb_id': 'kb_id_kb52c189071d4957809c0313d6fdda32', 'kb_name': '资源税法', 'kb_desc': '资源税法', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-09-01 20:08:23.499881', 'is_delete': 0}, {'kb_id': 'kb_id_kb60803f6abe461bb3acae121a1a4c9e', 'kb_name': '资产评估法', 'kb_desc': '资产评估', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-09-01 18:39:50.959360', 'is_delete': 0}, {'kb_id': 'kb_id_kb9c836986084eaa888543c88347871b', 'kb_name': '国家科学技术奖励条例', 'kb_desc': '国家科学技术奖励条例', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-10-13 09:54:19.325756', 'is_delete': 0}, {'kb_id': 'kb_id_kba5a008b69c4d1eb9e75fa915c9de2d', 'kb_name': '世界贸易组织', 'kb_desc': '全国人民代表大会常务委员会关于我国加入世界贸易组织的决定_2001_11_09', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-09-01 17:17:45.132534', 'is_delete': 0}, {'kb_id': 'kb_id_kbaaa549f5294bad93ca998d3e20291b', 'kb_name': '县级人大', 'kb_desc': '台湾省出席第十四届全国人民代表大会代表协商选举方案_2022_04_20', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-09-01 17:20:41.377376', 'is_delete': 0}, {'kb_id': 'uuid0000000000000000000000000012', 'kb_name': '名额分配方案', 'kb_desc': '第十三届全国人民代表大会代表名额分配方案_', 'vector_store_name': 'milvus', 'embedding_model_name': 'bge-large-zh-v1.5', 'dim': 1024, 'create_time': '2024-08-26 23:27:57.924075', 'is_delete': 0}]}}
+127.0.0.1 - - [20/Oct/2024 21:24:57] "GET /weibo_UI/api/v1/KB/list HTTP/1.1" 200 -
+2024-10-26 13:27:32.053 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+2024-10-26 13:27:32.319 | INFO     | __main__:<module>:46 - Server is up and running.
+2024-10-26 13:27:32.319 | INFO     | __main__:<module>:47 - Please visit http://127.0.0.1:9020/demo/heartbeat to verify.
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9020
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [26/Oct/2024 13:29:20] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:29:22] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:29:23] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:29:24] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:29:24] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:29:37] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:29:39] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:29:40] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:29:54] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:30:04] "GET /weibo_UI/api/v1/login/code HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:30:08] "POST /weibo_UI/api/v1/users/login HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:30:08] "GET /weibo_UI/api/v1/users/info HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:32:22] "GET /weibo_UI/api/v1/Wenxin/need_open_data HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:32:22] "GET /weibo_UI/api/v1/Wenxin/thumb_media_data HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:32:22] "GET /weibo_UI/api/v1/Wenxin/fans_comment HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:32:25] "GET /weibo_UI/api/v1/Wenxin/acticle_style HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:32:25] "GET /weibo_UI/api/v1/Wenxin/acticle_type HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:32:25] "GET /weibo_UI/api/v1/Wenxin/word_number HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:32:25] "GET /weibo_UI/api/v1/Wenxin/word_style HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:33:06] "POST /weibo_UI/api/v1/Wenxin/create_draft HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:33:13] "GET /weibo_UI/api/v1/Wenxin/need_open_data HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:33:13] "GET /weibo_UI/api/v1/Wenxin/fans_comment HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:33:13] "GET /weibo_UI/api/v1/Wenxin/thumb_media_data HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:33:36] "POST /weibo_UI/api/v1/Wenxin/publish_draft HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:34:34] "POST /weibo_UI/api/v1/Wenxin/update_token HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:34:45] "GET /weibo_UI/api/v1/users/info HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:34:45] "GET /weibo_UI/api/v1/Wenxin/need_open_data HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:34:45] "GET /weibo_UI/api/v1/Wenxin/fans_comment HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2024 13:34:45] "GET /weibo_UI/api/v1/Wenxin/thumb_media_data HTTP/1.1" 200 -
+2024-10-26 17:22:57.548 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+2024-10-26 17:22:57.761 | INFO     | __main__:<module>:46 - Server is up and running.
+2024-10-26 17:22:57.761 | INFO     | __main__:<module>:47 - Please visit http://127.0.0.1:9020/demo/heartbeat to verify.
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9020
+[33mPress CTRL+C to quit[0m
+2024-10-27 10:07:25.229 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+2024-10-27 10:07:25.571 | INFO     | __main__:<module>:46 - Server is up and running.
+2024-10-27 10:07:25.571 | INFO     | __main__:<module>:47 - Please visit http://127.0.0.1:9020/demo/heartbeat to verify.
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9020
+[33mPress CTRL+C to quit[0m

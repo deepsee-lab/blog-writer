@@ -1188,3 +1188,138 @@ INFO:     Application startup complete.
 2024-10-13 20:54:54.349 | INFO     | main:inference_mul:63 - sentences:['全国人民代表大会常务委员会关于军官制度改革期间暂时调整适用相关法律规定的决定（2016年12月25日第十二届全国人民代表大会常务委员会第二十五次会议通过）按照党中央批准的深化国防和军队改革总体方案，为加快建立军官职业化制度，构建科学规范的军官制度体系，适应现代军队建设和作战要求，第十二届全国人民代表大会常务委员会第二十五次会议决定：军官制度改革期间，暂时调整适用《中华人民共和国现役军官法》、《中国人民解放军军官军衔条例》中军官职务等级、军衔、职务任免、教育培训、待遇保障、退役安置有关规定。', '具体办法和试行范围，由中央军事委员会组织制定和予以明确。', '改革措施成熟后，及时修改完善有关法律。', '本决定自2017年1月1日起施行。', '。']
 2024-10-13 20:55:18.362 | INFO     | main:inference_mul:59 - run inference_mul
 2024-10-13 20:55:18.362 | INFO     | main:inference_mul:63 - sentences:['介绍一下军官制度']
+2024-10-20 09:35:42.263 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-20 09:35:42.267 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-20 09:35:42.267 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-20 09:35:47.788 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-20 09:35:47.791 | INFO     | __main__:<module>:80 - Server is up and running.
+2024-10-20 09:35:47.791 | INFO     | __main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-20 09:35:47.791 | INFO     | __main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/embedding']
+INFO:     Uvicorn running on http://0.0.0.0:4020 (Press CTRL+C to quit)
+INFO:     Started reloader process [1011] using WatchFiles
+2024-10-20 09:35:48.104 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-20 09:35:48.108 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-20 09:35:48.108 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-20 09:35:49.655 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-20 09:35:49.657 | INFO     | __mp_main__:<module>:80 - Server is up and running.
+2024-10-20 09:35:49.657 | INFO     | __mp_main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-20 09:35:49.658 | INFO     | __mp_main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+2024-10-20 09:35:49.680 | INFO     | main:<module>:80 - Server is up and running.
+2024-10-20 09:35:49.680 | INFO     | main:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-20 09:35:49.680 | INFO     | main:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Started server process [1354]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1354]
+INFO:     Stopping reloader process [1011]
+2024-10-20 21:17:04.194 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-20 21:17:04.198 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-20 21:17:04.198 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-20 21:17:08.306 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-20 21:17:08.309 | INFO     | __main__:<module>:80 - Server is up and running.
+2024-10-20 21:17:08.309 | INFO     | __main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-20 21:17:08.309 | INFO     | __main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/embedding']
+INFO:     Uvicorn running on http://0.0.0.0:4020 (Press CTRL+C to quit)
+INFO:     Started reloader process [4649] using WatchFiles
+2024-10-20 21:17:08.607 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-20 21:17:08.611 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-20 21:17:08.611 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-20 21:17:10.171 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-20 21:17:10.173 | INFO     | __mp_main__:<module>:80 - Server is up and running.
+2024-10-20 21:17:10.174 | INFO     | __mp_main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-20 21:17:10.174 | INFO     | __mp_main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+2024-10-20 21:17:10.191 | INFO     | main:<module>:80 - Server is up and running.
+2024-10-20 21:17:10.191 | INFO     | main:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-20 21:17:10.191 | INFO     | main:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Started server process [4991]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-10-26 13:27:32.311 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-26 13:27:32.314 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-26 13:27:32.315 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-26 13:27:37.023 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-26 13:27:37.025 | INFO     | __main__:<module>:80 - Server is up and running.
+2024-10-26 13:27:37.025 | INFO     | __main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 13:27:37.025 | INFO     | __main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/embedding']
+INFO:     Uvicorn running on http://0.0.0.0:4020 (Press CTRL+C to quit)
+INFO:     Started reloader process [1029] using WatchFiles
+2024-10-26 13:27:37.310 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-26 13:27:37.314 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-26 13:27:37.314 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-26 13:27:38.872 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-26 13:27:38.876 | INFO     | __mp_main__:<module>:80 - Server is up and running.
+2024-10-26 13:27:38.876 | INFO     | __mp_main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 13:27:38.876 | INFO     | __mp_main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+2024-10-26 13:27:38.931 | INFO     | main:<module>:80 - Server is up and running.
+2024-10-26 13:27:38.931 | INFO     | main:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 13:27:38.931 | INFO     | main:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Started server process [1311]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1311]
+INFO:     Stopping reloader process [1029]
+2024-10-26 17:21:44.234 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-26 17:21:44.238 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-26 17:21:44.238 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-26 17:21:48.060 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-26 17:21:48.063 | INFO     | __main__:<module>:80 - Server is up and running.
+2024-10-26 17:21:48.063 | INFO     | __main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 17:21:48.063 | INFO     | __main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/embedding']
+INFO:     Uvicorn running on http://0.0.0.0:4020 (Press CTRL+C to quit)
+INFO:     Started reloader process [71119] using WatchFiles
+2024-10-26 17:21:48.347 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-26 17:21:48.350 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-26 17:21:48.350 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-26 17:21:49.862 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-26 17:21:49.864 | INFO     | __mp_main__:<module>:80 - Server is up and running.
+2024-10-26 17:21:49.864 | INFO     | __mp_main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 17:21:49.864 | INFO     | __mp_main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+2024-10-26 17:21:49.877 | INFO     | main:<module>:80 - Server is up and running.
+2024-10-26 17:21:49.877 | INFO     | main:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 17:21:49.877 | INFO     | main:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Started server process [71316]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71316]
+INFO:     Stopping reloader process [71119]
+2024-10-26 17:22:57.788 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-26 17:22:57.792 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-26 17:22:57.792 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-26 17:23:02.430 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-26 17:23:02.433 | INFO     | __main__:<module>:80 - Server is up and running.
+2024-10-26 17:23:02.433 | INFO     | __main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 17:23:02.433 | INFO     | __main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/embedding']
+INFO:     Uvicorn running on http://0.0.0.0:4020 (Press CTRL+C to quit)
+INFO:     Started reloader process [71395] using WatchFiles
+2024-10-26 17:23:02.756 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/embedding
+2024-10-26 17:23:02.760 | INFO     | configs.config:<module>:47 - MODEL_NAME: BAAI/bge-large-zh-v1.5
+2024-10-26 17:23:02.760 | INFO     | configs.config:<module>:54 - MODEL_PATH: /home/lnform/BAAI/bge-large-zh-v1.5
+2024-10-26 17:23:04.350 | INFO     | algorithm:<module>:8 - Model loaded successfully.
+2024-10-26 17:23:04.352 | INFO     | __mp_main__:<module>:80 - Server is up and running.
+2024-10-26 17:23:04.352 | INFO     | __mp_main__:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 17:23:04.352 | INFO     | __mp_main__:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+2024-10-26 17:23:04.364 | INFO     | main:<module>:80 - Server is up and running.
+2024-10-26 17:23:04.365 | INFO     | main:<module>:81 - Browse http://127.0.0.1:4020/heartbeat to verify.
+2024-10-26 17:23:04.365 | INFO     | main:<module>:82 - Browse http://127.0.0.1:4020/docs to test.
+INFO:     Started server process [71674]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71674]
+INFO:     Stopping reloader process [71395]

@@ -28,7 +28,24 @@ export function fans_comment_list_all() {
 /** 提交创建WX */
 export function create_WX(data:WX_path.WXData) {
   return request<WX_path.WXData>({
-    url: "Wenxin/publish_draft",
+    url: "Wenxin/WX_submit_draft",
+    method: "post",
+    data
+  })
+}
+
+/** 获取media ID list */
+export function MEDIA_ID_data_list_all() {
+  return request<WX_path.Wenxin_article_Type>({
+    url: "Wenxin/MEDIA_ID_list",
+    method: "get"
+  })
+}
+
+/** 发布创建WX */
+export function publish_WX(data:WX_path.Wenxin_Media_ID) {
+  return request<WX_path.WXData>({
+    url: "Wenxin/WX_publish_draft",
     method: "post",
     data
   })

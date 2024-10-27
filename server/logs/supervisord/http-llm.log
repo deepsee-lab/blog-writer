@@ -92,3 +92,16 @@ INFO:     127.0.0.1:41422 - "POST /private/inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:40828 - "POST /private/inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:48736 - "POST /private/inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:35704 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35690 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35690 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36772 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51942 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38252 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48746 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34334 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50308 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50258 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55618 - "POST /private/inference HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:60200 - "POST /private/inference HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:47930 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53264 - "POST /private/inference HTTP/1.1" 200 OK

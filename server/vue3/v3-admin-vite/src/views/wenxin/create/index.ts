@@ -41,3 +41,12 @@ export function create_WX(data:WX_path.WXData) {
     data
   })
 }
+
+/** 优化content */
+export function WX_content_prompt(data:WX_path.WXData) {
+  return request<WX_path.WXData>({
+    url: "Wenxin/content_prompt",
+    method: "post",
+    data
+  })
+}

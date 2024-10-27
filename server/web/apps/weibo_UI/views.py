@@ -592,7 +592,50 @@ def WX_create_draft():
                 "message":"获取成功"
             }
         return result
-    
+
+@bp.route('/api/v1/Wenxin/content_prompt',methods=["POST","GET"])
+def WX_content_prompt():
+    if request.method == "POST":
+        result={}
+        ####
+        Type_item = request.json['Type_item']
+        Title_item = request.json['Title_item']
+        Content_item = request.json['Content_item']
+        Style_item = request.json['Style_item']
+        Word_number = request.json['Word_number']
+        Word_style = request.json['Word_style']
+        base_prompt = """
+        我想写一篇`{}`公众号文章，要求如下：
+        文章题目：`{}`
+        文章整体风格：`{}`
+        文章字数在:`{}`
+        语言风格突出`{}`，吸引读者关注。
+        我的要写的内容提示为`{}`，请帮我优化一下内容提示，让它更清晰一些
+        """.strip()
+        prompt = base_prompt.format(Type_item,Title_item,Style_item,Word_number,Word_style,Content_item)
+        url = 'http://127.0.0.1:4010/private/inference'
+        # 检查响应状态代码
+        answer=no_vector_model_rag(url,prompt)
+        print('--------',str(answer))
+        res_result=''
+        if answer['message'] == 'success':
+            # 打印响应文本
+            res_result=answer['data']['result']
+            result={
+                "code":verify_code,
+                "data":{
+                    "Type_item":Type_item,
+                    "Title_item":Title_item,
+                    "Content_item":Content_item,
+                    "Style_item":Style_item,
+                    "Word_number":Word_number,
+                    "Word_style":Word_style,
+                    "Result_item":res_result,
+                    "code":0
+                },
+                "message":"获取成功"
+            }
+        return result
 #######################################
 #wei xin
 ##发布 建立
@@ -649,8 +692,8 @@ def fans_comment():
         result['data']=type_list
     return result
 
-@bp.route('/api/v1/Wenxin/publish_draft',methods=["POST","GET"])
-def WX_publish_draft():
+@bp.route('/api/v1/Wenxin/WX_submit_draft',methods=["POST","GET"])
+def WX_submit_draft():
     if request.method == "POST":
         result={}
         ####
@@ -701,6 +744,44 @@ def WX_publish_draft():
             new_wpp_draft.content_source_url  = content_source_url
             db.session.add(new_wpp_draft)
             db.session.commit()
+        result['success']=self_media_res['success']
         result['code']=verify_code
         result['data']=message
         return result
+
+@bp.route('/api/v1/Wenxin/MEDIA_ID_list',methods=['GET','POST'] )
+def MEDIA_ID_list():
+    result={}
+    if request.method == "GET":
+        type_list=[]
+        media_id_list = weibo_wpp_add_draft_Model.query.all()
+        for item_one in media_id_list:
+            data_dict={}
+            data_dict['value']=item_one.media_id
+            data_dict['name']=item_one.title
+            type_list.append(data_dict)
+        result['code']=verify_code
+        result['data']=type_list
+    return result
+
+@bp.route('/api/v1/Wenxin/WX_publish_draft',methods=['GET','POST'] )
+def WX_publish_draft():
+    result={}
+    if request.method == "POST":
+        access_token=os.getenv('access_token')
+        MEDIA_ID = request.json['MEDIA_ID']
+        url_self_media= 'http://127.0.0.1:6050/wpp/publish_free'
+        json_data_self_media = {
+            "access_token": access_token,
+            "MEDIA_ID": MEDIA_ID
+        }
+        # 发送请求并存储响应
+        response_self_media = requests.post(url_self_media, json=json_data_self_media)
+        self_media_res=response_self_media.json()
+        message='发布失败'
+        if self_media_res['success']:
+            message='发布成功'
+        result['success']=self_media_res['success']
+        result['code']=verify_code
+        result['data']=message
+    return result

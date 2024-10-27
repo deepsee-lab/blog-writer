@@ -8,7 +8,7 @@ import axios from 'axios';
 //import { usePagination } from "@/hooks/usePagination"
 //import { cloneDeep } from "lodash-es"
 import type * as WX_path from "./types/WX"
-import {type_list_all,style_list_all,create_WX,Word_number_list_all,Word_style_list_all } from "./index"
+import {type_list_all,style_list_all,create_WX,Word_number_list_all,Word_style_list_all,WX_content_prompt } from "./index"
 import {reactive,ref,onMounted} from "vue";
 import { fi } from "element-plus/lib/locale/index.js";
 defineOptions({
@@ -97,7 +97,23 @@ const handleWX = () => {
   }
 
 }
+/** 提交信息 */
+const content_prompt = () => {
+  
+  try {
+    WX_content_prompt(WXFormData).then((res) => {
+    WXFormData.value = res.data
+    alert("优化成功")
+  })
+  }catch (error){
+    console.error(
+        '错误',error
+    )
+  }
+
+}
 </script>
+
 
 <template>
   <el-form ref="wxFormRef" :model="WXFormData" :rules="WXFormRules" @keyup.enter="handleWX">
@@ -136,6 +152,7 @@ const handleWX = () => {
               :prefix-icon="RefreshRight"
               size="large"
             />
+            <el-button  type="primary" size="large" @click.prevent="content_prompt">优化</el-button>
           </el-form-item>
           <el-form-item prop="Style_item">
             <p>选择风格：</p>
