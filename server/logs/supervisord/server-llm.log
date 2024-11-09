@@ -1346,3 +1346,560 @@ INFO:     Started reloader process [1785] using WatchFiles
 INFO:     Started server process [1959]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+2024-10-27 14:14:24.791 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 14:14:24.791 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='哈喽你好')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 14:15:13.895 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 14:15:13.895 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='请帮我生成一个去西藏旅游的攻略文章')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 20:05:51.662 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 20:05:51.662 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='请帮我写一篇西藏之旅的文章')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 20:19:32.040 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 20:19:32.040 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='帮忙写一个西藏之旅')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 20:20:03.870 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 20:20:03.870 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='帮忙写一个西藏之旅')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 20:21:56.350 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 20:21:56.350 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='帮我写一篇关于桂林旅游的小红书的文章')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 20:22:18.733 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 20:22:18.733 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='帮我写一篇关于西藏旅游的小红书的文章')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 20:26:55.582 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 20:26:55.582 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='我想写一篇`知识分享`公众号文章，要求如下：\n        文章题目：`军体拳`\n        文章整体风格：`抒情风格`\n        文章字数在:`100~300`\n        语言风格突出`诙谐幽默`，吸引读者关注。\n        我的要写的内容提示为`帮我写一个有关军体拳的文章，要生动形象`，请帮我优化一下内容提示，让它更清晰一些')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 20:32:33.455 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 20:32:33.455 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='帮我写一篇`一\n个\n有\n关\n介\n绍\n军\n体\n拳\n，\n以\n及\n举\n了\n两\n个\n军\n体\n拳\n健\n身\n的\n例\n子\n的\n说\n明`公众号文章，要求如下：\n        文章题目：`知识分享`\n        文章整体风格：`军体拳`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+2024-10-27 20:47:37.052 | INFO     | apps.private.views:inference:64 - run inference
+2024-10-27 20:47:37.052 | INFO     | apps.private.views:inference:65 - item: messages=[MessageItem(role='user', content='帮我写一篇`介\n绍\n云\n南\n之\n乡\n，\n山\n水\n风\n景`公众号文章，要求如下：\n        文章题目：`旅游攻略`\n        文章整体风格：`云南旅游`\n        文章字数在:`抒情风格`\n        语言风格突出`100~300`，吸引读者关注。')] model='qwen2:1.5b-instruct-fp16' max_tokens=4096 stream=False temperature=50.0 timeout=5000 inference_service='ollama'
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f5dff343610>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5dff343610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 13, in <module>
+    from apps.private.apis.llm_server.client_xinference import re_rank
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_xinference.py", line 20, in <module>
+    xinference_client = Client(XINFERENCE_API_BASE, api_key=XINFERENCE_API_KEY)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 788, in __init__
+    self._check_cluster_authenticated()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 806, in _check_cluster_authenticated
+    response = requests.get(url)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5dff343610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fa032297730>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa032297730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 13, in <module>
+    from apps.private.apis.llm_server.client_xinference import re_rank
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_xinference.py", line 20, in <module>
+    xinference_client = Client(XINFERENCE_API_BASE, api_key=XINFERENCE_API_KEY)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 788, in __init__
+    self._check_cluster_authenticated()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 806, in _check_cluster_authenticated
+    response = requests.get(url)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa032297730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f75a826f760>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f75a826f760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 13, in <module>
+    from apps.private.apis.llm_server.client_xinference import re_rank
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_xinference.py", line 20, in <module>
+    xinference_client = Client(XINFERENCE_API_BASE, api_key=XINFERENCE_API_KEY)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 788, in __init__
+    self._check_cluster_authenticated()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 806, in _check_cluster_authenticated
+    response = requests.get(url)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f75a826f760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7efc246df730>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efc246df730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 13, in <module>
+    from apps.private.apis.llm_server.client_xinference import re_rank
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_xinference.py", line 20, in <module>
+    xinference_client = Client(XINFERENCE_API_BASE, api_key=XINFERENCE_API_KEY)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 788, in __init__
+    self._check_cluster_authenticated()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 806, in _check_cluster_authenticated
+    response = requests.get(url)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efc246df730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fbb5c4df760>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbb5c4df760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 13, in <module>
+    from apps.private.apis.llm_server.client_xinference import re_rank
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_xinference.py", line 20, in <module>
+    xinference_client = Client(XINFERENCE_API_BASE, api_key=XINFERENCE_API_KEY)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 788, in __init__
+    self._check_cluster_authenticated()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 806, in _check_cluster_authenticated
+    response = requests.get(url)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbb5c4df760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f0dcb5af730>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0dcb5af730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 13, in <module>
+    from apps.private.apis.llm_server.client_xinference import re_rank
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_xinference.py", line 20, in <module>
+    xinference_client = Client(XINFERENCE_API_BASE, api_key=XINFERENCE_API_KEY)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 788, in __init__
+    self._check_cluster_authenticated()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 806, in _check_cluster_authenticated
+    response = requests.get(url)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0dcb5af730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f5248a6f730>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5248a6f730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 13, in <module>
+    from apps.private.apis.llm_server.client_xinference import re_rank
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_xinference.py", line 20, in <module>
+    xinference_client = Client(XINFERENCE_API_BASE, api_key=XINFERENCE_API_KEY)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 788, in __init__
+    self._check_cluster_authenticated()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 806, in _check_cluster_authenticated
+    response = requests.get(url)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5248a6f730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f5711d7b760>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5711d7b760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/main.py", line 5, in <module>
+    from apps.private.views import router as private_router
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/views.py", line 13, in <module>
+    from apps.private.apis.llm_server.client_xinference import re_rank
+  File "/mnt/d/code/python/webo_write/flask/blog-writer/server/llm/apps/private/apis/llm_server/client_xinference.py", line 20, in <module>
+    xinference_client = Client(XINFERENCE_API_BASE, api_key=XINFERENCE_API_KEY)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 788, in __init__
+    self._check_cluster_authenticated()
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/xinference_client/client/restful/restful_client.py", line 806, in _check_cluster_authenticated
+    response = requests.get(url)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lnform/miniconda3/envs/WWA/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9997): Max retries exceeded with url: /v1/cluster/auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5711d7b760>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-09 21:18:36.496 | INFO     | configs.config:<module>:29 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-11-09 21:18:36.502 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-11-09 21:18:36.502 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-11-09 21:18:36.502 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/llm']
+INFO:     Uvicorn running on http://0.0.0.0:4010 (Press CTRL+C to quit)
+INFO:     Started reloader process [4235] using WatchFiles
+2024-11-09 21:18:37.018 | INFO     | configs.config:<module>:29 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/llm
+2024-11-09 21:18:37.025 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-11-09 21:18:37.025 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-11-09 21:18:37.025 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+2024-11-09 21:18:37.043 | INFO     | main:<module>:39 - Server is up and running.
+2024-11-09 21:18:37.044 | INFO     | main:<module>:40 - Browse http://127.0.0.1:4010 to verify.
+2024-11-09 21:18:37.044 | INFO     | main:<module>:41 - Browse http://127.0.0.1:4010/docs to test.
+INFO:     Started server process [4407]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

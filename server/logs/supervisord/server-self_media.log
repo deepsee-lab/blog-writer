@@ -1373,3 +1373,95 @@ INFO:     Started reloader process [1788] using WatchFiles
 INFO:     Started server process [1892]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+2024-10-27 20:46:06.279 | INFO     | apps.wpp.views:stable_access_token_get:66 - run get_stable_access_token
+2024-10-27 20:46:06.875 | INFO     | apps.wpp.views:stable_access_token_get:72 - {'stable_access_token': {'access_token': '85_UCMJ8GekNDlBi65A57cI-vOILhtWrJJVua5NdlmIn0__fbAtn1mEj0VLZruxkXU_Q0bHX2e-4Iqi7XFPnNWzQ8OKuD8xDAVFfRe4UQB8-MacGt_J9zvJqNqrVDsKSJgAJADLC', 'expires_in': 7200}}
+2024-10-27 20:46:16.719 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-27 20:46:17.170 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671e3619-465e146e-174b5d45'}
+2024-10-27 20:46:23.282 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-27 20:46:23.813 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671e361f-64c9cb2d-2fbd4d7e'}
+2024-10-27 20:46:49.133 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-27 20:46:49.575 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671e3639-61349ee2-525bcd82'}
+2024-10-27 20:46:54.949 | INFO     | apps.wpp.views:material_img_add:87 - run material_img_add
+2024-10-27 20:46:55.350 | INFO     | apps.wpp.views:material_img_add:90 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671e363f-32cbbd54-15cd9472'}
+2024-10-27 20:48:31.337 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-27 20:48:31.337 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_cSBp02KM-bSikD0ycWjWky0zDK3_Lsb-SX69K18KavG8P8CBomKk0MRfK559Gwwny6ZKf7A6WXbGomkhHWnlh7Oy7RGb0s-lvh0qXOzpcZhz3cb6n90EjHtCg3MTWYfAIABEG' title='云南之旅' author='作者' digest='体现山水' content='<template id="_hazeyjE0DdT"><_mymonster>\n\t<b-article-meta author="${article.meta[0]="XanderYorley19"` contentId="@uGn">\n          琰  \n   \n       \n         \n\n          你好。本指南旨在介绍我们梦幻似江南之乡之风景！身处《千百次来与不来都是江湖情动之人眼里，最深的情感交融都融如云南之地：群山上、翠山翠流河岸边无不彰显生命的壮绝和色彩交织的一样斑斓生动! 颶 都以云南之文化作为主要创作方向！\n\n20/昆明花街。   \n从丽江的古丝绸之路进入云南省中部平原上一千年古街，“四方楼下穿雨衣“穿出云南海面！走进纳粹镇上青峰古寺深处寻找历史上的尘屑踪。   \n   \n       绫 这家小吃也让你回味良长!\n\n昆明老北城的老火饭吃货不容忽略!\n\n  \n六朝市景地和世博群落里那条悠漫长线般的“丽江纳格鲁”，穿破五洲共梦的古城古巷深林中独乐清山。 隘 ，这地方人很多!不过我只来一趟体验古城的人气！      \n  \n 蛒 杀 一串“鸡胸骨烧红米粑油辣椒锅”满足自己最香口味    \n        \n      殓 昆城夜鼓   \n丽江大巷边“昆明桥头路牌街角茶棚边的花影婆家子与白纱裙的女孩”。 夐 在这里，我可以静静发问自己的思绪去远的云彩上！\n      \n  \n  \n        \n      \n       \n   \n           \n            \n\n             霯\n   \n  \n  \n        \n        \n\n \n\n</blog content></content-component=""></article-container>/template_id="<_4dL">\n\n</div>&script<include filename="../assets/main/js.js"/><\\/jScript<script>:_gY0Q:__init(),<\\/code\\>; </DOCTYPE\n\n\n<script>\\r</content-component' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZ5T3eF-jSkspT4l01cUSqQ3dEYWasMNOyf400_qdIas' need_open_comment=1 only_fans_can_comment=0
+2024-10-27 20:48:31.523 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671e369f-47c774c1-6243e28b'}
+2024-10-27 20:50:27.132 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-27 20:50:27.132 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_cSBp02KM-bSikD0ycWjWky0zDK3_Lsb-SX69K18KavG8P8CBomKk0MRfK559Gwwny6ZKf7A6WXbGomkhHWnlh7Oy7RGb0s-lvh0qXOzpcZhz3cb6n90EjHtCg3MTWYfAIABEG' title='云南之旅' author='hhhh' digest='游山玩水' content='hhhh123发射点立刻发酵饲料空间' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZ5T3eF-jSkspT4l01cUSqQ3dEYWasMNOyf400_qdIas' need_open_comment=1 only_fans_can_comment=0
+2024-10-27 20:50:27.341 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671e3713-334a1ec2-196105db'}
+2024-10-27 20:50:51.268 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-27 20:50:51.268 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_UCMJ8GekNDlBi65A57cI-vOILhtWrJJVua5NdlmIn0__fbAtn1mEj0VLZruxkXU_Q0bHX2e-4Iqi7XFPnNWzQ8OKuD8xDAVFfRe4UQB8-MacGt_J9zvJqNqrVDsKSJgAJADLC' title='云南之旅' author='hhhh' digest='游山玩水' content='hhhh123发射点立刻发酵饲料空间' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLZ5T3eF-jSkspT4l01cUSqQ3dEYWasMNOyf400_qdIas' need_open_comment=1 only_fans_can_comment=0
+2024-10-27 20:50:51.807 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 40007, 'errmsg': 'invalid media_id hint: [htpFnA04512801] rid: 671e372b-4ff0b08a-0456e7c2'}
+2024-10-27 20:51:21.033 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-27 20:51:21.034 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_cSBp02KM-bSikD0ycWjWky0zDK3_Lsb-SX69K18KavG8P8CBomKk0MRfK559Gwwny6ZKf7A6WXbGomkhHWnlh7Oy7RGb0s-lvh0qXOzpcZhz3cb6n90EjHtCg3MTWYfAIABEG' title='云南之旅' author='作者' digest='体现山水' content='<template id="_hazeyjE0DdT"><_mymonster>\n\t<b-article-meta author="${article.meta[0]="XanderYorley19"` contentId="@uGn">\n          琰  \n   \n       \n         \n\n          你好。本指南旨在介绍我们梦幻似江南之乡之风景！身处《千百次来与不来都是江湖情动之人眼里，最深的情感交融都融如云南之地：群山上、翠山翠流河岸边无不彰显生命的壮绝和色彩交织的一样斑斓生动! 颶 都以云南之文化作为主要创作方向！\n\n20/昆明花街。   \n从丽江的古丝绸之路进入云南省中部平原上一千年古街，“四方楼下穿雨衣“穿出云南海面！走进纳粹镇上青峰古寺深处寻找历史上的尘屑踪。   \n   \n       绫 这家小吃也让你回味良长!\n\n昆明老北城的老火饭吃货不容忽略!\n\n  \n六朝市景地和世博群落里那条悠漫长线般的“丽江纳格鲁”，穿破五洲共梦的古城古巷深林中独乐清山。 隘 ，这地方人很多!不过我只来一趟体验古城的人气！      \n  \n 蛒 杀 一串“鸡胸骨烧红米粑油辣椒锅”满足自己最香口味    \n        \n      殓 昆城夜鼓   \n丽江大巷边“昆明桥头路牌街角茶棚边的花影婆家子与白纱裙的女孩”。 夐 在这里，我可以静静发问自己的思绪去远的云彩上！\n      \n  \n  \n        \n      \n       \n   \n           \n            \n\n             霯\n   \n  \n  \n        \n        \n\n \n\n</blog content></content-component=""></article-container>/template_id="<_4dL">\n\n</div>&script<include filename="../assets/main/js.js"/><\\/jScript<script>:_gY0Q:__init(),<\\/code\\>; </DOCTYPE\n\n\n<script>\\r</content-component' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLexklo7un5QrWD2I5Bo6BLyj89ltjJOXTnqYKZFmAYaO' need_open_comment=1 only_fans_can_comment=0
+2024-10-27 20:51:21.294 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671e3749-3b646b7c-635ce699'}
+2024-10-27 20:52:11.704 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-27 20:52:11.705 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_cSBp02KM-bSikD0ycWjWky0zDK3_Lsb-SX69K18KavG8P8CBomKk0MRfK559Gwwny6ZKf7A6WXbGomkhHWnlh7Oy7RGb0s-lvh0qXOzpcZhz3cb6n90EjHtCg3MTWYfAIABEG' title='云南之旅' author='作者' digest='asdfsdf' content='sdafdsffdsf' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLXEM8MZ1tvM3ssUZs9w_X0gpAVoXR8zsdteOtNnaAm3j' need_open_comment=1 only_fans_can_comment=0
+2024-10-27 20:52:11.943 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 42001, 'errmsg': 'access_token expired rid: 671e377b-6c31d656-6605cf18'}
+2024-10-27 20:52:35.659 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-27 20:52:35.660 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_UCMJ8GekNDlBi65A57cI-vOILhtWrJJVua5NdlmIn0__fbAtn1mEj0VLZruxkXU_Q0bHX2e-4Iqi7XFPnNWzQ8OKuD8xDAVFfRe4UQB8-MacGt_J9zvJqNqrVDsKSJgAJADLC' title='云南之旅' author='hhhh' digest='游山玩水' content='hhhh123发射点立刻发酵饲料空间' content_source_url='#' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLXEM8MZ1tvM3ssUZs9w_X0gpAVoXR8zsdteOtNnaAm3j' need_open_comment=1 only_fans_can_comment=0
+2024-10-27 20:52:36.462 | INFO     | apps.wpp.views:draft_add:108 - {'errcode': 41039, 'errmsg': 'invalid content_source_url hint: [_tuKLA0556p448] rid: 671e3793-6ffb3f86-6cbf39dc'}
+2024-10-27 20:53:03.341 | INFO     | apps.wpp.views:draft_add:105 - run draft_add
+2024-10-27 20:53:03.341 | INFO     | apps.wpp.views:draft_add:106 - access_token='85_UCMJ8GekNDlBi65A57cI-vOILhtWrJJVua5NdlmIn0__fbAtn1mEj0VLZruxkXU_Q0bHX2e-4Iqi7XFPnNWzQ8OKuD8xDAVFfRe4UQB8-MacGt_J9zvJqNqrVDsKSJgAJADLC' title='云南之旅' author='hhhh' digest='游山玩水' content='hhhh123发射点立刻发酵饲料空间' content_source_url='http://127.0.0.1' thumb_media_id='7Wxc9h8I-qEyM99wXU_uLXEM8MZ1tvM3ssUZs9w_X0gpAVoXR8zsdteOtNnaAm3j' need_open_comment=1 only_fans_can_comment=0
+2024-10-27 20:53:07.815 | INFO     | apps.wpp.views:draft_add:108 - {'media_id': '7Wxc9h8I-qEyM99wXU_uLTWssYoqwp-hFSBpW9v3JMNSmJmU27RBY3p0LL8pk2U9', 'item': []}
+2024-11-09 21:11:49.964 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-11-09 21:11:49.975 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-11-09 21:11:49.975 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:11:49.976 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [881] using WatchFiles
+2024-11-09 21:11:50.420 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-11-09 21:11:50.426 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-11-09 21:11:50.426 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:11:50.426 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-11-09 21:11:50.442 | INFO     | main:<module>:39 - Server is up and running.
+2024-11-09 21:11:50.442 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:11:50.443 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [985]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [985]
+INFO:     Stopping reloader process [881]
+2024-11-09 21:13:13.908 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-11-09 21:13:13.926 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-11-09 21:13:13.927 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:13:13.928 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [1948] using WatchFiles
+2024-11-09 21:13:14.360 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-11-09 21:13:14.366 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-11-09 21:13:14.366 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:13:14.366 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-11-09 21:13:14.381 | INFO     | main:<module>:39 - Server is up and running.
+2024-11-09 21:13:14.381 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:13:14.382 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [2084]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2084]
+INFO:     Stopping reloader process [1948]
+2024-11-09 21:18:36.076 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-11-09 21:18:36.085 | INFO     | __main__:<module>:39 - Server is up and running.
+2024-11-09 21:18:36.085 | INFO     | __main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:18:36.086 | INFO     | __main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/self_media']
+INFO:     Uvicorn running on http://0.0.0.0:6050 (Press CTRL+C to quit)
+INFO:     Started reloader process [4238] using WatchFiles
+2024-11-09 21:18:36.531 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/self_media
+2024-11-09 21:18:36.537 | INFO     | __mp_main__:<module>:39 - Server is up and running.
+2024-11-09 21:18:36.537 | INFO     | __mp_main__:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:18:36.537 | INFO     | __mp_main__:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+2024-11-09 21:18:36.550 | INFO     | main:<module>:39 - Server is up and running.
+2024-11-09 21:18:36.550 | INFO     | main:<module>:40 - Browse http://127.0.0.1:6050 to verify.
+2024-11-09 21:18:36.550 | INFO     | main:<module>:41 - Browse http://127.0.0.1:6050/docs to test.
+INFO:     Started server process [4311]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

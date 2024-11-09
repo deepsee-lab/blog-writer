@@ -4440,3 +4440,21 @@ requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:9020
 [33mPress CTRL+C to quit[0m
+2024-11-09 21:11:49.559 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+2024-11-09 21:11:49.848 | INFO     | __main__:<module>:46 - Server is up and running.
+2024-11-09 21:11:49.849 | INFO     | __main__:<module>:47 - Please visit http://127.0.0.1:9020/demo/heartbeat to verify.
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9020
+[33mPress CTRL+C to quit[0m
+2024-11-09 21:13:13.556 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+2024-11-09 21:13:13.810 | INFO     | __main__:<module>:46 - Server is up and running.
+2024-11-09 21:13:13.811 | INFO     | __main__:<module>:47 - Please visit http://127.0.0.1:9020/demo/heartbeat to verify.
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9020
+[33mPress CTRL+C to quit[0m
+2024-11-09 21:18:35.712 | INFO     | configs.config:<module>:24 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/web
+2024-11-09 21:18:35.977 | INFO     | __main__:<module>:46 - Server is up and running.
+2024-11-09 21:18:35.977 | INFO     | __main__:<module>:47 - Please visit http://127.0.0.1:9020/demo/heartbeat to verify.
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:9020
+[33mPress CTRL+C to quit[0m

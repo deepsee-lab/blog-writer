@@ -2415,3 +2415,64 @@ INFO:     Started reloader process [1787] using WatchFiles
 INFO:     Started server process [1825]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+2024-11-09 21:11:49.765 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-11-09 21:11:49.815 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-11-09 21:11:49.816 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:11:49.816 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/rag']
+INFO:     Uvicorn running on http://0.0.0.0:7020 (Press CTRL+C to quit)
+INFO:     Started reloader process [880] using WatchFiles
+2024-11-09 21:11:50.249 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-11-09 21:11:50.290 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-11-09 21:11:50.290 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:11:50.290 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-11-09 21:11:50.325 | INFO     | main:<module>:143 - Server is up and running.
+2024-11-09 21:11:50.325 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:11:50.325 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Started server process [918]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [918]
+INFO:     Stopping reloader process [880]
+2024-11-09 21:13:13.715 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-11-09 21:13:13.808 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-11-09 21:13:13.809 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:13:13.809 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/rag']
+INFO:     Uvicorn running on http://0.0.0.0:7020 (Press CTRL+C to quit)
+INFO:     Started reloader process [1947] using WatchFiles
+2024-11-09 21:13:14.196 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-11-09 21:13:14.234 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-11-09 21:13:14.235 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:13:14.235 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-11-09 21:13:14.250 | INFO     | main:<module>:143 - Server is up and running.
+2024-11-09 21:13:14.250 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:13:14.250 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Started server process [1985]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1985]
+INFO:     Stopping reloader process [1947]
+2024-11-09 21:18:35.910 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-11-09 21:18:35.967 | INFO     | __main__:<module>:143 - Server is up and running.
+2024-11-09 21:18:35.968 | INFO     | __main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:18:35.968 | INFO     | __main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/rag']
+INFO:     Uvicorn running on http://0.0.0.0:7020 (Press CTRL+C to quit)
+INFO:     Started reloader process [4237] using WatchFiles
+2024-11-09 21:18:36.404 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/rag
+2024-11-09 21:18:36.442 | INFO     | __mp_main__:<module>:143 - Server is up and running.
+2024-11-09 21:18:36.442 | INFO     | __mp_main__:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:18:36.442 | INFO     | __mp_main__:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+2024-11-09 21:18:36.464 | INFO     | main:<module>:143 - Server is up and running.
+2024-11-09 21:18:36.465 | INFO     | main:<module>:144 - Browse http://127.0.0.1:7020/heartbeat to verify.
+2024-11-09 21:18:36.465 | INFO     | main:<module>:145 - Browse http://127.0.0.1:7020/docs to test.
+INFO:     Started server process [4275]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

@@ -16763,3 +16763,220 @@
 2024-10-27 10:07:30,151 INFO success: web entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
 2024-10-27 10:07:42,155 INFO waiting for web to stop
 2024-10-27 10:07:42,157 WARN stopped: web (terminated by SIGTERM)
+2024-11-09 21:11:48,372 INFO RPC interface 'supervisor' initialized
+2024-11-09 21:11:48,373 INFO daemonizing the supervisord process
+2024-11-09 21:11:48,375 INFO supervisord started with pid 875
+2024-11-09 21:11:49,390 INFO spawned: 'embedding' with pid 876
+2024-11-09 21:11:49,395 INFO spawned: 'file_parsing' with pid 877
+2024-11-09 21:11:49,398 INFO spawned: 'llm' with pid 878
+2024-11-09 21:11:49,402 INFO spawned: 'memory' with pid 879
+2024-11-09 21:11:49,405 INFO spawned: 'rag' with pid 880
+2024-11-09 21:11:49,408 INFO spawned: 'self_media' with pid 881
+2024-11-09 21:11:49,410 INFO spawned: 'web' with pid 882
+2024-11-09 21:11:50,402 WARN exited: llm (exit status 1; not expected)
+2024-11-09 21:11:51,422 INFO spawned: 'llm' with pid 1117
+2024-11-09 21:11:51,982 WARN exited: llm (exit status 1; not expected)
+2024-11-09 21:11:53,985 INFO spawned: 'llm' with pid 1153
+2024-11-09 21:11:54,467 INFO success: embedding entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:11:54,467 INFO success: file_parsing entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:11:54,467 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:11:54,468 INFO success: rag entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:11:54,468 INFO success: self_media entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:11:54,468 INFO success: web entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:11:54,529 WARN exited: llm (exit status 1; not expected)
+2024-11-09 21:11:57,573 INFO spawned: 'llm' with pid 1223
+2024-11-09 21:11:58,096 WARN exited: llm (exit status 1; not expected)
+2024-11-09 21:11:58,231 INFO gave up: llm entered FATAL state, too many start retries too quickly
+2024-11-09 21:12:00,525 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:12:01,528 INFO spawned: 'memory' with pid 1228
+2024-11-09 21:12:06,534 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:12:12,217 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:12:13,220 INFO spawned: 'memory' with pid 1536
+2024-11-09 21:12:18,226 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:12:20,685 INFO waiting for web to stop
+2024-11-09 21:12:20,687 WARN stopped: web (terminated by SIGTERM)
+2024-11-09 21:12:23,794 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:12:24,801 INFO spawned: 'memory' with pid 1594
+2024-11-09 21:12:29,808 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:12:33,813 WARN received SIGTERM indicating exit request
+2024-11-09 21:12:33,814 INFO waiting for embedding, file_parsing, memory, rag, self_media to die
+2024-11-09 21:12:34,967 INFO stopped: self_media (exit status 0)
+2024-11-09 21:12:35,160 INFO stopped: rag (exit status 0)
+2024-11-09 21:12:35,167 WARN stopped: memory (terminated by SIGTERM)
+2024-11-09 21:12:36,451 INFO stopped: file_parsing (exit status 0)
+2024-11-09 21:12:37,264 INFO waiting for embedding to die
+2024-11-09 21:12:38,266 INFO stopped: embedding (exit status 0)
+2024-11-09 21:13:12,424 INFO RPC interface 'supervisor' initialized
+2024-11-09 21:13:12,425 INFO daemonizing the supervisord process
+2024-11-09 21:13:12,426 INFO supervisord started with pid 1942
+2024-11-09 21:13:13,429 INFO spawned: 'embedding' with pid 1943
+2024-11-09 21:13:13,431 INFO spawned: 'file_parsing' with pid 1944
+2024-11-09 21:13:13,434 INFO spawned: 'llm' with pid 1945
+2024-11-09 21:13:13,437 INFO spawned: 'memory' with pid 1946
+2024-11-09 21:13:13,439 INFO spawned: 'rag' with pid 1947
+2024-11-09 21:13:13,442 INFO spawned: 'self_media' with pid 1948
+2024-11-09 21:13:13,445 INFO spawned: 'web' with pid 1949
+2024-11-09 21:13:14,177 WARN exited: llm (exit status 1; not expected)
+2024-11-09 21:13:16,095 INFO spawned: 'llm' with pid 2218
+2024-11-09 21:13:16,827 WARN exited: llm (exit status 1; not expected)
+2024-11-09 21:13:18,506 INFO success: embedding entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:18,506 INFO success: file_parsing entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:18,506 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:18,506 INFO success: rag entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:18,507 INFO success: self_media entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:18,507 INFO success: web entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:19,509 INFO spawned: 'llm' with pid 2290
+2024-11-09 21:13:20,087 WARN exited: llm (exit status 1; not expected)
+2024-11-09 21:13:23,814 INFO spawned: 'llm' with pid 2293
+2024-11-09 21:13:24,220 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:13:24,461 INFO spawned: 'memory' with pid 2295
+2024-11-09 21:13:24,514 WARN exited: llm (exit status 1; not expected)
+2024-11-09 21:13:24,629 INFO gave up: llm entered FATAL state, too many start retries too quickly
+2024-11-09 21:13:29,672 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:35,082 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:13:36,090 INFO spawned: 'memory' with pid 2370
+2024-11-09 21:13:41,101 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:47,322 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:13:48,329 INFO spawned: 'memory' with pid 2428
+2024-11-09 21:13:53,340 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:13:58,980 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:13:59,985 INFO spawned: 'memory' with pid 2486
+2024-11-09 21:14:04,992 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:14:10,566 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:14:11,574 INFO spawned: 'memory' with pid 2778
+2024-11-09 21:14:16,581 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:14:22,161 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:14:23,166 INFO spawned: 'memory' with pid 2836
+2024-11-09 21:14:28,174 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:14:33,756 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:14:34,610 INFO spawned: 'memory' with pid 2894
+2024-11-09 21:14:39,617 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:14:45,200 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:14:46,208 INFO spawned: 'memory' with pid 2952
+2024-11-09 21:14:51,215 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:14:56,829 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:14:57,833 INFO spawned: 'memory' with pid 3010
+2024-11-09 21:15:02,840 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:15:08,557 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:15:09,561 INFO spawned: 'memory' with pid 3068
+2024-11-09 21:15:14,567 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:15:20,225 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:15:21,228 INFO spawned: 'memory' with pid 3126
+2024-11-09 21:15:26,236 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:15:32,257 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:15:33,260 INFO spawned: 'memory' with pid 3184
+2024-11-09 21:15:38,266 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:15:43,873 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:15:44,882 INFO spawned: 'memory' with pid 3242
+2024-11-09 21:15:49,890 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:15:55,503 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:15:56,510 INFO spawned: 'memory' with pid 3300
+2024-11-09 21:16:01,517 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:16:07,086 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:16:07,088 INFO spawned: 'memory' with pid 3358
+2024-11-09 21:16:12,095 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:16:17,819 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:16:18,823 INFO spawned: 'memory' with pid 3418
+2024-11-09 21:16:23,828 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:16:29,391 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:16:30,398 INFO spawned: 'memory' with pid 3476
+2024-11-09 21:16:35,405 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:16:41,991 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:16:42,999 INFO spawned: 'memory' with pid 3536
+2024-11-09 21:16:48,006 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:16:53,593 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:16:54,601 INFO spawned: 'memory' with pid 3594
+2024-11-09 21:16:59,608 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:17:05,203 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:17:06,210 INFO spawned: 'memory' with pid 3652
+2024-11-09 21:17:11,217 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:17:16,794 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:17:17,802 INFO spawned: 'memory' with pid 3712
+2024-11-09 21:17:22,809 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:17:28,390 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:17:29,395 INFO spawned: 'memory' with pid 3995
+2024-11-09 21:17:34,401 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:17:39,971 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:17:40,974 INFO spawned: 'memory' with pid 4135
+2024-11-09 21:17:45,980 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:17:51,548 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:17:52,553 INFO spawned: 'memory' with pid 4195
+2024-11-09 21:17:52,554 WARN received SIGTERM indicating exit request
+2024-11-09 21:17:52,555 INFO waiting for embedding, file_parsing, memory, rag, self_media, web to die
+2024-11-09 21:17:52,558 WARN stopped: web (terminated by SIGTERM)
+2024-11-09 21:17:52,792 INFO stopped: self_media (exit status 0)
+2024-11-09 21:17:53,065 INFO stopped: rag (exit status 0)
+2024-11-09 21:17:53,070 WARN stopped: memory (terminated by SIGTERM)
+2024-11-09 21:17:54,382 INFO stopped: file_parsing (exit status 0)
+2024-11-09 21:17:56,255 INFO stopped: embedding (exit status 0)
+2024-11-09 21:18:34,557 INFO RPC interface 'supervisor' initialized
+2024-11-09 21:18:34,558 INFO daemonizing the supervisord process
+2024-11-09 21:18:34,559 INFO supervisord started with pid 4232
+2024-11-09 21:18:35,564 INFO spawned: 'embedding' with pid 4233
+2024-11-09 21:18:35,567 INFO spawned: 'file_parsing' with pid 4234
+2024-11-09 21:18:35,569 INFO spawned: 'llm' with pid 4235
+2024-11-09 21:18:35,571 INFO spawned: 'memory' with pid 4236
+2024-11-09 21:18:35,574 INFO spawned: 'rag' with pid 4237
+2024-11-09 21:18:35,576 INFO spawned: 'self_media' with pid 4238
+2024-11-09 21:18:35,578 INFO spawned: 'web' with pid 4239
+2024-11-09 21:18:40,608 INFO success: embedding entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:18:40,608 INFO success: file_parsing entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:18:40,608 INFO success: llm entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:18:40,608 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:18:40,608 INFO success: rag entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:18:40,609 INFO success: self_media entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:18:40,609 INFO success: web entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:18:46,522 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:18:46,706 INFO spawned: 'memory' with pid 4586
+2024-11-09 21:18:46,706 WARN stopped: web (terminated by SIGTERM)
+2024-11-09 21:18:51,718 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:18:57,317 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:18:58,324 INFO spawned: 'memory' with pid 4644
+2024-11-09 21:19:03,331 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:19:08,907 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:19:09,917 INFO spawned: 'memory' with pid 4712
+2024-11-09 21:19:14,923 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:19:20,515 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:19:21,518 INFO spawned: 'memory' with pid 4771
+2024-11-09 21:19:26,524 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:19:32,077 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:19:33,085 INFO spawned: 'memory' with pid 4829
+2024-11-09 21:19:38,095 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:19:43,657 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:19:44,660 INFO spawned: 'memory' with pid 4887
+2024-11-09 21:19:49,667 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:19:55,257 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:19:56,263 INFO spawned: 'memory' with pid 4945
+2024-11-09 21:20:01,270 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:20:06,900 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:20:07,904 INFO spawned: 'memory' with pid 5003
+2024-11-09 21:20:12,910 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:20:18,500 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:20:19,503 INFO spawned: 'memory' with pid 5061
+2024-11-09 21:20:24,508 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:20:30,107 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:20:31,112 INFO spawned: 'memory' with pid 5119
+2024-11-09 21:20:36,119 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:20:41,703 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:20:42,714 INFO spawned: 'memory' with pid 5177
+2024-11-09 21:20:47,722 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:20:53,309 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:20:54,312 INFO spawned: 'memory' with pid 5235
+2024-11-09 21:20:59,319 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:21:04,892 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:21:05,903 INFO spawned: 'memory' with pid 5293
+2024-11-09 21:21:10,909 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:21:16,498 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:21:17,502 INFO spawned: 'memory' with pid 5351
+2024-11-09 21:21:22,508 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:21:28,119 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:21:29,122 INFO spawned: 'memory' with pid 5409
+2024-11-09 21:21:34,129 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:21:39,695 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:21:40,701 INFO spawned: 'memory' with pid 5467
+2024-11-09 21:21:45,707 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:21:51,295 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:21:52,301 INFO spawned: 'memory' with pid 5525
+2024-11-09 21:21:57,308 INFO success: memory entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2024-11-09 21:22:02,887 WARN exited: memory (exit status 1; not expected)
+2024-11-09 21:22:03,894 INFO spawned: 'memory' with pid 5583
