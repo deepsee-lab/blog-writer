@@ -310,3 +310,5 @@ INFO:     127.0.0.1:56414 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
 INFO:     127.0.0.1:56416 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
 INFO:     127.0.0.1:56418 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
 INFO:     127.0.0.1:59600 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34750 - "GET /vector/kb_list_all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34758 - "GET /vector/kb_list_all HTTP/1.1" 200 OK

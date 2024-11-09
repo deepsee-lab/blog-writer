@@ -1375,3 +1375,76 @@ INFO:     Started reloader process [1784] using WatchFiles
 INFO:     Started server process [1970]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+[nltk_data] Error loading stopwords: <urlopen error [Errno 111]
+[nltk_data]     Connection refused>
+2024-11-09 21:11:50.728 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing
+2024-11-09 21:11:50.733 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-11-09 21:11:50.734 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:11:50.734 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing']
+INFO:     Uvicorn running on http://0.0.0.0:7030 (Press CTRL+C to quit)
+INFO:     Started reloader process [877] using WatchFiles
+[nltk_data] Error loading stopwords: <urlopen error [Errno 111]
+[nltk_data]     Connection refused>
+2024-11-09 21:11:51.437 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing
+2024-11-09 21:11:51.443 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-11-09 21:11:51.443 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:11:51.444 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-11-09 21:11:51.459 | INFO     | main:<module>:43 - Server is up and running.
+2024-11-09 21:11:51.459 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:11:51.459 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+INFO:     Started server process [1053]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1053]
+INFO:     Stopping reloader process [877]
+[nltk_data] Error loading stopwords: <urlopen error [Errno 111]
+[nltk_data]     Connection refused>
+2024-11-09 21:13:14.275 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing
+2024-11-09 21:13:14.281 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-11-09 21:13:14.281 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:13:14.281 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing']
+INFO:     Uvicorn running on http://0.0.0.0:7030 (Press CTRL+C to quit)
+INFO:     Started reloader process [1944] using WatchFiles
+[nltk_data] Error loading stopwords: <urlopen error [Errno 111]
+[nltk_data]     Connection refused>
+2024-11-09 21:13:15.070 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing
+2024-11-09 21:13:15.076 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-11-09 21:13:15.076 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:13:15.076 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-11-09 21:13:15.088 | INFO     | main:<module>:43 - Server is up and running.
+2024-11-09 21:13:15.088 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:13:15.088 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+INFO:     Started server process [2116]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2116]
+INFO:     Stopping reloader process [1944]
+[nltk_data] Error loading stopwords: <urlopen error [Errno 111]
+[nltk_data]     Connection refused>
+2024-11-09 21:18:36.781 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing
+2024-11-09 21:18:36.786 | INFO     | __main__:<module>:43 - Server is up and running.
+2024-11-09 21:18:36.786 | INFO     | __main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:18:36.786 | INFO     | __main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+INFO:     Will watch for changes in these directories: ['/mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing']
+INFO:     Uvicorn running on http://0.0.0.0:7030 (Press CTRL+C to quit)
+INFO:     Started reloader process [4234] using WatchFiles
+[nltk_data] Error loading stopwords: <urlopen error [Errno 111]
+[nltk_data]     Connection refused>
+2024-11-09 21:18:37.539 | INFO     | configs.config:<module>:27 - ROOT_DIR: /mnt/d/code/python/webo_write/flask/blog-writer/server/file_parsing
+2024-11-09 21:18:37.545 | INFO     | __mp_main__:<module>:43 - Server is up and running.
+2024-11-09 21:18:37.545 | INFO     | __mp_main__:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:18:37.545 | INFO     | __mp_main__:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+2024-11-09 21:18:37.557 | INFO     | main:<module>:43 - Server is up and running.
+2024-11-09 21:18:37.557 | INFO     | main:<module>:44 - Browse http://127.0.0.1:7030 to verify.
+2024-11-09 21:18:37.557 | INFO     | main:<module>:45 - Browse http://127.0.0.1:7030/docs to test.
+INFO:     Started server process [4414]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

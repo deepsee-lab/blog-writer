@@ -105,3 +105,13 @@ INFO:     127.0.0.1:55618 - "POST /private/inference HTTP/1.1" 500 Internal Serv
 INFO:     127.0.0.1:60200 - "POST /private/inference HTTP/1.1" 500 Internal Server Error
 INFO:     127.0.0.1:47930 - "POST /private/inference HTTP/1.1" 200 OK
 INFO:     127.0.0.1:53264 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35860 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55916 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52570 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55522 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46816 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51186 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41622 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59094 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49110 - "POST /private/inference HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48236 - "POST /private/inference HTTP/1.1" 200 OK
