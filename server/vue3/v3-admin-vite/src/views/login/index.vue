@@ -68,7 +68,7 @@ const createCode = () => {
   })
 }
 
-/** 初始化验证码 */
+/** 初始化验证码(登陆时) */
 createCode()
 </script>
 
