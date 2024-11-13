@@ -3,3 +3,10 @@
 *.log.*
 /web/apps/weibo_UI/pic_data/
 /web/apps/weibo_UI/video_data/
+
+
+
+# yzw忽略虚拟环境文件夹
+web/#/
+web/创建虚拟环境/bin/
+web/创建虚拟环境/
