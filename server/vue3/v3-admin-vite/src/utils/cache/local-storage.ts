@@ -9,9 +9,11 @@ import { type LayoutSettings } from "@/config/layouts"
 //#region 系统布局配置
 export const getConfigLayout = () => {
   let json = localStorage.getItem(CacheKey.CONFIG_LAYOUT)
-  json=json.replace('"showWatermark":true', '"showWatermark":false');
-  console.log(json)
-  return json ? (JSON.parse(json) as LayoutSettings) : null
+  if (json) {
+    json = json.replace('"showWatermark":true', '"showWatermark":false')
+    console.log(json)
+    return JSON.parse(json) as LayoutSettings
+  }
 }
 export const setConfigLayout = (settings: LayoutSettings) => {
   localStorage.setItem(CacheKey.CONFIG_LAYOUT, JSON.stringify(settings))

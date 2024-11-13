@@ -145,3 +145,9 @@ cython_debug/
 # cus add
 .idea/
 .DS_Store
+
+
+# yzw忽略虚拟环境文件夹
+server/web/#/
+server/web/创建虚拟环境/bin/
+server/web/创建虚拟环境/
