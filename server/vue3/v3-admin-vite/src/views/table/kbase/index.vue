@@ -34,12 +34,15 @@ onMounted(() => {})
 </template>
 
 <style lang="scss" scoped>
-.el-container {
+.common-layout{
+  height: 100%;
+  .el-container {
   height: 100%;
 }
 .el-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 24px;
 }
 .el-main {
@@ -47,4 +50,6 @@ onMounted(() => {})
   max-height: calc(100% - 60px);
   overflow-y: auto;
 }
+}
+
 </style>

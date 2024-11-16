@@ -8,9 +8,12 @@ defineOptions({
 </script>
 <template>
   <div>
-    <el-row>
-      <el-col :span="4"><Kbitem /></el-col>
+    <el-row :gutter="40">
+      <el-col :span="6" class="kblist-item" v-for="o in 55" :key="o"><Kbitem /></el-col>
     </el-row>
   </div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.kblist-item{
+  margin-bottom: 20px;
+}</style>

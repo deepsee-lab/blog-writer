@@ -8,7 +8,13 @@ defineOptions({
 </script>
 <template>
   <el-card style="max-width: 480px">
-    <h2>我是一张卡片</h2>
+    <div>
+      <div>图标</div>
+      <div>
+        <div>
+      </div>
+    <div></div></div>
+    </div>
     <template #footer>Footer content</template>
   </el-card>
 </template>
