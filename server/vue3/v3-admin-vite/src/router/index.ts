@@ -130,6 +130,15 @@ export const constantRoutes: RouteRecordRaw[] = [
           title: "大模型设置",
           keepAlive: true
         }
+      },
+      {
+        path: "kb",
+        component: () => import("@/views/table/kbase/index.vue"),
+        name: "知识库",
+        meta: {
+          title: "知识库",
+          keepAlive: true
+        }
       }
     ]
   }
