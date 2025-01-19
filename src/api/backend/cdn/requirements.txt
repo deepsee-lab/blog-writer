@@ -1,0 +1,5 @@
+qiniu
+pydantic
+uvicorn
+fastapi
+python-dotenv

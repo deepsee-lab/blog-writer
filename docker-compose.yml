@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  api_proxy_v2:
+    build: ./src/api/backend/proxy
+    container_name: api_proxy_v2
+    ports:
+      - "9021:9021"
+    networks:
+      - my-network
+
+
+  web_vue3_v1:
+    build: ./src/web/v3-admin-vite
+    container_name: web_vue3_v1
+    ports:
+      - "9030:9030"
+    depends_on:
+      - api_proxy_v2
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
