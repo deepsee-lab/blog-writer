@@ -9,6 +9,37 @@ services:
     networks:
       - my-network
 
+  api_cdn_v1:
+    build: ./src/api/backend/cdn
+    container_name: api_cdn_v1
+    ports:
+      - "6070:6070"
+    networks:
+      - my-network
+
+  api_memory_v1:
+    build: ./src/api/backend/memory
+    container_name: api_memory_v1
+    ports:
+      - "6020:6020"
+    networks:
+      - my-network
+
+  api_self_media_v1:
+    build: ./src/api/backend/self_media
+    container_name: api_self_media_v1
+    ports:
+      - "6050:6050"
+    networks:
+      - my-network
+
+  algorithm_llm_v1:
+    build: ./src/api/algorithm/llm
+    container_name: algorithm_llm_v1
+    ports:
+      - "4010:4010"
+    networks:
+      - my-network
 
   web_vue3_v1:
     build: ./src/web/v3-admin-vite
@@ -16,6 +47,10 @@ services:
     ports:
       - "9030:9030"
     depends_on:
+      - api_cdn_v1
+      - api_self_media_v1
+      - algorithm_llm_v1
+      - api_memory_v1
       - api_proxy_v2
     networks:
       - my-network

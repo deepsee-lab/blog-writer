@@ -13,8 +13,8 @@ if not os.path.exists(data_dir):
     os.makedirs(data_dir, exist_ok=True)
 
 client = MilvusClient(
-    uri=os.getenv('milvus_uri'),
-    token=os.getenv('milvus_token'),
+    uri="http://localhost:19530",
+    token="root:Milvus"
 )
 
 

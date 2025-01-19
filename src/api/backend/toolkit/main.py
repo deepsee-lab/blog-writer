@@ -2,7 +2,6 @@ import uvicorn
 from loguru import logger
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from apps.demo.views import router as demo_router
 from apps.translation.views import router as translation_router
 from configs import config
 
@@ -24,7 +23,6 @@ app.add_middleware(
     allow_headers=["*"],  # 允许的请求头
 )
 
-app.include_router(demo_router)
 app.include_router(translation_router)
 
 
