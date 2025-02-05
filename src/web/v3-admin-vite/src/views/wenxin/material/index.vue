@@ -10,7 +10,6 @@ import axios from 'axios';
 import type * as WX_path from "./types/WX"
 import {WX_txt_to_pic,WX_update_token } from "./index"
 import {reactive,ref,onMounted} from "vue";
-import { fi } from "element-plus/lib/locale/index.js";
 defineOptions({
   // 命名当前组件
   name: "material"
@@ -43,7 +42,7 @@ const uploadFile = async () => {
         console.error('上传文件出错：', error);
         alert('文件上传失败');
       }
-} 
+}
 
 const Wenxin_Pic: WX_path.Wenxin_pic = reactive({
   Name: "描述你所想象的画面 角色 情绪 风格 内容。。。",
@@ -52,7 +51,7 @@ const Wenxin_Pic: WX_path.Wenxin_pic = reactive({
 
 /** 提交信息 */
 const txt_to_pic = () => {
-  
+
   try {
     WX_txt_to_pic(Wenxin_Pic).then(() => {
     alert("添加成功")
@@ -66,7 +65,7 @@ const txt_to_pic = () => {
 }
 /** 更新token */
 const update_token = () => {
-  
+
   try {
     WX_update_token().then(() => {
     alert("更新成功")

@@ -10,7 +10,6 @@ import axios from 'axios';
 import type * as WX_path from "./types/WX"
 import {type_list_all,need_open_data_list_all,create_WX,fans_comment_list_all,MEDIA_ID_data_list_all,publish_WX } from "./index"
 import {reactive,ref,onMounted} from "vue";
-import { fi } from "element-plus/lib/locale/index.js";
 defineOptions({
   // 命名当前组件
   name: "create"
@@ -72,11 +71,11 @@ onMounted(async () =>{
 const imagePath =ref()
 onMounted(async () =>{
       imagePath.value = WXFormData.thumb_media_id.url
-  
+
 })
 /** 提交信息 */
 const handleWX = () => {
-  
+
   try {
     create_WX(WXFormData).then((res) => {
     if (res.success){
@@ -110,7 +109,7 @@ onMounted(async () =>{
 })
 /** 发布信息 */
 const submitWX = () => {
-  
+
   try {
     publish_WX(WXFormData_final).then((res) => {
     if (res.success){
@@ -187,9 +186,9 @@ const submitWX = () => {
           </el-form-item>
           <el-form-item prop="thumb_media_id">
             <p>封面</p>
-            <el-select 
+            <el-select
             v-model.trim="WXFormData.thumb_media_id"
-            placeholder="选择：" 
+            placeholder="选择："
             tabindex="1"
             size="large">
             <el-option
@@ -201,9 +200,9 @@ const submitWX = () => {
           </el-form-item>
           <el-form-item prop="need_open_comment">
             <p>开启评论</p>
-            <el-select 
+            <el-select
             v-model.trim="WXFormData.need_open_comment"
-            placeholder="选择：" 
+            placeholder="选择："
             tabindex="1"
             size="large">
             <el-option
@@ -215,9 +214,9 @@ const submitWX = () => {
           </el-form-item>
           <el-form-item prop="only_fans_can_comment">
             <p>仅粉丝评论</p>
-            <el-select 
+            <el-select
             v-model.trim="WXFormData.only_fans_can_comment"
-            placeholder="选择：" 
+            placeholder="选择："
             tabindex="1"
             size="large">
             <el-option
@@ -232,9 +231,9 @@ const submitWX = () => {
         <el-form ref="wxFormRef" :model="WXFormData_final" :rules="WXFormRules" @keyup.enter="submitWX">
           <el-form-item prop="MEDIA_ID">
             <p>MEDIA_ID</p>
-            <el-select 
+            <el-select
             v-model.trim="WXFormData_final.MEDIA_ID"
-            placeholder="选择：" 
+            placeholder="选择："
             tabindex="1"
             size="large">
             <el-option
@@ -246,7 +245,7 @@ const submitWX = () => {
           </el-form-item>
           <el-button :loading="loading" type="primary" size="large" @click.prevent="submitWX">发布草稿</el-button>
         </el-form>
-     
+
 </template>
 
 <style lang="scss" scoped>

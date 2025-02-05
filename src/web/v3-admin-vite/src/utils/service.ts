@@ -36,7 +36,7 @@ function createService() {
         return Promise.reject(new Error("非本系统的接口"))
       }
       switch (code) {
-        case 0:
+        case "000000":
           // 本系统采用 code === 0 来表示没有业务错误
           return apiData
         case 401:
@@ -106,8 +106,8 @@ function createRequest(service: AxiosInstance) {
         Authorization: token ? `Bearer ${token}` : undefined,
         "Content-Type": "application/json"
       },
-      timeout: 50000,
-      baseURL: 'api/v1',
+      timeout: 1000000,
+      baseURL: "/api/v1",
       data: {}
     }
     // 将默认配置 defaultConfig 和传入的自定义配置 config 进行合并成为 mergeConfig

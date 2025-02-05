@@ -104,23 +104,26 @@ $transition-time: 0.35s;
 }
 
 .app-main {
-  min-height: calc(100vh - var(--v3-navigationbar-height));
+  // min-height: calc(100vh - var(--v3-navigationbar-height));
   position: relative;
   overflow: hidden;
 }
 
-.fixed-header + .app-main {
-  padding-top: var(--v3-navigationbar-height);
+.fixed-header+.app-main {
+  // padding-top: var(--v3-navigationbar-height);
   height: 100vh;
   overflow: auto;
 }
 
 .hasTagsView {
   .app-main {
-    min-height: calc(100vh - var(--v3-header-height));
+    // min-height: calc(100vh - var(--v3-header-height));
+    height: calc(100vh - var(--v3-header-height));
+    margin-top: var(--v3-header-height);
   }
-  .fixed-header + .app-main {
-    padding-top: var(--v3-header-height);
+
+  .fixed-header+.app-main {
+    // padding-top: var(--v3-header-height);
   }
 }
 
@@ -128,9 +131,11 @@ $transition-time: 0.35s;
   .sidebar-container {
     width: var(--v3-sidebar-hide-width) !important;
   }
+
   .main-container {
     margin-left: var(--v3-sidebar-hide-width);
   }
+
   .fixed-header {
     width: calc(100% - var(--v3-sidebar-hide-width));
   }
@@ -142,16 +147,20 @@ $transition-time: 0.35s;
     transition: transform $transition-time;
     width: var(--v3-sidebar-width) !important;
   }
+
   .main-container {
     margin-left: 0px;
   }
+
   .fixed-header {
     width: 100%;
   }
+
   &.openSidebar {
     position: fixed;
     top: 0;
   }
+
   &.hideSidebar {
     .sidebar-container {
       pointer-events: none;
@@ -162,6 +171,7 @@ $transition-time: 0.35s;
 }
 
 .withoutAnimation {
+
   .sidebar-container,
   .main-container {
     transition: none;

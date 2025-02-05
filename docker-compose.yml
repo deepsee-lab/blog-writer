@@ -17,13 +17,6 @@ services:
     networks:
       - my-network
 
-  api_memory_v1:
-    build: ./src/api/backend/memory
-    container_name: api_memory_v1
-    ports:
-      - "6020:6020"
-    networks:
-      - my-network
 
   api_self_media_v1:
     build: ./src/api/backend/self_media
@@ -50,7 +43,6 @@ services:
       - api_cdn_v1
       - api_self_media_v1
       - algorithm_llm_v1
-      - api_memory_v1
       - api_proxy_v2
     networks:
       - my-network

@@ -139,6 +139,36 @@ export const constantRoutes: RouteRecordRaw[] = [
           title: "知识库",
           keepAlive: true
         }
+      },
+      {
+        path: "kb/:id",
+        component: () => import("@/views/table/kbase/components/KbDetail.vue"),
+        name: "知识库详情",
+        meta: {
+          title: "知识库详情",
+          keepAlive: true,
+          hidden: true
+        }
+      }
+    ]
+  },
+  {
+    path: "/preview",
+    component: Layouts,
+    name: "预览",
+    meta: {
+      title: "预览",
+      elIcon: "Grid"
+    },
+    children: [
+      {
+        path: "p1",
+        component: () => import("@/views/preview/index.vue"),
+        name: "预览",
+        meta: {
+          title: "预览",
+          keepAlive: true
+        }
       }
     ]
   }

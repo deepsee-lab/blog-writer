@@ -19,12 +19,12 @@ const settingsStore = useSettingsStore()
         </transition>
       </router-view>
       <!-- 页脚 -->
-      <Footer v-if="settingsStore.showFooter" />
     </div>
     <!-- 返回顶部 -->
     <el-backtop />
     <!-- 返回顶部（固定 Header 情况下） -->
     <el-backtop target=".app-scrollbar" />
+    <Footer v-if="settingsStore.showFooter" />
   </section>
 </template>
 
@@ -34,15 +34,19 @@ const settingsStore = useSettingsStore()
 .app-main {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 .app-scrollbar {
+  height: calc(100vh - var(--v3-header-height) - 50px);
   flex-grow: 1;
   overflow: auto;
   @extend %scrollbar;
   display: flex;
   flex-direction: column;
+
   .app-container-grow {
+    height: calc(100vh - var(--v3-header-height) - 50px);
     flex-grow: 1;
   }
 }

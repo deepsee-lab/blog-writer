@@ -1,7 +1,8 @@
 import { type RouteLocationNormalized } from "vue-router"
 
 /** 免登录白名单（匹配路由 path） */
-const whiteListByPath: string[] = ["/login"]
+// 先把我的知识库页面加到白名单里面方便开发"/table/kb"
+const whiteListByPath: string[] = ["/login", "/table/kb"]
 
 /** 免登录白名单（匹配路由 name） */
 const whiteListByName: string[] = []

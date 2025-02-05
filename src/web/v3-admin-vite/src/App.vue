@@ -10,15 +10,15 @@ const { initTheme } = useTheme()
 initTheme()
 
 /** 作者小心思 */
-ElNotification({
-  title: "Hello",
-  type: "success",
-  dangerouslyUseHTMLString: true,
-  message:
-    "<a style='color: teal' target='_blank' href='https://github.com/deepsee-lab/blog-writer'>小项目获取 star 不易，如果你喜欢这个项目的话，欢迎点击这里支持一个 star ！（小声：毕竟是免费的）</a>",
-  duration: 0,
-  position: "bottom-right"
-})
+// ElNotification({
+//   title: "Hello",
+//   type: "success",
+//   dangerouslyUseHTMLString: true,
+//   message:
+//     "<a style='color: teal' target='_blank' href='https://github.com/deepsee-lab/blog-writer'>小项目获取 star 不易，如果你喜欢这个项目的话，欢迎点击这里支持一个 star ！（小声：毕竟是免费的）</a>",
+//   duration: 0,
+//   position: "bottom-right"
+// })
 </script>
 
 <template>
