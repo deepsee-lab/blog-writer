@@ -72,12 +72,8 @@ const resolvePath = (routePath: string) => {
       <span v-if="props.item.meta?.title">{{ props.item.meta.title }}</span>
     </template>
     <template v-if="props.item.children">
-      <SidebarItem
-        v-for="child in showingChildren"
-        :key="child.path"
-        :item="child"
-        :base-path="resolvePath(child.path)"
-      />
+      <SidebarItem v-for="child in showingChildren" :key="child.path" :item="child"
+        :base-path="resolvePath(child.path)" />
     </template>
   </el-sub-menu>
 </template>

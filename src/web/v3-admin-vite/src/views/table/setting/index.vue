@@ -9,7 +9,6 @@ import { Search, Refresh, CirclePlus, Delete, Download, RefreshRight } from "@el
 import type * as KB_path from "./types/KB"
 import { type_list_all,model_list_all,submit_list_all} from "./index"
 import {reactive,ref,onMounted} from "vue";
-import { fi } from "element-plus/lib/locale/index.js";
 defineOptions({
   // 命名当前组件
   name: "setting"
@@ -29,7 +28,7 @@ const kbFormData: KB_path.KBRequestData = reactive({
   code:""
 })
 
- 
+
 
 /** 提交信息 */
 const handle_setting = () => {
@@ -49,7 +48,7 @@ const handle_setting = () => {
       console.error("表单校验不通过", fields)
     }
   })
-} 
+}
 const Type_Data =ref([])
 onMounted(async () =>{
   try {
@@ -76,16 +75,16 @@ onMounted(async () =>{
   }
 })
 
- 
+
 </script>
 
 <template>
     <div class="content">
         <el-form ref="kbFormRef" :model="kbFormData" :rules="KBFormRules" @keyup.enter="handle_setting">
           <el-form-item prop="Type_item">
-            <el-select 
+            <el-select
             v-model.trim="kbFormData.Type_item"
-            placeholder="选择框架" 
+            placeholder="选择框架"
             tabindex="1"
             size="large">
             <el-option
@@ -96,9 +95,9 @@ onMounted(async () =>{
           </el-select>
           </el-form-item>
           <el-form-item prop="Model_item">
-            <el-select 
+            <el-select
             v-model.trim="kbFormData.Model_item"
-            placeholder="选择模型" 
+            placeholder="选择模型"
             tabindex="2"
             size="large">
             <el-option

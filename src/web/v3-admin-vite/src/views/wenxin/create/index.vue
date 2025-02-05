@@ -10,7 +10,6 @@ import axios from 'axios';
 import type * as WX_path from "./types/WX"
 import {type_list_all,style_list_all,create_WX,Word_number_list_all,Word_style_list_all,WX_content_prompt } from "./index"
 import {reactive,ref,onMounted} from "vue";
-import { fi } from "element-plus/lib/locale/index.js";
 defineOptions({
   // 命名当前组件
   name: "create"
@@ -83,7 +82,7 @@ onMounted(async () =>{
 })
 /** 提交信息 */
 const handleWX = () => {
-  
+
   try {
     create_WX(WXFormData).then((res) => {
     WXFormData.Result_item = res.data.Result_item
@@ -99,7 +98,7 @@ const handleWX = () => {
 }
 /** 提交信息 */
 const content_prompt = () => {
-  
+
   try {
     WX_content_prompt(WXFormData).then((res) => {
     WXFormData.value = res.data
@@ -119,9 +118,9 @@ const content_prompt = () => {
   <el-form ref="wxFormRef" :model="WXFormData" :rules="WXFormRules" @keyup.enter="handleWX">
           <el-form-item prop="Type_item">
             <p>文章类型：</p>
-            <el-select 
+            <el-select
             v-model.trim="WXFormData.Type_item"
-            placeholder="选择类型" 
+            placeholder="选择类型"
             tabindex="1"
             size="large">
             <el-option
@@ -156,9 +155,9 @@ const content_prompt = () => {
           </el-form-item>
           <el-form-item prop="Style_item">
             <p>选择风格：</p>
-            <el-select 
+            <el-select
             v-model.trim="WXFormData.Style_item"
-            placeholder="选择风格：" 
+            placeholder="选择风格："
             tabindex="1"
             size="large">
             <el-option
@@ -170,9 +169,9 @@ const content_prompt = () => {
           </el-form-item>
           <el-form-item prop="Word_number">
             <p>选择字数：</p>
-            <el-select 
+            <el-select
             v-model.trim="WXFormData.Word_number"
-            placeholder="选择字数：" 
+            placeholder="选择字数："
             tabindex="1"
             size="large">
             <el-option
@@ -184,9 +183,9 @@ const content_prompt = () => {
           </el-form-item>
           <el-form-item prop="word_style">
             <p>语言风格：</p>
-            <el-select 
+            <el-select
             v-model.trim="WXFormData.Word_style"
-            placeholder="选择风格：" 
+            placeholder="选择风格："
             tabindex="1"
             size="large">
             <el-option

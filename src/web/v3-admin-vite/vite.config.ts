@@ -36,7 +36,8 @@ export default ({ mode }: ConfigEnv): UserConfigExport => {
       proxy: {
         "/api/v1": {
           //target: "http://127.0.0.1:9020/weibo_UI",
-          target: "http://127.0.0.1:9020/weibo_UI",
+          // target: "http://127.0.0.1:9020/weibo_UI",
+          target: "http://127.0.0.1:9021",
           ws: true,
           /** 是否允许跨域 */
           changeOrigin: true

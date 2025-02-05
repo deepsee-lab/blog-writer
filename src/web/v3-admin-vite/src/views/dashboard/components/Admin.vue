@@ -10,7 +10,6 @@ import axios from 'axios';
 import type * as Fight_path from "./types/Fight"
 import {Dashboard_chat } from "./index"
 import {reactive,ref,onMounted} from "vue";
-import { fi } from "element-plus/lib/locale/index.js";
 defineOptions({
   // 命名当前组件
   name: "admin"
@@ -28,7 +27,7 @@ const FormData: Fight_path.F_Data = reactive({
 })
 /** 提交信息 */
 const handleDB = () => {
-  
+
   try {
     Dashboard_chat(FormData).then((res) => {
       FormData.value = res.data
@@ -49,7 +48,7 @@ const handleDB = () => {
     <el-card shadow="never">
       <el-col :span="18" :xs="24">
           <div class="flex h-full items-center">
-            
+
             <div>
               <h2>智能公众号写手</h2>
             </div>
@@ -83,7 +82,7 @@ const handleDB = () => {
 
     </el-row>
 
-    <el-row :gutter="10" class="mt-5">  
+    <el-row :gutter="10" class="mt-5">
       <el-col :xs="24" :sm="12" :lg="26">
         <el-card shadow="never">
           <el-form ref="wxFormRef" :model="FormData" :rules="FormRules" @keyup.enter="handleDB" >
@@ -99,7 +98,7 @@ const handleDB = () => {
             />
             <el-button  type="primary" size="large" @click.prevent="handleDB">生成</el-button>
           </el-form-item>
-          
+
         </el-form>
         </el-card>
       </el-col>

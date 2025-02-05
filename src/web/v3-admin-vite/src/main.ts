@@ -16,9 +16,12 @@ import "element-plus/theme-chalk/dark/css-vars.css"
 import "vxe-table/lib/style.css"
 import "vxe-table-plugin-element/dist/style.css"
 import "@/styles/index.scss"
+// import * as ElementPlusIconsVue from "@element-plus/icons-vue"
 
 const app = createApp(App)
-
+// for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+//   app.component(key, component)
+// }
 /** 加载插件 */
 loadPlugins(app)
 /** 加载全局 SVG */
